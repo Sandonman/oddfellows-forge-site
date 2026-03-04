@@ -32,15 +32,23 @@ def calculate_armor_class(dex_mod: int, armor_item: Optional[dict]) -> int:
     if not armor_item:
         return 10 + int(dex_mod)
 
-    base_ac = int(armor_item.get("ac", 10))
-    armor_type = armor_item.get("type", "light").lower()
+    base_ac = int(armor_item.get("ac", armor_item.get("base_ac", 10)))
+    armor_type = str(armor_item.get("type", armor_item.get("armor_type", "light"))).lower()
+    dex_cap = armor_item.get("dex_cap")
 
     if armor_type == "light":
         return base_ac + int(dex_mod)
     if armor_type == "medium":
-        return base_ac + min(2, int(dex_mod))
+        if dex_cap is None:
+            return base_ac + min(2, int(dex_mod))
+        return base_ac + min(int(dex_cap), int(dex_mod))
     if armor_type == "heavy":
         return base_ac
+    if armor_type == "shield":
+        # Shields are bonuses layered on top of armor; baseline AC dropdown skips these.
+        return 10 + int(dex_mod) + base_ac
+    if armor_type == "none":
+        return base_ac + int(dex_mod)
     return base_ac + int(dex_mod)
 
 

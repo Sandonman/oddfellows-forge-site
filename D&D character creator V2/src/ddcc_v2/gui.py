@@ -34,6 +34,24 @@ class CharacterCreatorGUI(ttk.Frame):
         self._reset_defaults()
         self.pack(fill=tk.BOTH, expand=True)
 
+    @staticmethod
+    def _is_baseline_armor(item: dict[str, object]) -> bool:
+        armor_type = str(item.get("type", item.get("armor_type", ""))).lower()
+        return armor_type != "shield"
+
+    @staticmethod
+    def _weapon_properties_text(weapon: dict[str, object]) -> str:
+        legacy = weapon.get("properties")
+        if isinstance(legacy, str):
+            return legacy
+        explicit = weapon.get("properties_text")
+        if isinstance(explicit, str):
+            return explicit
+        raw = weapon.get("properties")
+        if isinstance(raw, list):
+            return ", ".join(str(x) for x in raw) if raw else "-"
+        return "-"
+
     def _build_state_vars(self) -> None:
         self.var_name = tk.StringVar(value="")
         self.var_alignment = tk.StringVar(value=self.data["alignments"][4])
@@ -213,10 +231,11 @@ class CharacterCreatorGUI(ttk.Frame):
         top.pack(fill=tk.X)
 
         ttk.Label(top, text="Armor for AC baseline").grid(row=0, column=0, sticky="w")
+        baseline_armor = [a for a in self.data["equipment"]["armor"] if self._is_baseline_armor(a)]
         cmb_armor = ttk.Combobox(
             top,
             textvariable=self.var_selected_armor,
-            values=[a["name"] for a in self.data["equipment"]["armor"]],
+            values=[a["name"] for a in baseline_armor],
             state="readonly",
             width=34,
         )
@@ -238,7 +257,10 @@ class CharacterCreatorGUI(ttk.Frame):
         packs_index = index_by_name(self.data["equipment"]["packs"])
         gear_index = index_by_name(self.data["equipment"]["adventuring_gear"])
 
-        ListboxTooltip(self.weapon_list, lambda item: f"{weapon_index[item]['damage']} | {weapon_index[item]['properties']}\n{weapon_index[item]['description']}")
+        ListboxTooltip(
+            self.weapon_list,
+            lambda item: f"{weapon_index[item]['damage']} | {self._weapon_properties_text(weapon_index[item])}\n{weapon_index[item]['description']}",
+        )
         ListboxTooltip(self.pack_list, lambda item: packs_index[item]["description"])
         ListboxTooltip(self.gear_list, lambda item: gear_index[item]["description"])
 

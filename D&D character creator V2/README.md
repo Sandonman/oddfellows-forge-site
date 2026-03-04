@@ -47,6 +47,11 @@ This project ships with a **local SRD-inspired open-content-style dataset** inte
   - class eligibility (`classes`)
   - concise text fields (`description`, `rules_text`)
 - `spells_by_class.json` provides a grouped class-level index (`class -> spell level -> spell names`) for future UI/service expansion.
+- `equipment.json` now includes expanded SRD-style sections for:
+  - `armor` with rich armor metadata plus compatibility aliases (`ac`, `type`)
+  - `weapons` with structured properties/range metadata plus compatibility aliases (`damage`, `properties_text`)
+  - `tools`, `mounts_vehicles`, `trade_goods`, `adventuring_gear`, and structured `packs` (`contents: [{item, qty}]`)
+- The equipment schema is ready for future inventory, encumbrance, and shopping workflows while keeping current level-1 GUI behavior unchanged.
 
 Current app behavior remains intentionally level-1 oriented (GUI spell picker still surfaces cantrips + level-1 spells), but the data layer is ready for multi-level features.
 
