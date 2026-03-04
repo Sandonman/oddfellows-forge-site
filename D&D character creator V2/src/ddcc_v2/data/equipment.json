@@ -1,0 +1,51 @@
+{
+  "armor": [
+    {"name": "Unarmored", "ac": 10, "type": "none", "description": "No armor: AC = 10 + DEX modifier."},
+    {"name": "Padded Armor", "ac": 11, "type": "light", "description": "Light armor. AC 11 + DEX. Stealth disadvantage."},
+    {"name": "Leather Armor", "ac": 11, "type": "light", "description": "Light armor. AC 11 + DEX."},
+    {"name": "Studded Leather", "ac": 12, "type": "light", "description": "Light armor. AC 12 + DEX."},
+    {"name": "Hide Armor", "ac": 12, "type": "medium", "description": "Medium armor. AC 12 + DEX (max +2)."},
+    {"name": "Chain Shirt", "ac": 13, "type": "medium", "description": "Medium armor. AC 13 + DEX (max +2)."},
+    {"name": "Scale Mail", "ac": 14, "type": "medium", "description": "Medium armor. AC 14 + DEX (max +2), stealth disadvantage."},
+    {"name": "Breastplate", "ac": 14, "type": "medium", "description": "Medium armor. AC 14 + DEX (max +2)."},
+    {"name": "Half Plate", "ac": 15, "type": "medium", "description": "Medium armor. AC 15 + DEX (max +2), stealth disadvantage."},
+    {"name": "Ring Mail", "ac": 14, "type": "heavy", "description": "Heavy armor. AC 14, stealth disadvantage."},
+    {"name": "Chain Mail", "ac": 16, "type": "heavy", "description": "Heavy armor. AC 16. Strength 13 recommended."},
+    {"name": "Splint", "ac": 17, "type": "heavy", "description": "Heavy armor. AC 17, stealth disadvantage."}
+  ],
+  "weapons": [
+    {"name": "Club", "damage": "1d4 bludgeoning", "properties": "Light", "description": "Simple melee weapon."},
+    {"name": "Dagger", "damage": "1d4 piercing", "properties": "Finesse, light, thrown (20/60)", "description": "Simple melee weapon."},
+    {"name": "Greatsword", "damage": "2d6 slashing", "properties": "Heavy, two-handed", "description": "Martial melee weapon."},
+    {"name": "Greataxe", "damage": "1d12 slashing", "properties": "Heavy, two-handed", "description": "Martial melee weapon."},
+    {"name": "Handaxe", "damage": "1d6 slashing", "properties": "Light, thrown (20/60)", "description": "Simple melee weapon."},
+    {"name": "Longbow", "damage": "1d8 piercing", "properties": "Ammunition (150/600), heavy, two-handed", "description": "Martial ranged weapon."},
+    {"name": "Longsword", "damage": "1d8 slashing", "properties": "Versatile (1d10)", "description": "Martial melee weapon."},
+    {"name": "Mace", "damage": "1d6 bludgeoning", "properties": "-", "description": "Simple melee weapon."},
+    {"name": "Quarterstaff", "damage": "1d6 bludgeoning", "properties": "Versatile (1d8)", "description": "Simple melee weapon."},
+    {"name": "Rapier", "damage": "1d8 piercing", "properties": "Finesse", "description": "Martial melee weapon."},
+    {"name": "Scimitar", "damage": "1d6 slashing", "properties": "Finesse, light", "description": "Martial melee weapon."},
+    {"name": "Shortbow", "damage": "1d6 piercing", "properties": "Ammunition (80/320), two-handed", "description": "Simple ranged weapon."},
+    {"name": "Shortsword", "damage": "1d6 piercing", "properties": "Finesse, light", "description": "Martial melee weapon."},
+    {"name": "Spear", "damage": "1d6 piercing", "properties": "Thrown (20/60), versatile (1d8)", "description": "Simple melee weapon."},
+    {"name": "Warhammer", "damage": "1d8 bludgeoning", "properties": "Versatile (1d10)", "description": "Martial melee weapon."}
+  ],
+  "packs": [
+    {"name": "Burglar's Pack", "description": "Backpack, ball bearings, string, bell, candles, crowbar, hammer, pitons, hooded lantern, oil, rations, tinderbox, waterskin, hempen rope."},
+    {"name": "Diplomat's Pack", "description": "Chest, map cases, fine clothes, ink, pen, lamp, oil, paper, perfume, sealing wax, soap."},
+    {"name": "Dungeoneer's Pack", "description": "Backpack, crowbar, hammer, pitons, torches, tinderbox, rations, waterskin, hempen rope."},
+    {"name": "Entertainer's Pack", "description": "Backpack, bedroll, costumes, candles, rations, waterskin, disguise kit."},
+    {"name": "Explorer's Pack", "description": "Backpack, bedroll, mess kit, tinderbox, torches, rations, waterskin, hempen rope."},
+    {"name": "Priest's Pack", "description": "Backpack, blanket, candles, tinderbox, alms box, incense, censer, vestments, rations, waterskin."},
+    {"name": "Scholar's Pack", "description": "Backpack, book of lore, ink, ink pen, parchment, little bag of sand, small knife."}
+  ],
+  "adventuring_gear": [
+    {"name": "Arcane Focus", "description": "Special item used as spellcasting focus for arcane casters."},
+    {"name": "Component Pouch", "description": "Leather pouch for material spell components."},
+    {"name": "Holy Symbol", "description": "Divine focus for clerics and paladins."},
+    {"name": "Druidic Focus", "description": "Natural focus for druid spellcasting."},
+    {"name": "Shield", "description": "Provides +2 AC when wielded."},
+    {"name": "Spellbook", "description": "Wizard's spellbook for recording and preparing spells."},
+    {"name": "Thieves' Tools", "description": "Tool set for lockpicking and trap interaction."}
+  ]
+}

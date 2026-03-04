@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Acolyte",
+    "skill_proficiencies": ["Insight", "Religion"],
+    "languages": ["Choice", "Choice"],
+    "equipment": ["Holy symbol", "Prayer book or wheel", "5 sticks incense", "Vestments", "Common clothes", "Pouch with 15 gp"],
+    "description": "Service to a temple or sacred tradition with religious training."
+  },
+  {
+    "name": "Charlatan",
+    "skill_proficiencies": ["Deception", "Sleight of Hand"],
+    "languages": [],
+    "equipment": ["Fine clothes", "Disguise kit", "Forgery kit", "Con tools", "Pouch with 15 gp"],
+    "description": "A practiced con artist, impersonator, or trickster."
+  },
+  {
+    "name": "Criminal",
+    "skill_proficiencies": ["Deception", "Stealth"],
+    "languages": [],
+    "equipment": ["Crowbar", "Dark common clothes with hood", "Pouch with 15 gp"],
+    "description": "Underworld experience and a network of illicit contacts."
+  },
+  {
+    "name": "Entertainer",
+    "skill_proficiencies": ["Acrobatics", "Performance"],
+    "languages": [],
+    "equipment": ["Musical instrument", "Favor of admirer", "Costume", "Pouch with 15 gp"],
+    "description": "Performer with stagecraft, social range, and audience rapport."
+  },
+  {
+    "name": "Folk Hero",
+    "skill_proficiencies": ["Animal Handling", "Survival"],
+    "languages": [],
+    "equipment": ["Artisan's tools", "Shovel", "Iron pot", "Common clothes", "Pouch with 10 gp"],
+    "description": "Beloved commoner known for humble but heroic deeds."
+  },
+  {
+    "name": "Guild Artisan",
+    "skill_proficiencies": ["Insight", "Persuasion"],
+    "languages": ["Choice"],
+    "equipment": ["Artisan's tools", "Letter of introduction", "Traveler's clothes", "Pouch with 15 gp"],
+    "description": "Craft professional tied to guild standards and contacts."
+  },
+  {
+    "name": "Hermit",
+    "skill_proficiencies": ["Medicine", "Religion"],
+    "languages": ["Choice"],
+    "equipment": ["Scroll case", "Winter blanket", "Common clothes", "Herbalism kit", "Pouch with 5 gp"],
+    "description": "Isolated life of contemplation and hidden insight."
+  },
+  {
+    "name": "Noble",
+    "skill_proficiencies": ["History", "Persuasion"],
+    "languages": ["Choice"],
+    "equipment": ["Fine clothes", "Signet ring", "Scroll of pedigree", "Purse with 25 gp"],
+    "description": "Raised among privilege, etiquette, and political leverage."
+  },
+  {
+    "name": "Outlander",
+    "skill_proficiencies": ["Athletics", "Survival"],
+    "languages": ["Choice"],
+    "equipment": ["Staff", "Hunting trap", "Trophy from animal", "Traveler's clothes", "Pouch with 10 gp"],
+    "description": "Wilderness drifter used to living beyond civilization."
+  },
+  {
+    "name": "Sage",
+    "skill_proficiencies": ["Arcana", "History"],
+    "languages": ["Choice", "Choice"],
+    "equipment": ["Bottle of black ink", "Quill", "Small knife", "Letter from dead colleague", "Common clothes", "Pouch with 10 gp"],
+    "description": "Academic researcher steeped in history and magical lore."
+  },
+  {
+    "name": "Sailor",
+    "skill_proficiencies": ["Athletics", "Perception"],
+    "languages": [],
+    "equipment": ["Belaying pin", "50 feet silk rope", "Lucky charm", "Common clothes", "Pouch with 10 gp"],
+    "description": "Deck-hand experience, sea knowledge, and shipboard toughness."
+  },
+  {
+    "name": "Soldier",
+    "skill_proficiencies": ["Athletics", "Intimidation"],
+    "languages": [],
+    "equipment": ["Insignia of rank", "Trophy from fallen enemy", "Bone dice or deck of cards", "Common clothes", "Pouch with 10 gp"],
+    "description": "Military training, discipline, and command familiarity."
+  },
+  {
+    "name": "Urchin",
+    "skill_proficiencies": ["Sleight of Hand", "Stealth"],
+    "languages": [],
+    "equipment": ["Small knife", "Map of city", "Pet mouse", "Token from parents", "Common clothes", "Pouch with 10 gp"],
+    "description": "Street survival specialist with urban instincts and contacts."
+  }
+]

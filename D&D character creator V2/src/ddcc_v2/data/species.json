@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Dragonborn",
+    "size": "Medium",
+    "speed": 30,
+    "languages": ["Common", "Draconic"],
+    "ability_bonuses": {"STR": 2, "CHA": 1},
+    "traits": "Draconic ancestry, breath weapon, and damage resistance.",
+    "description": "Draconic humanoids with proud heritage and elemental breath."
+  },
+  {
+    "name": "Dwarf",
+    "size": "Medium",
+    "speed": 25,
+    "languages": ["Common", "Dwarvish"],
+    "ability_bonuses": {"CON": 2},
+    "traits": "Darkvision, dwarven resilience, stonecunning, and weapon proficiencies.",
+    "description": "Hardy folk known for resilience, craft, and tradition."
+  },
+  {
+    "name": "Elf",
+    "size": "Medium",
+    "speed": 30,
+    "languages": ["Common", "Elvish"],
+    "ability_bonuses": {"DEX": 2},
+    "traits": "Darkvision, keen senses, fey ancestry, and trance.",
+    "description": "Graceful people with keen perception and fey heritage."
+  },
+  {
+    "name": "Gnome",
+    "size": "Small",
+    "speed": 25,
+    "languages": ["Common", "Gnomish"],
+    "ability_bonuses": {"INT": 2},
+    "traits": "Darkvision and gnome cunning against magic effects.",
+    "description": "Inventive and curious smallfolk with magical aptitude."
+  },
+  {
+    "name": "Half-Elf",
+    "size": "Medium",
+    "speed": 30,
+    "languages": ["Common", "Elvish"],
+    "ability_bonuses": {"CHA": 2, "DEX": 1, "WIS": 1},
+    "traits": "Darkvision, fey ancestry, and extra versatility.",
+    "description": "Adaptable bridge between human and elven cultures."
+  },
+  {
+    "name": "Half-Orc",
+    "size": "Medium",
+    "speed": 30,
+    "languages": ["Common", "Orc"],
+    "ability_bonuses": {"STR": 2, "CON": 1},
+    "traits": "Darkvision, relentless endurance, and savage attacks.",
+    "description": "Powerful survivors with fierce endurance."
+  },
+  {
+    "name": "Halfling",
+    "size": "Small",
+    "speed": 25,
+    "languages": ["Common", "Halfling"],
+    "ability_bonuses": {"DEX": 2},
+    "traits": "Lucky, brave, and halfling nimbleness.",
+    "description": "Nimble and cheerful smallfolk with remarkable luck."
+  },
+  {
+    "name": "Human",
+    "size": "Medium",
+    "speed": 30,
+    "languages": ["Common", "Choice"],
+    "ability_bonuses": {"STR": 1, "DEX": 1, "CON": 1, "INT": 1, "WIS": 1, "CHA": 1},
+    "traits": "Broad versatility and adaptable cultures.",
+    "description": "Highly adaptable people present in every region and role."
+  },
+  {
+    "name": "Tiefling",
+    "size": "Medium",
+    "speed": 30,
+    "languages": ["Common", "Infernal"],
+    "ability_bonuses": {"INT": 1, "CHA": 2},
+    "traits": "Darkvision, hellish resistance, and infernal legacy magic.",
+    "description": "Marked by fiendish lineage and innate arcane talent."
+  }
+]

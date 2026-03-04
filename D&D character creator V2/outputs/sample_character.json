@@ -1,0 +1,104 @@
+{
+  "name": "Mira Dawnwhistle",
+  "level": 1,
+  "alignment": "Neutral Good",
+  "species": "Human",
+  "char_class": "Wizard",
+  "background": "Sage",
+  "base_ability_scores": {
+    "STR": 8,
+    "DEX": 14,
+    "CON": 13,
+    "INT": 15,
+    "WIS": 12,
+    "CHA": 10
+  },
+  "final_ability_scores": {
+    "STR": 9,
+    "DEX": 15,
+    "CON": 14,
+    "INT": 16,
+    "WIS": 13,
+    "CHA": 11
+  },
+  "ability_modifiers": {
+    "STR": -1,
+    "DEX": 2,
+    "CON": 2,
+    "INT": 3,
+    "WIS": 1,
+    "CHA": 0
+  },
+  "proficiency_bonus": 2,
+  "saving_throw_proficiencies": [
+    "INT",
+    "WIS"
+  ],
+  "skill_proficiencies": [
+    "Arcana",
+    "History",
+    "Insight",
+    "Investigation"
+  ],
+  "skill_bonuses": {
+    "Acrobatics": 2,
+    "Animal Handling": 1,
+    "Arcana": 5,
+    "Athletics": -1,
+    "Deception": 0,
+    "History": 5,
+    "Insight": 3,
+    "Intimidation": 0,
+    "Investigation": 5,
+    "Medicine": 1,
+    "Nature": 3,
+    "Perception": 1,
+    "Performance": 0,
+    "Persuasion": 0,
+    "Religion": 3,
+    "Sleight of Hand": 2,
+    "Stealth": 2,
+    "Survival": 1
+  },
+  "languages": [
+    "Common",
+    "Choice"
+  ],
+  "size": "Medium",
+  "speed": 30,
+  "max_hp": 8,
+  "ac_baseline": 12,
+  "initiative": 2,
+  "passive_perception": 11,
+  "selected_armor": "",
+  "equipment": [
+    "Quarterstaff",
+    "Arcane Focus",
+    "Scholar's Pack",
+    "Spellbook",
+    "Dagger"
+  ],
+  "attacks": [
+    "Quarterstaff",
+    "Fire Bolt"
+  ],
+  "spellcasting_ability": "INT",
+  "spell_save_dc": 13,
+  "spell_attack_bonus": 5,
+  "known_spells": {
+    "0": [
+      "Fire Bolt",
+      "Mage Hand",
+      "Prestidigitation"
+    ],
+    "1": [
+      "Magic Missile",
+      "Shield",
+      "Mage Armor",
+      "Detect Magic",
+      "Sleep",
+      "Burning Hands"
+    ]
+  },
+  "notes": ""
+}
