@@ -1,0 +1,85 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 2048 >>
+stream
+BT
+/F1 12 Tf
+1 0 0 1 50 780 Tm (D&D Character Creator V1 Sheet) Tj
+1 0 0 1 50 764 Tm () Tj
+1 0 0 1 50 748 Tm (Name: Aric Stone) Tj
+1 0 0 1 50 732 Tm (Level: 1) Tj
+1 0 0 1 50 716 Tm (Species: Human) Tj
+1 0 0 1 50 700 Tm (Class: Fighter) Tj
+1 0 0 1 50 684 Tm (Background: Soldier) Tj
+1 0 0 1 50 668 Tm () Tj
+1 0 0 1 50 652 Tm (Proficiency Bonus: +2) Tj
+1 0 0 1 50 636 Tm () Tj
+1 0 0 1 50 620 Tm (Ability Scores) Tj
+1 0 0 1 50 604 Tm (- STR: 16 \(+3\)) Tj
+1 0 0 1 50 588 Tm (- DEX: 14 \(+2\)) Tj
+1 0 0 1 50 572 Tm (- CON: 15 \(+2\)) Tj
+1 0 0 1 50 556 Tm (- INT: 11 \(+0\)) Tj
+1 0 0 1 50 540 Tm (- WIS: 13 \(+1\)) Tj
+1 0 0 1 50 524 Tm (- CHA: 9 \(-1\)) Tj
+1 0 0 1 50 508 Tm () Tj
+1 0 0 1 50 492 Tm (Saving Throw Proficiencies) Tj
+1 0 0 1 50 476 Tm (- STR, CON) Tj
+1 0 0 1 50 460 Tm () Tj
+1 0 0 1 50 444 Tm (Skill Proficiencies) Tj
+1 0 0 1 50 428 Tm (- Acrobatics, Animal Handling, Athletics, Intimidation) Tj
+1 0 0 1 50 412 Tm () Tj
+1 0 0 1 50 396 Tm (All Skills) Tj
+1 0 0 1 50 380 Tm (* Acrobatics \(DEX\) +4) Tj
+1 0 0 1 50 364 Tm (* Animal Handling \(WIS\) +3) Tj
+1 0 0 1 50 348 Tm (  Arcana \(INT\) +0) Tj
+1 0 0 1 50 332 Tm (* Athletics \(STR\) +5) Tj
+1 0 0 1 50 316 Tm (  Deception \(CHA\) -1) Tj
+1 0 0 1 50 300 Tm (  History \(INT\) +0) Tj
+1 0 0 1 50 284 Tm (  Insight \(WIS\) +1) Tj
+1 0 0 1 50 268 Tm (* Intimidation \(CHA\) +1) Tj
+1 0 0 1 50 252 Tm (  Investigation \(INT\) +0) Tj
+1 0 0 1 50 236 Tm (  Medicine \(WIS\) +1) Tj
+1 0 0 1 50 220 Tm (  Nature \(INT\) +0) Tj
+1 0 0 1 50 204 Tm (  Perception \(WIS\) +1) Tj
+1 0 0 1 50 188 Tm (  Performance \(CHA\) -1) Tj
+1 0 0 1 50 172 Tm (  Persuasion \(CHA\) -1) Tj
+1 0 0 1 50 156 Tm (  Religion \(INT\) +0) Tj
+1 0 0 1 50 140 Tm (  Sleight of Hand \(DEX\) +2) Tj
+1 0 0 1 50 124 Tm (  Stealth \(DEX\) +2) Tj
+1 0 0 1 50 108 Tm (  Survival \(WIS\) +1) Tj
+1 0 0 1 50 92 Tm () Tj
+1 0 0 1 50 76 Tm (Saving Throws) Tj
+1 0 0 1 50 60 Tm (* STR +5) Tj
+1 0 0 1 50 44 Tm (  DEX +2) Tj
+1 0 0 1 50 28 Tm (* CON +4) Tj
+1 0 0 1 50 12 Tm (  INT +0) Tj
+1 0 0 1 50 -4 Tm (  WIS +1) Tj
+1 0 0 1 50 -20 Tm (  CHA -1) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2411
+%%EOF
