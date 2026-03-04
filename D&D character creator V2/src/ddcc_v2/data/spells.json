@@ -1,56 +1,1542 @@
 [
-  {"name":"Acid Splash","level":0,"school":"Conjuration","classes":["Sorcerer","Wizard"],"casting_time":"1 action","range":"60 feet","components":"V,S","duration":"Instantaneous","description":"Hurl acid at one or two creatures within range."},
-  {"name":"Blade Ward","level":0,"school":"Abjuration","classes":["Bard","Sorcerer","Warlock","Wizard"],"casting_time":"1 action","range":"Self","components":"V,S","duration":"1 round","description":"You gain resistance to bludgeoning, piercing, and slashing damage from weapon attacks."},
-  {"name":"Chill Touch","level":0,"school":"Necromancy","classes":["Sorcerer","Warlock","Wizard"],"casting_time":"1 action","range":"120 feet","components":"V,S","duration":"1 round","description":"Create a ghostly skeletal hand that deals necrotic damage and prevents healing."},
-  {"name":"Dancing Lights","level":0,"school":"Evocation","classes":["Bard","Sorcerer","Wizard"],"casting_time":"1 action","range":"120 feet","components":"V,S,M","duration":"Concentration, up to 1 minute","description":"Create up to four torch-sized lights that move at your command."},
-  {"name":"Eldritch Blast","level":0,"school":"Evocation","classes":["Warlock"],"casting_time":"1 action","range":"120 feet","components":"V,S","duration":"Instantaneous","description":"A beam of crackling energy deals force damage."},
-  {"name":"Fire Bolt","level":0,"school":"Evocation","classes":["Sorcerer","Wizard"],"casting_time":"1 action","range":"120 feet","components":"V,S","duration":"Instantaneous","description":"A mote of fire deals fire damage and can ignite flammable unattended objects."},
-  {"name":"Guidance","level":0,"school":"Divination","classes":["Cleric","Druid"],"casting_time":"1 action","range":"Touch","components":"V,S","duration":"Concentration, up to 1 minute","description":"Target adds 1d4 to one ability check of its choice."},
-  {"name":"Light","level":0,"school":"Evocation","classes":["Bard","Cleric","Sorcerer","Wizard"],"casting_time":"1 action","range":"Touch","components":"V,M","duration":"1 hour","description":"Object shines bright light in a 20-foot radius and dim light 20 feet beyond."},
-  {"name":"Mage Hand","level":0,"school":"Conjuration","classes":["Bard","Sorcerer","Warlock","Wizard"],"casting_time":"1 action","range":"30 feet","components":"V,S","duration":"1 minute","description":"A spectral hand manipulates objects up to 10 pounds."},
-  {"name":"Mending","level":0,"school":"Transmutation","classes":["Bard","Cleric","Druid","Sorcerer","Wizard"],"casting_time":"1 minute","range":"Touch","components":"V,S,M","duration":"Instantaneous","description":"Repairs a single break or tear in an object you touch."},
-  {"name":"Minor Illusion","level":0,"school":"Illusion","classes":["Bard","Sorcerer","Warlock","Wizard"],"casting_time":"1 action","range":"30 feet","components":"S,M","duration":"1 minute","description":"Create a small sound or image illusion."},
-  {"name":"Poison Spray","level":0,"school":"Conjuration","classes":["Druid","Sorcerer","Warlock","Wizard"],"casting_time":"1 action","range":"10 feet","components":"V,S","duration":"Instantaneous","description":"A puff of noxious gas deals poison damage on failed save."},
-  {"name":"Prestidigitation","level":0,"school":"Transmutation","classes":["Bard","Sorcerer","Warlock","Wizard"],"casting_time":"1 action","range":"10 feet","components":"V,S","duration":"Up to 1 hour","description":"Perform minor magical tricks and harmless sensory effects."},
-  {"name":"Produce Flame","level":0,"school":"Conjuration","classes":["Druid"],"casting_time":"1 action","range":"Self/30 feet","components":"V,S","duration":"10 minutes","description":"Create flame in hand for light or a thrown fire attack."},
-  {"name":"Ray of Frost","level":0,"school":"Evocation","classes":["Sorcerer","Wizard"],"casting_time":"1 action","range":"60 feet","components":"V,S","duration":"Instantaneous","description":"A frigid beam deals cold damage and reduces speed."},
-  {"name":"Resistance","level":0,"school":"Abjuration","classes":["Cleric","Druid"],"casting_time":"1 action","range":"Touch","components":"V,S,M","duration":"Concentration, up to 1 minute","description":"Target adds 1d4 to one saving throw of its choice."},
-  {"name":"Sacred Flame","level":0,"school":"Evocation","classes":["Cleric"],"casting_time":"1 action","range":"60 feet","components":"V,S","duration":"Instantaneous","description":"Radiant flame descends on a creature that fails a Dexterity save."},
-  {"name":"Shillelagh","level":0,"school":"Transmutation","classes":["Druid"],"casting_time":"1 bonus action","range":"Touch","components":"V,S,M","duration":"1 minute","description":"Imbue club or quarterstaff with magical force using spellcasting ability."},
-  {"name":"Shocking Grasp","level":0,"school":"Evocation","classes":["Sorcerer","Wizard"],"casting_time":"1 action","range":"Touch","components":"V,S","duration":"Instantaneous","description":"Lightning touch attack prevents target reactions."},
-  {"name":"Thaumaturgy","level":0,"school":"Transmutation","classes":["Cleric"],"casting_time":"1 action","range":"30 feet","components":"V","duration":"Up to 1 minute","description":"Manifest minor divine wonders: booming voice, tremors, and sensory effects."},
-  {"name":"True Strike","level":0,"school":"Divination","classes":["Bard","Sorcerer","Warlock","Wizard"],"casting_time":"1 action","range":"30 feet","components":"S","duration":"Concentration, up to 1 round","description":"Gain brief insight into target defenses."},
-  {"name":"Vicious Mockery","level":0,"school":"Enchantment","classes":["Bard"],"casting_time":"1 action","range":"60 feet","components":"V","duration":"Instantaneous","description":"Psychic insult deals damage and grants disadvantage on next attack."},
-
-  {"name":"Bane","level":1,"school":"Enchantment","classes":["Bard","Cleric"],"casting_time":"1 action","range":"30 feet","components":"V,S,M","duration":"Concentration, up to 1 minute","description":"Enemies subtract 1d4 from attack rolls and saving throws."},
-  {"name":"Bless","level":1,"school":"Enchantment","classes":["Cleric","Paladin"],"casting_time":"1 action","range":"30 feet","components":"V,S,M","duration":"Concentration, up to 1 minute","description":"Allies add 1d4 to attack rolls and saving throws."},
-  {"name":"Burning Hands","level":1,"school":"Evocation","classes":["Sorcerer","Wizard"],"casting_time":"1 action","range":"Self (15-foot cone)","components":"V,S","duration":"Instantaneous","description":"A cone of fire deals fire damage on failed Dexterity save."},
-  {"name":"Charm Person","level":1,"school":"Enchantment","classes":["Bard","Druid","Sorcerer","Warlock","Wizard"],"casting_time":"1 action","range":"30 feet","components":"V,S","duration":"1 hour","description":"Attempt to charm a humanoid that fails a Wisdom save."},
-  {"name":"Chromatic Orb","level":1,"school":"Evocation","classes":["Sorcerer","Wizard"],"casting_time":"1 action","range":"90 feet","components":"V,S,M","duration":"Instantaneous","description":"Ranged spell attack dealing chosen elemental damage type."},
-  {"name":"Command","level":1,"school":"Enchantment","classes":["Cleric","Paladin"],"casting_time":"1 action","range":"60 feet","components":"V","duration":"1 round","description":"Issue one-word command that target obeys on failed Wisdom save."},
-  {"name":"Comprehend Languages","level":1,"school":"Divination","classes":["Bard","Sorcerer","Warlock","Wizard"],"casting_time":"1 action (ritual)","range":"Self","components":"V,S,M","duration":"1 hour","description":"Understand spoken and written languages."},
-  {"name":"Cure Wounds","level":1,"school":"Evocation","classes":["Bard","Cleric","Druid","Paladin","Ranger"],"casting_time":"1 action","range":"Touch","components":"V,S","duration":"Instantaneous","description":"Restore hit points to a touched creature."},
-  {"name":"Detect Magic","level":1,"school":"Divination","classes":["Bard","Cleric","Druid","Paladin","Ranger","Sorcerer","Wizard"],"casting_time":"1 action (ritual)","range":"Self","components":"V,S","duration":"Concentration, up to 10 minutes","description":"Sense presence of magic within 30 feet."},
-  {"name":"Disguise Self","level":1,"school":"Illusion","classes":["Bard","Sorcerer","Warlock","Wizard"],"casting_time":"1 action","range":"Self","components":"V,S","duration":"1 hour","description":"Alter appearance with an illusion."},
-  {"name":"Faerie Fire","level":1,"school":"Evocation","classes":["Bard","Druid"],"casting_time":"1 action","range":"60 feet","components":"V","duration":"Concentration, up to 1 minute","description":"Outline creatures in light, granting advantage to attackers."},
-  {"name":"False Life","level":1,"school":"Necromancy","classes":["Sorcerer","Wizard"],"casting_time":"1 action","range":"Self","components":"V,S,M","duration":"1 hour","description":"Gain temporary hit points."},
-  {"name":"Feather Fall","level":1,"school":"Transmutation","classes":["Bard","Sorcerer","Wizard"],"casting_time":"1 reaction","range":"60 feet","components":"V,M","duration":"1 minute","description":"Slow falling creatures to prevent damage."},
-  {"name":"Find Familiar","level":1,"school":"Conjuration","classes":["Wizard"],"casting_time":"1 hour (ritual)","range":"10 feet","components":"V,S,M","duration":"Instantaneous","description":"Summon a spirit that takes animal form as a familiar."},
-  {"name":"Guiding Bolt","level":1,"school":"Evocation","classes":["Cleric"],"casting_time":"1 action","range":"120 feet","components":"V,S","duration":"1 round","description":"Radiant bolt deals damage and grants advantage to next attack."},
-  {"name":"Healing Word","level":1,"school":"Evocation","classes":["Bard","Cleric","Druid"],"casting_time":"1 bonus action","range":"60 feet","components":"V","duration":"Instantaneous","description":"Restore hit points at range as a bonus action."},
-  {"name":"Hex","level":1,"school":"Enchantment","classes":["Warlock"],"casting_time":"1 bonus action","range":"90 feet","components":"V,S,M","duration":"Concentration, up to 1 hour","description":"Curse a target for extra damage and disadvantage on chosen ability checks."},
-  {"name":"Hunter's Mark","level":1,"school":"Divination","classes":["Ranger"],"casting_time":"1 bonus action","range":"90 feet","components":"V","duration":"Concentration, up to 1 hour","description":"Mark prey for extra weapon damage and tracking advantage."},
-  {"name":"Identify","level":1,"school":"Divination","classes":["Bard","Wizard"],"casting_time":"1 minute (ritual)","range":"Touch","components":"V,S,M","duration":"Instantaneous","description":"Learn magical properties of an item or spell affecting a creature."},
-  {"name":"Inflict Wounds","level":1,"school":"Necromancy","classes":["Cleric"],"casting_time":"1 action","range":"Touch","components":"V,S","duration":"Instantaneous","description":"Melee spell attack deals heavy necrotic damage."},
-  {"name":"Mage Armor","level":1,"school":"Abjuration","classes":["Sorcerer","Wizard"],"casting_time":"1 action","range":"Touch","components":"V,S,M","duration":"8 hours","description":"Target's base AC becomes 13 + DEX modifier."},
-  {"name":"Magic Missile","level":1,"school":"Evocation","classes":["Sorcerer","Wizard"],"casting_time":"1 action","range":"120 feet","components":"V,S","duration":"Instantaneous","description":"Automatically hits with three force darts."},
-  {"name":"Protection from Evil and Good","level":1,"school":"Abjuration","classes":["Cleric","Paladin","Warlock","Wizard"],"casting_time":"1 action","range":"Touch","components":"V,S,M","duration":"Concentration, up to 10 minutes","description":"Protect target from aberrations, celestials, elementals, fey, fiends, and undead."},
-  {"name":"Ray of Sickness","level":1,"school":"Necromancy","classes":["Sorcerer","Wizard"],"casting_time":"1 action","range":"60 feet","components":"V,S","duration":"Instantaneous","description":"Ranged spell attack deals poison damage and may poison target."},
-  {"name":"Shield","level":1,"school":"Abjuration","classes":["Sorcerer","Wizard"],"casting_time":"1 reaction","range":"Self","components":"V,S","duration":"1 round","description":"Gain +5 AC against triggering attack and block magic missile."},
-  {"name":"Silent Image","level":1,"school":"Illusion","classes":["Bard","Sorcerer","Warlock","Wizard"],"casting_time":"1 action","range":"60 feet","components":"V,S,M","duration":"Concentration, up to 10 minutes","description":"Create a visual illusion within a 15-foot cube."},
-  {"name":"Sleep","level":1,"school":"Enchantment","classes":["Bard","Sorcerer","Wizard"],"casting_time":"1 action","range":"90 feet","components":"V,S,M","duration":"1 minute","description":"Put creatures with low current HP into magical slumber."},
-  {"name":"Tasha's Hideous Laughter","level":1,"school":"Enchantment","classes":["Bard","Wizard"],"casting_time":"1 action","range":"30 feet","components":"V,S,M","duration":"Concentration, up to 1 minute","description":"A creature collapses into laughter, becoming incapacitated on failed save."},
-  {"name":"Thunderwave","level":1,"school":"Evocation","classes":["Bard","Druid","Sorcerer","Wizard"],"casting_time":"1 action","range":"Self (15-foot cube)","components":"V,S","duration":"Instantaneous","description":"A thunderous wave deals damage and pushes creatures."},
-  {"name":"Unseen Servant","level":1,"school":"Conjuration","classes":["Bard","Warlock","Wizard"],"casting_time":"1 action (ritual)","range":"60 feet","components":"V,S,M","duration":"1 hour","description":"Create an invisible force to perform simple tasks."},
-  {"name":"Witch Bolt","level":1,"school":"Evocation","classes":["Sorcerer","Warlock","Wizard"],"casting_time":"1 action","range":"30 feet","components":"V,S,M","duration":"Concentration, up to 1 minute","description":"A sustained arc of lightning deals ongoing damage."}
+  {
+    "name": "Acid Splash",
+    "level": 0,
+    "school": "Conjuration",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "60 feet",
+    "components": "V,S",
+    "duration": "Instantaneous",
+    "rules_text": "Dex save or acid damage to one or two targets.",
+    "description": "You hurl acid at creatures within range."
+  },
+  {
+    "name": "Blade Ward",
+    "level": 0,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "Self",
+    "components": "V,S",
+    "duration": "1 round",
+    "rules_text": "Gain resistance to weapon damage until your next turn.",
+    "description": "A brief ward hardens you against weapon strikes."
+  },
+  {
+    "name": "Chill Touch",
+    "level": 0,
+    "school": "Necromancy",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "120 feet",
+    "components": "V,S",
+    "duration": "1 round",
+    "rules_text": "Ranged necrotic attack; target cannot regain hit points.",
+    "description": "A skeletal hand clings to the target with necrotic power."
+  },
+  {
+    "name": "Dancing Lights",
+    "level": 0,
+    "school": "Evocation",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "120 feet",
+    "components": "V,S,M",
+    "duration": "Concentration, up to 1 minute",
+    "rules_text": "Create and move up to four small lights.",
+    "description": "You conjure drifting lights for utility and distraction."
+  },
+  {
+    "name": "Eldritch Blast",
+    "level": 0,
+    "school": "Evocation",
+    "classes": [
+      "Warlock"
+    ],
+    "casting_time": "1 action",
+    "range": "120 feet",
+    "components": "V,S",
+    "duration": "Instantaneous",
+    "rules_text": "Make a ranged spell attack that deals force damage.",
+    "description": "A crackling beam slams into a target."
+  },
+  {
+    "name": "Fire Bolt",
+    "level": 0,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "120 feet",
+    "components": "V,S",
+    "duration": "Instantaneous",
+    "rules_text": "Ranged fire attack; ignites unattended flammables.",
+    "description": "A mote of flame streaks to a target."
+  },
+  {
+    "name": "Guidance",
+    "level": 0,
+    "school": "Divination",
+    "classes": [
+      "Cleric",
+      "Druid"
+    ],
+    "casting_time": "1 action",
+    "range": "Touch",
+    "components": "V,S",
+    "duration": "Concentration, up to 1 minute",
+    "rules_text": "Target adds 1d4 to one ability check.",
+    "description": "Brief divine insight aids a chosen task."
+  },
+  {
+    "name": "Light",
+    "level": 0,
+    "school": "Evocation",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "Touch",
+    "components": "V,M",
+    "duration": "1 hour",
+    "rules_text": "Object sheds bright and dim light.",
+    "description": "You imbue an object with steady magical light."
+  },
+  {
+    "name": "Mage Hand",
+    "level": 0,
+    "school": "Conjuration",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "30 feet",
+    "components": "V,S",
+    "duration": "1 minute",
+    "rules_text": "Create spectral hand to manipulate objects up to 10 pounds.",
+    "description": "An invisible-like hand performs simple interactions."
+  },
+  {
+    "name": "Mending",
+    "level": 0,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 minute",
+    "range": "Touch",
+    "components": "V,S,M",
+    "duration": "Instantaneous",
+    "rules_text": "Repair one break or tear in an object.",
+    "description": "Small material damage knits back together."
+  },
+  {
+    "name": "Minor Illusion",
+    "level": 0,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "30 feet",
+    "components": "S,M",
+    "duration": "1 minute",
+    "rules_text": "Create a sound or image illusion in a small area.",
+    "description": "A compact illusion fools sight or hearing."
+  },
+  {
+    "name": "Poison Spray",
+    "level": 0,
+    "school": "Conjuration",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "10 feet",
+    "components": "V,S",
+    "duration": "Instantaneous",
+    "rules_text": "Con save or poison damage.",
+    "description": "You project a burst of toxic vapor."
+  },
+  {
+    "name": "Prestidigitation",
+    "level": 0,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "10 feet",
+    "components": "V,S",
+    "duration": "Up to 1 hour",
+    "rules_text": "Perform small magical tricks and sensory effects.",
+    "description": "A toolkit of minor arcane flourishes."
+  },
+  {
+    "name": "Produce Flame",
+    "level": 0,
+    "school": "Conjuration",
+    "classes": [
+      "Druid"
+    ],
+    "casting_time": "1 action",
+    "range": "Self",
+    "components": "V,S",
+    "duration": "10 minutes",
+    "rules_text": "Create light in hand; can be hurled for fire damage.",
+    "description": "A flame appears in your palm until discharged."
+  },
+  {
+    "name": "Ray of Frost",
+    "level": 0,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "60 feet",
+    "components": "V,S",
+    "duration": "Instantaneous",
+    "rules_text": "Ranged cold attack; target speed is reduced.",
+    "description": "A frigid ray slows enemies."
+  },
+  {
+    "name": "Resistance",
+    "level": 0,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric",
+      "Druid"
+    ],
+    "casting_time": "1 action",
+    "range": "Touch",
+    "components": "V,S,M",
+    "duration": "Concentration, up to 1 minute",
+    "rules_text": "Target adds 1d4 to one saving throw.",
+    "description": "Protective magic steadies a creature's resolve."
+  },
+  {
+    "name": "Sacred Flame",
+    "level": 0,
+    "school": "Evocation",
+    "classes": [
+      "Cleric"
+    ],
+    "casting_time": "1 action",
+    "range": "60 feet",
+    "components": "V,S",
+    "duration": "Instantaneous",
+    "rules_text": "Dex save or radiant damage; target gets no cover benefit.",
+    "description": "Divine fire descends on your foe."
+  },
+  {
+    "name": "Shillelagh",
+    "level": 0,
+    "school": "Transmutation",
+    "classes": [
+      "Druid"
+    ],
+    "casting_time": "1 bonus action",
+    "range": "Touch",
+    "components": "V,S,M",
+    "duration": "1 minute",
+    "rules_text": "Imbue club/quarterstaff to use spellcasting ability for attacks.",
+    "description": "A wooden weapon becomes magically potent."
+  },
+  {
+    "name": "Shocking Grasp",
+    "level": 0,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "Touch",
+    "components": "V,S",
+    "duration": "Instantaneous",
+    "rules_text": "Melee spell attack; target cannot take reactions.",
+    "description": "Electric force jolts and disrupts your foe."
+  },
+  {
+    "name": "Thaumaturgy",
+    "level": 0,
+    "school": "Transmutation",
+    "classes": [
+      "Cleric"
+    ],
+    "casting_time": "1 action",
+    "range": "30 feet",
+    "components": "V",
+    "duration": "Up to 1 minute",
+    "rules_text": "Create small divine sensory manifestations.",
+    "description": "Minor miracles amplify your presence."
+  },
+  {
+    "name": "True Strike",
+    "level": 0,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "30 feet",
+    "components": "S",
+    "duration": "Concentration, up to 1 round",
+    "rules_text": "Gain brief insight to aid your next attack.",
+    "description": "You momentarily read a target's defenses."
+  },
+  {
+    "name": "Vicious Mockery",
+    "level": 0,
+    "school": "Enchantment",
+    "classes": [
+      "Bard"
+    ],
+    "casting_time": "1 action",
+    "range": "60 feet",
+    "components": "V",
+    "duration": "Instantaneous",
+    "rules_text": "Wis save or psychic damage and attack disadvantage.",
+    "description": "A cutting insult rattles your enemy."
+  },
+  {
+    "name": "Bless",
+    "level": 1,
+    "school": "Enchantment",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "casting_time": "1 action",
+    "range": "30 feet",
+    "components": "V,S,M",
+    "duration": "Concentration, up to 1 minute",
+    "rules_text": "Up to three allies add 1d4 to attacks and saves.",
+    "description": "Holy favor bolsters allies in battle."
+  },
+  {
+    "name": "Burning Hands",
+    "level": 1,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "Self (15-foot cone)",
+    "components": "V,S",
+    "duration": "Instantaneous",
+    "rules_text": "Dex save for half from a cone of fire.",
+    "description": "You unleash a short, intense burst of flame."
+  },
+  {
+    "name": "Charm Person",
+    "level": 1,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "30 feet",
+    "components": "V,S",
+    "duration": "1 hour",
+    "rules_text": "Humanoid Wis save or charmed until spell ends.",
+    "description": "You make one humanoid regard you as a friendly acquaintance."
+  },
+  {
+    "name": "Cure Wounds",
+    "level": 1,
+    "school": "Evocation",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger"
+    ],
+    "casting_time": "1 action",
+    "range": "Touch",
+    "components": "V,S",
+    "duration": "Instantaneous",
+    "rules_text": "Restore hit points to a creature you touch.",
+    "description": "You channel healing energy through contact."
+  },
+  {
+    "name": "Detect Magic",
+    "level": 1,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action (ritual)",
+    "range": "Self",
+    "components": "V,S",
+    "duration": "Concentration, up to 10 minutes",
+    "rules_text": "Sense magic within 30 feet and identify school with action.",
+    "description": "You perceive magical auras around creatures and objects."
+  },
+  {
+    "name": "Faerie Fire",
+    "level": 1,
+    "school": "Evocation",
+    "classes": [
+      "Bard",
+      "Druid"
+    ],
+    "casting_time": "1 action",
+    "range": "60 feet",
+    "components": "V",
+    "duration": "Concentration, up to 1 minute",
+    "rules_text": "Dex save or outlined; attackers gain advantage.",
+    "description": "Glittering light reveals hidden foes and aids strikes."
+  },
+  {
+    "name": "Guiding Bolt",
+    "level": 1,
+    "school": "Evocation",
+    "classes": [
+      "Cleric"
+    ],
+    "casting_time": "1 action",
+    "range": "120 feet",
+    "components": "V,S",
+    "duration": "1 round",
+    "rules_text": "Ranged radiant attack; next attack has advantage.",
+    "description": "A lance of holy light marks the target."
+  },
+  {
+    "name": "Healing Word",
+    "level": 1,
+    "school": "Evocation",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid"
+    ],
+    "casting_time": "1 bonus action",
+    "range": "60 feet",
+    "components": "V",
+    "duration": "Instantaneous",
+    "rules_text": "Restore a small amount of hit points at range.",
+    "description": "A quick word of power mends wounds."
+  },
+  {
+    "name": "Hex",
+    "level": 1,
+    "school": "Enchantment",
+    "classes": [
+      "Warlock"
+    ],
+    "casting_time": "1 bonus action",
+    "range": "90 feet",
+    "components": "V,S,M",
+    "duration": "Concentration, up to 1 hour",
+    "rules_text": "Curse target: extra damage and ability-check penalty.",
+    "description": "You bind a foe with a baleful curse."
+  },
+  {
+    "name": "Hunter's Mark",
+    "level": 1,
+    "school": "Divination",
+    "classes": [
+      "Ranger"
+    ],
+    "casting_time": "1 bonus action",
+    "range": "90 feet",
+    "components": "V",
+    "duration": "Concentration, up to 1 hour",
+    "rules_text": "Mark target for extra weapon damage and tracking benefits.",
+    "description": "You focus predatory magic on chosen prey."
+  },
+  {
+    "name": "Mage Armor",
+    "level": 1,
+    "school": "Abjuration",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "Touch",
+    "components": "V,S,M",
+    "duration": "8 hours",
+    "rules_text": "Target AC becomes 13 + Dex modifier.",
+    "description": "A protective force surrounds an unarmored creature."
+  },
+  {
+    "name": "Magic Missile",
+    "level": 1,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "120 feet",
+    "components": "V,S",
+    "duration": "Instantaneous",
+    "rules_text": "Three darts auto-hit and deal force damage.",
+    "description": "Unerring bolts strike creatures you can see."
+  },
+  {
+    "name": "Shield",
+    "level": 1,
+    "school": "Abjuration",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 reaction",
+    "range": "Self",
+    "components": "V,S",
+    "duration": "1 round",
+    "rules_text": "Gain +5 AC vs trigger and block magic missile.",
+    "description": "A sudden arcane barrier deflects incoming harm."
+  },
+  {
+    "name": "Sleep",
+    "level": 1,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "90 feet",
+    "components": "V,S,M",
+    "duration": "1 minute",
+    "rules_text": "Roll hit-point pool; lowest-current-HP creatures fall unconscious.",
+    "description": "A lull of magic puts foes to sleep."
+  },
+  {
+    "name": "Aid",
+    "level": 2,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "casting_time": "1 action",
+    "range": "30 feet",
+    "components": "V,S,M",
+    "duration": "8 hours",
+    "rules_text": "Increase current and maximum HP of up to three creatures.",
+    "description": "Bolstering magic toughens allies for hours."
+  },
+  {
+    "name": "Darkness",
+    "level": 2,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "60 feet",
+    "components": "V,M",
+    "duration": "Concentration, up to 10 minutes",
+    "rules_text": "Create magical darkness that nonmagical light cannot illuminate.",
+    "description": "A sphere of deep shadow obscures vision."
+  },
+  {
+    "name": "Hold Person",
+    "level": 2,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "60 feet",
+    "components": "V,S,M",
+    "duration": "Concentration, up to 1 minute",
+    "rules_text": "Humanoid Wis save or paralyzed; repeats save each turn.",
+    "description": "You lock a humanoid in place with enchantment."
+  },
+  {
+    "name": "Invisibility",
+    "level": 2,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "Touch",
+    "components": "V,S,M",
+    "duration": "Concentration, up to 1 hour",
+    "rules_text": "Creature becomes invisible until attacking/casting or spell ends.",
+    "description": "You veil a target from sight."
+  },
+  {
+    "name": "Lesser Restoration",
+    "level": 2,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Ranger"
+    ],
+    "casting_time": "1 action",
+    "range": "Touch",
+    "components": "V,S",
+    "duration": "Instantaneous",
+    "rules_text": "End one disease or blinded/deafened/paralyzed/poisoned condition.",
+    "description": "Curative magic removes common debilitating effects."
+  },
+  {
+    "name": "Misty Step",
+    "level": 2,
+    "school": "Conjuration",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 bonus action",
+    "range": "Self",
+    "components": "V",
+    "duration": "Instantaneous",
+    "rules_text": "Teleport up to 30 feet to visible space.",
+    "description": "You briefly become mist and reappear nearby."
+  },
+  {
+    "name": "Scorching Ray",
+    "level": 2,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "120 feet",
+    "components": "V,S",
+    "duration": "Instantaneous",
+    "rules_text": "Make three ranged fire spell attacks.",
+    "description": "You fire multiple rays of searing heat."
+  },
+  {
+    "name": "Spiritual Weapon",
+    "level": 2,
+    "school": "Evocation",
+    "classes": [
+      "Cleric"
+    ],
+    "casting_time": "1 bonus action",
+    "range": "60 feet",
+    "components": "V,S",
+    "duration": "1 minute",
+    "rules_text": "Create floating weapon that attacks as bonus action.",
+    "description": "A spectral weapon strikes under your command."
+  },
+  {
+    "name": "Counterspell",
+    "level": 3,
+    "school": "Abjuration",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 reaction",
+    "range": "60 feet",
+    "components": "S",
+    "duration": "Instantaneous",
+    "rules_text": "Interrupt casting creature; auto-stop low-level spells.",
+    "description": "You unravel enemy magic mid-cast."
+  },
+  {
+    "name": "Dispel Magic",
+    "level": 3,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Paladin",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "120 feet",
+    "components": "V,S",
+    "duration": "Instantaneous",
+    "rules_text": "End spell effects on creature, object, or magical effect.",
+    "description": "You cancel active magical effects."
+  },
+  {
+    "name": "Fireball",
+    "level": 3,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "150 feet",
+    "components": "V,S,M",
+    "duration": "Instantaneous",
+    "rules_text": "Dex save for half in 20-foot-radius explosion.",
+    "description": "A blazing detonation engulfs a wide area."
+  },
+  {
+    "name": "Fly",
+    "level": 3,
+    "school": "Transmutation",
+    "classes": [
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "Touch",
+    "components": "V,S,M",
+    "duration": "Concentration, up to 10 minutes",
+    "rules_text": "Grant flying speed 60 feet to a willing creature.",
+    "description": "You lift a creature into sustained magical flight."
+  },
+  {
+    "name": "Haste",
+    "level": 3,
+    "school": "Transmutation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "30 feet",
+    "components": "V,S,M",
+    "duration": "Concentration, up to 1 minute",
+    "rules_text": "Boost speed, AC, Dex saves, and grant extra action limits.",
+    "description": "Time-bending magic accelerates an ally."
+  },
+  {
+    "name": "Lightning Bolt",
+    "level": 3,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "Self (100-foot line)",
+    "components": "V,S,M",
+    "duration": "Instantaneous",
+    "rules_text": "Dex save for half from a long lightning line.",
+    "description": "A crackling line of lightning tears through foes."
+  },
+  {
+    "name": "Revivify",
+    "level": 3,
+    "school": "Necromancy",
+    "classes": [
+      "Cleric",
+      "Paladin"
+    ],
+    "casting_time": "1 action",
+    "range": "Touch",
+    "components": "V,S,M",
+    "duration": "Instantaneous",
+    "rules_text": "Return recently dead creature to life with 1 HP.",
+    "description": "You call a soul back moments after death."
+  },
+  {
+    "name": "Spirit Guardians",
+    "level": 3,
+    "school": "Conjuration",
+    "classes": [
+      "Cleric"
+    ],
+    "casting_time": "1 action",
+    "range": "Self (15-foot radius)",
+    "components": "V,S,M",
+    "duration": "Concentration, up to 10 minutes",
+    "rules_text": "Nearby enemies take radiant/necrotic damage and slow.",
+    "description": "Protective spirits swarm around you."
+  },
+  {
+    "name": "Banishment",
+    "level": 4,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric",
+      "Paladin",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "60 feet",
+    "components": "V,S,M",
+    "duration": "Concentration, up to 1 minute",
+    "rules_text": "Cha save or target is sent to harmless demiplane or home plane.",
+    "description": "You remove a creature from the battlefield."
+  },
+  {
+    "name": "Dimension Door",
+    "level": 4,
+    "school": "Conjuration",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "500 feet",
+    "components": "V",
+    "duration": "Instantaneous",
+    "rules_text": "Teleport yourself and one willing creature.",
+    "description": "You step through space to a known destination."
+  },
+  {
+    "name": "Freedom of Movement",
+    "level": 4,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Ranger"
+    ],
+    "casting_time": "1 action",
+    "range": "Touch",
+    "components": "V,S,M",
+    "duration": "1 hour",
+    "rules_text": "Target ignores difficult movement restraints and paralysis effects.",
+    "description": "Magic frees movement from mundane impediments."
+  },
+  {
+    "name": "Greater Invisibility",
+    "level": 4,
+    "school": "Illusion",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "Touch",
+    "components": "V,S",
+    "duration": "Concentration, up to 1 minute",
+    "rules_text": "Target stays invisible even while attacking/casting.",
+    "description": "An advanced invisibility veil does not break on offense."
+  },
+  {
+    "name": "Ice Storm",
+    "level": 4,
+    "school": "Evocation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "300 feet",
+    "components": "V,S,M",
+    "duration": "Instantaneous",
+    "rules_text": "Bludgeoning and cold damage in 20-foot-radius cylinder.",
+    "description": "Hail and freezing rain batter an area."
+  },
+  {
+    "name": "Polymorph",
+    "level": 4,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "60 feet",
+    "components": "V,S,M",
+    "duration": "Concentration, up to 1 hour",
+    "rules_text": "Transform creature into beast form with beast stat block.",
+    "description": "You reshape flesh into a new animal body."
+  },
+  {
+    "name": "Stoneskin",
+    "level": 4,
+    "school": "Abjuration",
+    "classes": [
+      "Druid",
+      "Ranger",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "Touch",
+    "components": "V,S,M",
+    "duration": "Concentration, up to 1 hour",
+    "rules_text": "Target gains resistance to nonmagical physical damage.",
+    "description": "Skin hardens into rock-like durability."
+  },
+  {
+    "name": "Wall of Fire",
+    "level": 4,
+    "school": "Evocation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "120 feet",
+    "components": "V,S,M",
+    "duration": "Concentration, up to 1 minute",
+    "rules_text": "Create fiery wall dealing damage when it appears/when crossed.",
+    "description": "You raise a blazing barrier across the field."
+  },
+  {
+    "name": "Cone of Cold",
+    "level": 5,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "Self (60-foot cone)",
+    "components": "V,S,M",
+    "duration": "Instantaneous",
+    "rules_text": "Con save for half from massive cold burst.",
+    "description": "A wave of deadly frost spreads from you."
+  },
+  {
+    "name": "Flame Strike",
+    "level": 5,
+    "school": "Evocation",
+    "classes": [
+      "Cleric"
+    ],
+    "casting_time": "1 action",
+    "range": "60 feet",
+    "components": "V,S,M",
+    "duration": "Instantaneous",
+    "rules_text": "Dex save for half from fire and radiant column.",
+    "description": "Divine flame crashes down in a cylinder."
+  },
+  {
+    "name": "Greater Restoration",
+    "level": 5,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid"
+    ],
+    "casting_time": "1 action",
+    "range": "Touch",
+    "components": "V,S,M",
+    "duration": "Instantaneous",
+    "rules_text": "End severe effects like petrification, curse, ability drain, exhaustion.",
+    "description": "Powerful restorative magic removes deep afflictions."
+  },
+  {
+    "name": "Hold Monster",
+    "level": 5,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "90 feet",
+    "components": "V,S,M",
+    "duration": "Concentration, up to 1 minute",
+    "rules_text": "Wis save or creature is paralyzed; repeats save each turn.",
+    "description": "You freeze nearly any creature in place."
+  },
+  {
+    "name": "Mass Cure Wounds",
+    "level": 5,
+    "school": "Evocation",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid"
+    ],
+    "casting_time": "1 action",
+    "range": "60 feet",
+    "components": "V,S",
+    "duration": "Instantaneous",
+    "rules_text": "Heal up to six creatures in a large radius.",
+    "description": "A broad wave of healing reaches multiple allies."
+  },
+  {
+    "name": "Raise Dead",
+    "level": 5,
+    "school": "Necromancy",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Paladin"
+    ],
+    "casting_time": "1 hour",
+    "range": "Touch",
+    "components": "V,S,M",
+    "duration": "Instantaneous",
+    "rules_text": "Return dead creature to life with penalties and limits.",
+    "description": "You restore life to the dead with substantial ritual power."
+  },
+  {
+    "name": "Scrying",
+    "level": 5,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "10 minutes",
+    "range": "Self",
+    "components": "V,S,M",
+    "duration": "Concentration, up to 10 minutes",
+    "rules_text": "Observe distant creature/location via magical sensor.",
+    "description": "You spy remotely through divinatory vision."
+  },
+  {
+    "name": "Wall of Force",
+    "level": 5,
+    "school": "Evocation",
+    "classes": [
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "120 feet",
+    "components": "V,S,M",
+    "duration": "Concentration, up to 10 minutes",
+    "rules_text": "Create invisible, nearly indestructible barrier.",
+    "description": "A pure force wall blocks movement and effects."
+  },
+  {
+    "name": "Blade Barrier",
+    "level": 6,
+    "school": "Evocation",
+    "classes": [
+      "Cleric"
+    ],
+    "casting_time": "1 action",
+    "range": "90 feet",
+    "components": "V,S",
+    "duration": "Concentration, up to 10 minutes",
+    "rules_text": "Create wall of whirling blades that damages creatures.",
+    "description": "A storm of spinning steel forms a lethal barrier."
+  },
+  {
+    "name": "Chain Lightning",
+    "level": 6,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "150 feet",
+    "components": "V,S,M",
+    "duration": "Instantaneous",
+    "rules_text": "Primary target and arcs to others take lightning damage.",
+    "description": "A powerful bolt jumps across multiple enemies."
+  },
+  {
+    "name": "Disintegrate",
+    "level": 6,
+    "school": "Transmutation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "60 feet",
+    "components": "V,S,M",
+    "duration": "Instantaneous",
+    "rules_text": "Dex save or take huge force damage; reduced to dust at 0 HP.",
+    "description": "A green ray can erase a creature or object."
+  },
+  {
+    "name": "Heal",
+    "level": 6,
+    "school": "Evocation",
+    "classes": [
+      "Cleric",
+      "Druid"
+    ],
+    "casting_time": "1 action",
+    "range": "60 feet",
+    "components": "V,S",
+    "duration": "Instantaneous",
+    "rules_text": "Restore a large HP amount and cure blindness/deafness/disease.",
+    "description": "Potent healing magic instantly revitalizes a creature."
+  },
+  {
+    "name": "Heroes' Feast",
+    "level": 6,
+    "school": "Conjuration",
+    "classes": [
+      "Cleric",
+      "Druid"
+    ],
+    "casting_time": "10 minutes",
+    "range": "30 feet",
+    "components": "V,S,M",
+    "duration": "Instantaneous",
+    "rules_text": "Feast grants HP increase, fear/poison immunity, and Wis save advantage.",
+    "description": "A ceremonial meal empowers allies for 24 hours."
+  },
+  {
+    "name": "Mass Suggestion",
+    "level": 6,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "60 feet",
+    "components": "V,M",
+    "duration": "24 hours",
+    "rules_text": "Influence up to twelve creatures with a reasonable command.",
+    "description": "A broad enchantment directs many minds at once."
+  },
+  {
+    "name": "Sunbeam",
+    "level": 6,
+    "school": "Evocation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "Self (60-foot line)",
+    "components": "V,S,M",
+    "duration": "Concentration, up to 1 minute",
+    "rules_text": "Radiant line each round; can blind targets.",
+    "description": "You project sustained brilliant solar energy."
+  },
+  {
+    "name": "True Seeing",
+    "level": 6,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "Touch",
+    "components": "V,S,M",
+    "duration": "1 hour",
+    "rules_text": "Target perceives invisibility, illusions, transformations, and ethereal forms.",
+    "description": "Enhanced sight reveals hidden magical truth."
+  },
+  {
+    "name": "Fire Storm",
+    "level": 7,
+    "school": "Evocation",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Sorcerer"
+    ],
+    "casting_time": "1 action",
+    "range": "150 feet",
+    "components": "V,S",
+    "duration": "Instantaneous",
+    "rules_text": "Shape contiguous cubes of fire; Dex save for half.",
+    "description": "You call down a massive storm of divine flame."
+  },
+  {
+    "name": "Plane Shift",
+    "level": 7,
+    "school": "Conjuration",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "Touch",
+    "components": "V,S,M",
+    "duration": "Instantaneous",
+    "rules_text": "Transport creatures to another plane or banish by melee spell attack.",
+    "description": "You force planar travel through powerful magic."
+  },
+  {
+    "name": "Regenerate",
+    "level": 7,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Druid"
+    ],
+    "casting_time": "1 minute",
+    "range": "Touch",
+    "components": "V,S,M",
+    "duration": "1 hour",
+    "rules_text": "Target regains HP over time and regrows severed body parts.",
+    "description": "Vital magic restores even catastrophic injuries."
+  },
+  {
+    "name": "Resurrection",
+    "level": 7,
+    "school": "Necromancy",
+    "classes": [
+      "Bard",
+      "Cleric"
+    ],
+    "casting_time": "1 hour",
+    "range": "Touch",
+    "components": "V,S,M",
+    "duration": "Instantaneous",
+    "rules_text": "Return dead creature to life even after long death.",
+    "description": "A high ritual recalls the dead to life."
+  },
+  {
+    "name": "Reverse Gravity",
+    "level": 7,
+    "school": "Transmutation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "100 feet",
+    "components": "V,S,M",
+    "duration": "Concentration, up to 1 minute",
+    "rules_text": "Invert gravity in a large cylinder.",
+    "description": "The battlefield turns upside down."
+  },
+  {
+    "name": "Symbol",
+    "level": 7,
+    "school": "Abjuration",
+    "classes": [
+      "Bard",
+      "Cleric",
+      "Wizard"
+    ],
+    "casting_time": "1 minute",
+    "range": "Touch",
+    "components": "V,S,M",
+    "duration": "Until dispelled or triggered",
+    "rules_text": "Inscribe magical glyph with powerful triggered effects.",
+    "description": "A hidden rune unleashes severe magical punishment."
+  },
+  {
+    "name": "Teleport",
+    "level": 7,
+    "school": "Conjuration",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "10 feet",
+    "components": "V",
+    "duration": "Instantaneous",
+    "rules_text": "Instant long-range travel for party and objects.",
+    "description": "You and allies blink across the world."
+  },
+  {
+    "name": "Dominate Monster",
+    "level": 8,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "60 feet",
+    "components": "V,S",
+    "duration": "Concentration, up to 1 hour",
+    "rules_text": "Control actions of a creature that fails Wis save.",
+    "description": "You seize command of a creature's will."
+  },
+  {
+    "name": "Earthquake",
+    "level": 8,
+    "school": "Evocation",
+    "classes": [
+      "Cleric",
+      "Druid",
+      "Sorcerer"
+    ],
+    "casting_time": "1 action",
+    "range": "500 feet",
+    "components": "V,S,M",
+    "duration": "Concentration, up to 1 minute",
+    "rules_text": "Shake wide area causing difficult terrain, collapses, and damage.",
+    "description": "The ground ruptures with devastating force."
+  },
+  {
+    "name": "Feeblemind",
+    "level": 8,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "150 feet",
+    "components": "V,S,M",
+    "duration": "Instantaneous",
+    "rules_text": "Int save or severe mental debilitation until cured.",
+    "description": "A psychic blast crushes intellect and personality."
+  },
+  {
+    "name": "Glibness",
+    "level": 8,
+    "school": "Transmutation",
+    "classes": [
+      "Bard",
+      "Warlock"
+    ],
+    "casting_time": "1 action",
+    "range": "Self",
+    "components": "V",
+    "duration": "1 hour",
+    "rules_text": "Minimum Charisma check result becomes 15; magic can't detect lies easily.",
+    "description": "Words flow with supernatural persuasiveness."
+  },
+  {
+    "name": "Holy Aura",
+    "level": 8,
+    "school": "Abjuration",
+    "classes": [
+      "Cleric"
+    ],
+    "casting_time": "1 action",
+    "range": "Self",
+    "components": "V,S,M",
+    "duration": "Concentration, up to 1 minute",
+    "rules_text": "Allies in aura gain defensive bonuses; fiends/undead are hindered.",
+    "description": "Radiant aura protects companions and punishes evil."
+  },
+  {
+    "name": "Power Word Stun",
+    "level": 8,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "60 feet",
+    "components": "V",
+    "duration": "Instantaneous",
+    "rules_text": "Stun creature with 150 HP or fewer with no save initially.",
+    "description": "A commanding word leaves the target reeling."
+  },
+  {
+    "name": "Sunburst",
+    "level": 8,
+    "school": "Evocation",
+    "classes": [
+      "Druid",
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "150 feet",
+    "components": "V,S,M",
+    "duration": "Instantaneous",
+    "rules_text": "Huge radiant burst; Con save for half and potential blindness.",
+    "description": "An explosion of sunlight scorches and blinds."
+  },
+  {
+    "name": "Foresight",
+    "level": 9,
+    "school": "Divination",
+    "classes": [
+      "Bard",
+      "Druid",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 minute",
+    "range": "Touch",
+    "components": "V,S,M",
+    "duration": "8 hours",
+    "rules_text": "Target gains advantage on attacks/checks/saves; attackers have disadvantage.",
+    "description": "You grant profound future-sense and near-perfect awareness."
+  },
+  {
+    "name": "Gate",
+    "level": 9,
+    "school": "Conjuration",
+    "classes": [
+      "Cleric",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "60 feet",
+    "components": "V,S,M",
+    "duration": "Concentration, up to 1 minute",
+    "rules_text": "Open portal between planes or call a named creature.",
+    "description": "A rift links worlds at your command."
+  },
+  {
+    "name": "Mass Heal",
+    "level": 9,
+    "school": "Evocation",
+    "classes": [
+      "Cleric"
+    ],
+    "casting_time": "1 action",
+    "range": "60 feet",
+    "components": "V,S",
+    "duration": "Instantaneous",
+    "rules_text": "Distribute massive healing among creatures in range.",
+    "description": "A wave of supreme restorative energy sweeps allies."
+  },
+  {
+    "name": "Meteor Swarm",
+    "level": 9,
+    "school": "Evocation",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "1 mile",
+    "components": "V,S",
+    "duration": "Instantaneous",
+    "rules_text": "Four massive explosions deal fire and bludgeoning damage.",
+    "description": "Cataclysmic meteors devastate a huge area."
+  },
+  {
+    "name": "Power Word Kill",
+    "level": 9,
+    "school": "Enchantment",
+    "classes": [
+      "Bard",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "60 feet",
+    "components": "V",
+    "duration": "Instantaneous",
+    "rules_text": "Instantly kill creature with 100 HP or fewer.",
+    "description": "A single utterance snuffs out life."
+  },
+  {
+    "name": "True Resurrection",
+    "level": 9,
+    "school": "Necromancy",
+    "classes": [
+      "Cleric",
+      "Druid"
+    ],
+    "casting_time": "1 hour",
+    "range": "Touch",
+    "components": "V,S,M",
+    "duration": "Instantaneous",
+    "rules_text": "Restore life even after long death; can recreate body.",
+    "description": "The mightiest life-restoring magic known."
+  },
+  {
+    "name": "Wish",
+    "level": 9,
+    "school": "Conjuration",
+    "classes": [
+      "Sorcerer",
+      "Wizard"
+    ],
+    "casting_time": "1 action",
+    "range": "Self",
+    "components": "V",
+    "duration": "Instantaneous",
+    "rules_text": "Replicate lower-level spells or attempt broader reality-altering effects.",
+    "description": "You bend reality to your will at great risk."
+  }
 ]

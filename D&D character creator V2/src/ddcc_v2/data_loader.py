@@ -9,6 +9,7 @@ from typing import Any
 
 DATA_FILES = {
     "classes": "classes.json",
+    "spells_by_class": "spells_by_class.json",
     "species": "species.json",
     "backgrounds": "backgrounds.json",
     "skills": "skills.json",

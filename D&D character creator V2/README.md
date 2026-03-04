@@ -29,10 +29,26 @@ Tkinter desktop app for creating a **level 1 SRD-style D&D character** with loca
 - Export readable character sheet PDF (pure Python renderer; no heavy dependencies)
 - CLI helper to generate sample character JSON/PDF in `outputs/`
 - Pytest coverage for calculations + serialization/derivation
+- Expanded progression and spell datasets for future multi-level implementation
 
 ## Dataset Note
 
-This project ships with a **local SRD-inspired subset** intended for broad level-1 coverage and easy expansion. It includes major core options (classes, species, backgrounds, skills, baseline equipment, cantrips, level-1 spells). If you need strict canonical parity for a specific SRD release/version, extend or replace the JSON files under `src/ddcc_v2/data/`.
+This project ships with a **local SRD-inspired open-content-style dataset** intended for current level-1 play plus future expansion.
+
+- `classes.json` now includes `level_progression` entries for levels `1..20` for every class.
+- Each class progression row includes:
+  - `features_summary`
+  - `proficiency_bonus`
+  - `spellcasting` metadata (where applicable), including:
+    - full-caster slot progression
+    - half-caster slot progression
+    - warlock pact slots + pact slot level + mystic arcanum unlock markers
+- `spells.json` now includes spells across levels `0..9`, with:
+  - class eligibility (`classes`)
+  - concise text fields (`description`, `rules_text`)
+- `spells_by_class.json` provides a grouped class-level index (`class -> spell level -> spell names`) for future UI/service expansion.
+
+Current app behavior remains intentionally level-1 oriented (GUI spell picker still surfaces cantrips + level-1 spells), but the data layer is ready for multi-level features.
 
 ## Project Layout
 
