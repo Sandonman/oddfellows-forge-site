@@ -1,9 +1,13 @@
 """D&D Character Creator V3."""
 
+from .builder_tab import BuilderTab, attach_builder_tab, format_builder_summary
 from .library_tab import LibraryTab, attach_library_tab, format_library_detail, load_library_index
 from .leveling import MAX_LEVEL, LevelSnapshot, build_level_snapshot, level_up, load_classes
 
 __all__ = [
+    "BuilderTab",
+    "attach_builder_tab",
+    "format_builder_summary",
     "LibraryTab",
     "attach_library_tab",
     "format_library_detail",
