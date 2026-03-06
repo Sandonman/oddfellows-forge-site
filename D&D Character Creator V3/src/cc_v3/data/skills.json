@@ -1,0 +1,20 @@
+[
+  {"name": "Acrobatics", "ability": "DEX", "description": "Balance, tumbling, and staying upright in difficult movement."},
+  {"name": "Animal Handling", "ability": "WIS", "description": "Calm, direct, or read natural animal behavior."},
+  {"name": "Arcana", "ability": "INT", "description": "Recall magical lore, spell traditions, and arcane symbols."},
+  {"name": "Athletics", "ability": "STR", "description": "Climb, jump, swim, grapple, and force movement with strength."},
+  {"name": "Deception", "ability": "CHA", "description": "Convincing lies, feints, and misleading social behavior."},
+  {"name": "History", "ability": "INT", "description": "Recall historical events, legends, wars, and civilizations."},
+  {"name": "Insight", "ability": "WIS", "description": "Read intent, emotions, and hidden motives."},
+  {"name": "Intimidation", "ability": "CHA", "description": "Use presence, threats, or force of personality to influence."},
+  {"name": "Investigation", "ability": "INT", "description": "Deductive searching, clues, and close inspection."},
+  {"name": "Medicine", "ability": "WIS", "description": "Diagnose illness and stabilize injuries."},
+  {"name": "Nature", "ability": "INT", "description": "Knowledge of terrain, flora, fauna, weather, and natural cycles."},
+  {"name": "Perception", "ability": "WIS", "description": "Spot hidden details through sight, hearing, or smell."},
+  {"name": "Performance", "ability": "CHA", "description": "Entertain through music, acting, dance, or storytelling."},
+  {"name": "Persuasion", "ability": "CHA", "description": "Influence others with tact, diplomacy, and confidence."},
+  {"name": "Religion", "ability": "INT", "description": "Recall deities, rites, prayers, and religious history."},
+  {"name": "Sleight of Hand", "ability": "DEX", "description": "Pick pockets, palm objects, and fine manual trickery."},
+  {"name": "Stealth", "ability": "DEX", "description": "Move quietly and stay unseen."},
+  {"name": "Survival", "ability": "WIS", "description": "Track, forage, navigate wilds, and endure hazards."}
+]

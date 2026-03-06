@@ -1,0 +1,5129 @@
+{
+  "armor": [
+    {
+      "name": "Unarmored",
+      "category": "armor",
+      "armor_type": "light",
+      "base_ac": 10,
+      "dex_cap": null,
+      "str_requirement": 0,
+      "stealth_disadvantage": false,
+      "weight": 0,
+      "cost_gp": 0,
+      "description": "No armor: AC = 10 + DEX modifier.",
+      "ac": 10,
+      "type": "none"
+    },
+    {
+      "name": "Padded Armor",
+      "category": "armor",
+      "armor_type": "light",
+      "base_ac": 11,
+      "dex_cap": null,
+      "str_requirement": 0,
+      "stealth_disadvantage": true,
+      "weight": 8,
+      "cost_gp": 5,
+      "description": "Light armor. AC 11 + DEX; stealth disadvantage.",
+      "ac": 11,
+      "type": "light"
+    },
+    {
+      "name": "Leather Armor",
+      "category": "armor",
+      "armor_type": "light",
+      "base_ac": 11,
+      "dex_cap": null,
+      "str_requirement": 0,
+      "stealth_disadvantage": false,
+      "weight": 10,
+      "cost_gp": 10,
+      "description": "Light armor. AC 11 + DEX.",
+      "ac": 11,
+      "type": "light"
+    },
+    {
+      "name": "Studded Leather",
+      "category": "armor",
+      "armor_type": "light",
+      "base_ac": 12,
+      "dex_cap": null,
+      "str_requirement": 0,
+      "stealth_disadvantage": false,
+      "weight": 13,
+      "cost_gp": 45,
+      "description": "Light armor. AC 12 + DEX.",
+      "ac": 12,
+      "type": "light"
+    },
+    {
+      "name": "Hide Armor",
+      "category": "armor",
+      "armor_type": "medium",
+      "base_ac": 12,
+      "dex_cap": 2,
+      "str_requirement": 0,
+      "stealth_disadvantage": false,
+      "weight": 12,
+      "cost_gp": 10,
+      "description": "Medium armor. AC 12 + DEX (max +2).",
+      "ac": 12,
+      "type": "medium"
+    },
+    {
+      "name": "Chain Shirt",
+      "category": "armor",
+      "armor_type": "medium",
+      "base_ac": 13,
+      "dex_cap": 2,
+      "str_requirement": 0,
+      "stealth_disadvantage": false,
+      "weight": 20,
+      "cost_gp": 50,
+      "description": "Medium armor. AC 13 + DEX (max +2).",
+      "ac": 13,
+      "type": "medium"
+    },
+    {
+      "name": "Scale Mail",
+      "category": "armor",
+      "armor_type": "medium",
+      "base_ac": 14,
+      "dex_cap": 2,
+      "str_requirement": 0,
+      "stealth_disadvantage": true,
+      "weight": 45,
+      "cost_gp": 50,
+      "description": "Medium armor. AC 14 + DEX (max +2); stealth disadvantage.",
+      "ac": 14,
+      "type": "medium"
+    },
+    {
+      "name": "Breastplate",
+      "category": "armor",
+      "armor_type": "medium",
+      "base_ac": 14,
+      "dex_cap": 2,
+      "str_requirement": 0,
+      "stealth_disadvantage": false,
+      "weight": 20,
+      "cost_gp": 400,
+      "description": "Medium armor. AC 14 + DEX (max +2).",
+      "ac": 14,
+      "type": "medium"
+    },
+    {
+      "name": "Half Plate",
+      "category": "armor",
+      "armor_type": "medium",
+      "base_ac": 15,
+      "dex_cap": 2,
+      "str_requirement": 0,
+      "stealth_disadvantage": true,
+      "weight": 40,
+      "cost_gp": 750,
+      "description": "Medium armor. AC 15 + DEX (max +2); stealth disadvantage.",
+      "ac": 15,
+      "type": "medium"
+    },
+    {
+      "name": "Ring Mail",
+      "category": "armor",
+      "armor_type": "heavy",
+      "base_ac": 14,
+      "dex_cap": 0,
+      "str_requirement": 0,
+      "stealth_disadvantage": true,
+      "weight": 40,
+      "cost_gp": 30,
+      "description": "Heavy armor. AC 14; stealth disadvantage.",
+      "ac": 14,
+      "type": "heavy"
+    },
+    {
+      "name": "Chain Mail",
+      "category": "armor",
+      "armor_type": "heavy",
+      "base_ac": 16,
+      "dex_cap": 0,
+      "str_requirement": 13,
+      "stealth_disadvantage": true,
+      "weight": 55,
+      "cost_gp": 75,
+      "description": "Heavy armor. AC 16; STR 13; stealth disadvantage.",
+      "ac": 16,
+      "type": "heavy"
+    },
+    {
+      "name": "Splint",
+      "category": "armor",
+      "armor_type": "heavy",
+      "base_ac": 17,
+      "dex_cap": 0,
+      "str_requirement": 15,
+      "stealth_disadvantage": true,
+      "weight": 60,
+      "cost_gp": 200,
+      "description": "Heavy armor. AC 17; STR 15; stealth disadvantage.",
+      "ac": 17,
+      "type": "heavy"
+    },
+    {
+      "name": "Plate",
+      "category": "armor",
+      "armor_type": "heavy",
+      "base_ac": 18,
+      "dex_cap": 0,
+      "str_requirement": 15,
+      "stealth_disadvantage": true,
+      "weight": 65,
+      "cost_gp": 1500,
+      "description": "Heavy armor. AC 18; STR 15; stealth disadvantage.",
+      "ac": 18,
+      "type": "heavy"
+    },
+    {
+      "name": "Shield",
+      "category": "armor",
+      "armor_type": "shield",
+      "base_ac": 2,
+      "dex_cap": null,
+      "str_requirement": 0,
+      "stealth_disadvantage": false,
+      "weight": 6,
+      "cost_gp": 10,
+      "description": "A shield provides +2 AC while wielded.",
+      "ac": 2,
+      "type": "shield"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Club",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d4",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "light"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": 0.1,
+      "description": "Simple melee weapon.",
+      "damage": "1d4 bludgeoning",
+      "properties_text": "Light"
+    },
+    {
+      "name": "Dagger",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d4",
+      "damage_type": "piercing",
+      "properties": [
+        "finesse",
+        "light",
+        "thrown"
+      ],
+      "range_normal": 20,
+      "range_long": 60,
+      "weight": 1,
+      "cost_gp": 2,
+      "description": "Simple melee weapon.",
+      "damage": "1d4 piercing",
+      "properties_text": "Finesse, light, thrown (20/60)"
+    },
+    {
+      "name": "Greatclub",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 10,
+      "cost_gp": 0.2,
+      "description": "Simple melee weapon.",
+      "damage": "1d8 bludgeoning",
+      "properties_text": "Two-handed"
+    },
+    {
+      "name": "Handaxe",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "slashing",
+      "properties": [
+        "light",
+        "thrown"
+      ],
+      "range_normal": 20,
+      "range_long": 60,
+      "weight": 2,
+      "cost_gp": 5,
+      "description": "Simple melee weapon.",
+      "damage": "1d6 slashing",
+      "properties_text": "Light, thrown (20/60)"
+    },
+    {
+      "name": "Javelin",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "piercing",
+      "properties": [
+        "thrown"
+      ],
+      "range_normal": 30,
+      "range_long": 120,
+      "weight": 2,
+      "cost_gp": 0.5,
+      "description": "Simple melee weapon.",
+      "damage": "1d6 piercing",
+      "properties_text": "Thrown (30/120)"
+    },
+    {
+      "name": "Light Hammer",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d4",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "light",
+        "thrown"
+      ],
+      "range_normal": 20,
+      "range_long": 60,
+      "weight": 2,
+      "cost_gp": 2,
+      "description": "Simple melee weapon.",
+      "damage": "1d4 bludgeoning",
+      "properties_text": "Light, thrown (20/60)"
+    },
+    {
+      "name": "Mace",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "bludgeoning",
+      "properties": [],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 4,
+      "cost_gp": 5,
+      "description": "Simple melee weapon.",
+      "damage": "1d6 bludgeoning",
+      "properties_text": "-"
+    },
+    {
+      "name": "Quarterstaff",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "versatile"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 4,
+      "cost_gp": 0.2,
+      "description": "Simple melee weapon.",
+      "damage": "1d6 bludgeoning",
+      "properties_text": "Versatile (1d8)"
+    },
+    {
+      "name": "Sickle",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d4",
+      "damage_type": "slashing",
+      "properties": [
+        "light"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": 1,
+      "description": "Simple melee weapon.",
+      "damage": "1d4 slashing",
+      "properties_text": "Light"
+    },
+    {
+      "name": "Spear",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "piercing",
+      "properties": [
+        "thrown",
+        "versatile"
+      ],
+      "range_normal": 20,
+      "range_long": 60,
+      "weight": 3,
+      "cost_gp": 1,
+      "description": "Simple melee weapon.",
+      "damage": "1d6 piercing",
+      "properties_text": "Thrown (20/60), versatile (1d8)"
+    },
+    {
+      "name": "Light Crossbow",
+      "category": "simple",
+      "weapon_type": "ranged",
+      "damage_dice": "1d8",
+      "damage_type": "piercing",
+      "properties": [
+        "ammunition",
+        "loading",
+        "two-handed"
+      ],
+      "range_normal": 80,
+      "range_long": 320,
+      "weight": 5,
+      "cost_gp": 25,
+      "description": "Simple ranged weapon.",
+      "damage": "1d8 piercing",
+      "properties_text": "Ammunition (80/320), loading, two-handed"
+    },
+    {
+      "name": "Dart",
+      "category": "simple",
+      "weapon_type": "ranged",
+      "damage_dice": "1d4",
+      "damage_type": "piercing",
+      "properties": [
+        "finesse",
+        "thrown"
+      ],
+      "range_normal": 20,
+      "range_long": 60,
+      "weight": 0.25,
+      "cost_gp": 0.05,
+      "description": "Simple ranged weapon.",
+      "damage": "1d4 piercing",
+      "properties_text": "Finesse, thrown (20/60)"
+    },
+    {
+      "name": "Shortbow",
+      "category": "simple",
+      "weapon_type": "ranged",
+      "damage_dice": "1d6",
+      "damage_type": "piercing",
+      "properties": [
+        "ammunition",
+        "two-handed"
+      ],
+      "range_normal": 80,
+      "range_long": 320,
+      "weight": 2,
+      "cost_gp": 25,
+      "description": "Simple ranged weapon.",
+      "damage": "1d6 piercing",
+      "properties_text": "Ammunition (80/320), two-handed"
+    },
+    {
+      "name": "Sling",
+      "category": "simple",
+      "weapon_type": "ranged",
+      "damage_dice": "1d4",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "ammunition"
+      ],
+      "range_normal": 30,
+      "range_long": 120,
+      "weight": 0,
+      "cost_gp": 0.1,
+      "description": "Simple ranged weapon.",
+      "damage": "1d4 bludgeoning",
+      "properties_text": "Ammunition (30/120)"
+    },
+    {
+      "name": "Battleaxe",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "slashing",
+      "properties": [
+        "versatile"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 4,
+      "cost_gp": 10,
+      "description": "Martial melee weapon.",
+      "damage": "1d8 slashing",
+      "properties_text": "Versatile (1d10)"
+    },
+    {
+      "name": "Flail",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "bludgeoning",
+      "properties": [],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": 10,
+      "description": "Martial melee weapon.",
+      "damage": "1d8 bludgeoning",
+      "properties_text": "-"
+    },
+    {
+      "name": "Glaive",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d10",
+      "damage_type": "slashing",
+      "properties": [
+        "heavy",
+        "reach",
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 6,
+      "cost_gp": 20,
+      "description": "Martial melee weapon.",
+      "damage": "1d10 slashing",
+      "properties_text": "Heavy, reach, two-handed"
+    },
+    {
+      "name": "Greataxe",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d12",
+      "damage_type": "slashing",
+      "properties": [
+        "heavy",
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 7,
+      "cost_gp": 30,
+      "description": "Martial melee weapon.",
+      "damage": "1d12 slashing",
+      "properties_text": "Heavy, two-handed"
+    },
+    {
+      "name": "Greatsword",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "2d6",
+      "damage_type": "slashing",
+      "properties": [
+        "heavy",
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 6,
+      "cost_gp": 50,
+      "description": "Martial melee weapon.",
+      "damage": "2d6 slashing",
+      "properties_text": "Heavy, two-handed"
+    },
+    {
+      "name": "Halberd",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d10",
+      "damage_type": "slashing",
+      "properties": [
+        "heavy",
+        "reach",
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 6,
+      "cost_gp": 20,
+      "description": "Martial melee weapon.",
+      "damage": "1d10 slashing",
+      "properties_text": "Heavy, reach, two-handed"
+    },
+    {
+      "name": "Lance",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d12",
+      "damage_type": "piercing",
+      "properties": [
+        "reach",
+        "special"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 6,
+      "cost_gp": 10,
+      "description": "Martial melee weapon.",
+      "damage": "1d12 piercing",
+      "properties_text": "Reach, special"
+    },
+    {
+      "name": "Longsword",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "slashing",
+      "properties": [
+        "versatile"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 3,
+      "cost_gp": 15,
+      "description": "Martial melee weapon.",
+      "damage": "1d8 slashing",
+      "properties_text": "Versatile (1d10)"
+    },
+    {
+      "name": "Maul",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "2d6",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "heavy",
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 10,
+      "cost_gp": 10,
+      "description": "Martial melee weapon.",
+      "damage": "2d6 bludgeoning",
+      "properties_text": "Heavy, two-handed"
+    },
+    {
+      "name": "Morningstar",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "piercing",
+      "properties": [],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 4,
+      "cost_gp": 15,
+      "description": "Martial melee weapon.",
+      "damage": "1d8 piercing",
+      "properties_text": "-"
+    },
+    {
+      "name": "Pike",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d10",
+      "damage_type": "piercing",
+      "properties": [
+        "heavy",
+        "reach",
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 18,
+      "cost_gp": 5,
+      "description": "Martial melee weapon.",
+      "damage": "1d10 piercing",
+      "properties_text": "Heavy, reach, two-handed"
+    },
+    {
+      "name": "Rapier",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "piercing",
+      "properties": [
+        "finesse"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": 25,
+      "description": "Martial melee weapon.",
+      "damage": "1d8 piercing",
+      "properties_text": "Finesse"
+    },
+    {
+      "name": "Scimitar",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "slashing",
+      "properties": [
+        "finesse",
+        "light"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 3,
+      "cost_gp": 25,
+      "description": "Martial melee weapon.",
+      "damage": "1d6 slashing",
+      "properties_text": "Finesse, light"
+    },
+    {
+      "name": "Shortsword",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "piercing",
+      "properties": [
+        "finesse",
+        "light"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": 10,
+      "description": "Martial melee weapon.",
+      "damage": "1d6 piercing",
+      "properties_text": "Finesse, light"
+    },
+    {
+      "name": "Trident",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "piercing",
+      "properties": [
+        "thrown",
+        "versatile"
+      ],
+      "range_normal": 20,
+      "range_long": 60,
+      "weight": 4,
+      "cost_gp": 5,
+      "description": "Martial melee weapon.",
+      "damage": "1d6 piercing",
+      "properties_text": "Thrown (20/60), versatile (1d8)"
+    },
+    {
+      "name": "War Pick",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "piercing",
+      "properties": [],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": 5,
+      "description": "Martial melee weapon.",
+      "damage": "1d8 piercing",
+      "properties_text": "-"
+    },
+    {
+      "name": "Warhammer",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "versatile"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": 15,
+      "description": "Martial melee weapon.",
+      "damage": "1d8 bludgeoning",
+      "properties_text": "Versatile (1d10)"
+    },
+    {
+      "name": "Whip",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d4",
+      "damage_type": "slashing",
+      "properties": [
+        "finesse",
+        "reach"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 3,
+      "cost_gp": 2,
+      "description": "Martial melee weapon.",
+      "damage": "1d4 slashing",
+      "properties_text": "Finesse, reach"
+    },
+    {
+      "name": "Blowgun",
+      "category": "martial",
+      "weapon_type": "ranged",
+      "damage_dice": "1",
+      "damage_type": "piercing",
+      "properties": [
+        "ammunition",
+        "loading"
+      ],
+      "range_normal": 25,
+      "range_long": 100,
+      "weight": 1,
+      "cost_gp": 10,
+      "description": "Martial ranged weapon.",
+      "damage": "1 piercing",
+      "properties_text": "Ammunition (25/100), loading"
+    },
+    {
+      "name": "Hand Crossbow",
+      "category": "martial",
+      "weapon_type": "ranged",
+      "damage_dice": "1d6",
+      "damage_type": "piercing",
+      "properties": [
+        "ammunition",
+        "light",
+        "loading"
+      ],
+      "range_normal": 30,
+      "range_long": 120,
+      "weight": 3,
+      "cost_gp": 75,
+      "description": "Martial ranged weapon.",
+      "damage": "1d6 piercing",
+      "properties_text": "Ammunition (30/120), light, loading"
+    },
+    {
+      "name": "Heavy Crossbow",
+      "category": "martial",
+      "weapon_type": "ranged",
+      "damage_dice": "1d10",
+      "damage_type": "piercing",
+      "properties": [
+        "ammunition",
+        "heavy",
+        "loading",
+        "two-handed"
+      ],
+      "range_normal": 100,
+      "range_long": 400,
+      "weight": 18,
+      "cost_gp": 50,
+      "description": "Martial ranged weapon.",
+      "damage": "1d10 piercing",
+      "properties_text": "Ammunition (100/400), heavy, loading, two-handed"
+    },
+    {
+      "name": "Longbow",
+      "category": "martial",
+      "weapon_type": "ranged",
+      "damage_dice": "1d8",
+      "damage_type": "piercing",
+      "properties": [
+        "ammunition",
+        "heavy",
+        "two-handed"
+      ],
+      "range_normal": 150,
+      "range_long": 600,
+      "weight": 2,
+      "cost_gp": 50,
+      "description": "Martial ranged weapon.",
+      "damage": "1d8 piercing",
+      "properties_text": "Ammunition (150/600), heavy, two-handed"
+    },
+    {
+      "name": "Net",
+      "category": "martial",
+      "weapon_type": "ranged",
+      "damage_dice": "0",
+      "damage_type": "none",
+      "properties": [
+        "special",
+        "thrown"
+      ],
+      "range_normal": 5,
+      "range_long": 15,
+      "weight": 3,
+      "cost_gp": 1,
+      "description": "Martial ranged weapon for restraining targets.",
+      "damage": "0 none",
+      "properties_text": "Special, thrown (5/15)"
+    }
+  ],
+  "tools": [
+    {
+      "name": "Alchemist's Supplies",
+      "category": "artisan_tools",
+      "weight": 8,
+      "cost_gp": 50,
+      "description": "Crafting kit for alchemical mixtures."
+    },
+    {
+      "name": "Brewer's Supplies",
+      "category": "artisan_tools",
+      "weight": 9,
+      "cost_gp": 20,
+      "description": "Tools for brewing and fermentation."
+    },
+    {
+      "name": "Calligrapher's Supplies",
+      "category": "artisan_tools",
+      "weight": 5,
+      "cost_gp": 10,
+      "description": "Supplies for fine script and manuscript work."
+    },
+    {
+      "name": "Carpenter's Tools",
+      "category": "artisan_tools",
+      "weight": 6,
+      "cost_gp": 8,
+      "description": "Woodworking tools for building and repair."
+    },
+    {
+      "name": "Cartographer's Tools",
+      "category": "artisan_tools",
+      "weight": 6,
+      "cost_gp": 15,
+      "description": "Instruments for charting and mapmaking."
+    },
+    {
+      "name": "Cobbler's Tools",
+      "category": "artisan_tools",
+      "weight": 5,
+      "cost_gp": 5,
+      "description": "Tools for making and repairing footwear."
+    },
+    {
+      "name": "Cook's Utensils",
+      "category": "artisan_tools",
+      "weight": 8,
+      "cost_gp": 1,
+      "description": "Kit for preparing and cooking meals."
+    },
+    {
+      "name": "Glassblower's Tools",
+      "category": "artisan_tools",
+      "weight": 5,
+      "cost_gp": 30,
+      "description": "Tools for shaping and finishing glass."
+    },
+    {
+      "name": "Jeweler's Tools",
+      "category": "artisan_tools",
+      "weight": 2,
+      "cost_gp": 25,
+      "description": "Precision tools for gems and jewelry."
+    },
+    {
+      "name": "Leatherworker's Tools",
+      "category": "artisan_tools",
+      "weight": 5,
+      "cost_gp": 5,
+      "description": "Tools for tanning and leathercraft."
+    },
+    {
+      "name": "Mason's Tools",
+      "category": "artisan_tools",
+      "weight": 8,
+      "cost_gp": 10,
+      "description": "Tools for stone carving and masonry."
+    },
+    {
+      "name": "Painter's Supplies",
+      "category": "artisan_tools",
+      "weight": 5,
+      "cost_gp": 10,
+      "description": "Pigments and brushes for painting."
+    },
+    {
+      "name": "Potter's Tools",
+      "category": "artisan_tools",
+      "weight": 3,
+      "cost_gp": 10,
+      "description": "Wheel and shaping implements for pottery."
+    },
+    {
+      "name": "Smith's Tools",
+      "category": "artisan_tools",
+      "weight": 8,
+      "cost_gp": 20,
+      "description": "Metalworking hammers, tongs, and files."
+    },
+    {
+      "name": "Tinker's Tools",
+      "category": "artisan_tools",
+      "weight": 10,
+      "cost_gp": 50,
+      "description": "Repair kit for mechanical objects."
+    },
+    {
+      "name": "Weaver's Tools",
+      "category": "artisan_tools",
+      "weight": 5,
+      "cost_gp": 1,
+      "description": "Tools for weaving cloth."
+    },
+    {
+      "name": "Woodcarver's Tools",
+      "category": "artisan_tools",
+      "weight": 5,
+      "cost_gp": 1,
+      "description": "Carving knives and gouges."
+    },
+    {
+      "name": "Disguise Kit",
+      "category": "kits",
+      "weight": 3,
+      "cost_gp": 25,
+      "description": "Cosmetics and props for disguises."
+    },
+    {
+      "name": "Forgery Kit",
+      "category": "kits",
+      "weight": 5,
+      "cost_gp": 15,
+      "description": "Supplies for document forgery."
+    },
+    {
+      "name": "Herbalism Kit",
+      "category": "kits",
+      "weight": 3,
+      "cost_gp": 5,
+      "description": "Kit for identifying and preparing herbs."
+    },
+    {
+      "name": "Navigator's Tools",
+      "category": "kits",
+      "weight": 2,
+      "cost_gp": 25,
+      "description": "Charts and instruments for navigation."
+    },
+    {
+      "name": "Poisoner's Kit",
+      "category": "kits",
+      "weight": 2,
+      "cost_gp": 50,
+      "description": "Kit for handling and preparing poisons."
+    },
+    {
+      "name": "Thieves' Tools",
+      "category": "kits",
+      "weight": 1,
+      "cost_gp": 25,
+      "description": "Tools for lockpicking and trap work."
+    },
+    {
+      "name": "Dice Set",
+      "category": "gaming_sets",
+      "weight": 0,
+      "cost_gp": 0.1,
+      "description": "A complete set of gaming dice."
+    },
+    {
+      "name": "Dragonchess Set",
+      "category": "gaming_sets",
+      "weight": 0.5,
+      "cost_gp": 1,
+      "description": "Strategic board game set."
+    },
+    {
+      "name": "Playing Card Set",
+      "category": "gaming_sets",
+      "weight": 0,
+      "cost_gp": 0.5,
+      "description": "Deck and accessories for card games."
+    },
+    {
+      "name": "Three-Dragon Ante Set",
+      "category": "gaming_sets",
+      "weight": 0,
+      "cost_gp": 1,
+      "description": "Card-and-token gambling game."
+    },
+    {
+      "name": "Bagpipes",
+      "category": "musical_instruments",
+      "weight": 6,
+      "cost_gp": 30,
+      "description": "Wind instrument with drone pipes."
+    },
+    {
+      "name": "Drum",
+      "category": "musical_instruments",
+      "weight": 3,
+      "cost_gp": 6,
+      "description": "Portable percussion instrument."
+    },
+    {
+      "name": "Dulcimer",
+      "category": "musical_instruments",
+      "weight": 10,
+      "cost_gp": 25,
+      "description": "String instrument played with hammers."
+    },
+    {
+      "name": "Flute",
+      "category": "musical_instruments",
+      "weight": 1,
+      "cost_gp": 2,
+      "description": "Simple woodwind instrument."
+    },
+    {
+      "name": "Lute",
+      "category": "musical_instruments",
+      "weight": 2,
+      "cost_gp": 35,
+      "description": "Fretted plucked string instrument."
+    },
+    {
+      "name": "Lyre",
+      "category": "musical_instruments",
+      "weight": 2,
+      "cost_gp": 30,
+      "description": "Harp-like plucked string instrument."
+    },
+    {
+      "name": "Horn",
+      "category": "musical_instruments",
+      "weight": 2,
+      "cost_gp": 3,
+      "description": "Natural brass wind instrument."
+    },
+    {
+      "name": "Pan Flute",
+      "category": "musical_instruments",
+      "weight": 2,
+      "cost_gp": 12,
+      "description": "Set of tuned pipes."
+    },
+    {
+      "name": "Shawm",
+      "category": "musical_instruments",
+      "weight": 1,
+      "cost_gp": 2,
+      "description": "Reed wind instrument."
+    },
+    {
+      "name": "Viol",
+      "category": "musical_instruments",
+      "weight": 1,
+      "cost_gp": 30,
+      "description": "Bowed string instrument."
+    }
+  ],
+  "mounts_vehicles": [
+    {
+      "name": "Camel",
+      "category": "mount",
+      "weight": 0,
+      "cost_gp": 50,
+      "description": "Sure-footed desert mount."
+    },
+    {
+      "name": "Donkey",
+      "category": "mount",
+      "weight": 0,
+      "cost_gp": 8,
+      "description": "Sturdy beast of burden."
+    },
+    {
+      "name": "Mule",
+      "category": "mount",
+      "weight": 0,
+      "cost_gp": 8,
+      "description": "Hybrid pack animal."
+    },
+    {
+      "name": "Elephant",
+      "category": "mount",
+      "weight": 0,
+      "cost_gp": 200,
+      "description": "Massive mount for heavy loads."
+    },
+    {
+      "name": "Draft Horse",
+      "category": "mount",
+      "weight": 0,
+      "cost_gp": 50,
+      "description": "Horse bred for hauling cargo."
+    },
+    {
+      "name": "Riding Horse",
+      "category": "mount",
+      "weight": 0,
+      "cost_gp": 75,
+      "description": "Common overland riding mount."
+    },
+    {
+      "name": "Mastiff",
+      "category": "mount",
+      "weight": 0,
+      "cost_gp": 25,
+      "description": "Large trained dog mount for small riders."
+    },
+    {
+      "name": "Pony",
+      "category": "mount",
+      "weight": 0,
+      "cost_gp": 30,
+      "description": "Small riding mount."
+    },
+    {
+      "name": "Warhorse",
+      "category": "mount",
+      "weight": 0,
+      "cost_gp": 400,
+      "description": "Combat-trained heavy horse."
+    },
+    {
+      "name": "Bit and Bridle",
+      "category": "vehicle_gear",
+      "weight": 1,
+      "cost_gp": 2,
+      "description": "Basic mount control equipment."
+    },
+    {
+      "name": "Saddle, Pack",
+      "category": "vehicle_gear",
+      "weight": 15,
+      "cost_gp": 5,
+      "description": "Saddle for carrying cargo."
+    },
+    {
+      "name": "Saddle, Riding",
+      "category": "vehicle_gear",
+      "weight": 25,
+      "cost_gp": 10,
+      "description": "Standard travel saddle."
+    },
+    {
+      "name": "Saddle, Military",
+      "category": "vehicle_gear",
+      "weight": 30,
+      "cost_gp": 20,
+      "description": "Saddle designed for combat riding."
+    },
+    {
+      "name": "Saddle, Exotic",
+      "category": "vehicle_gear",
+      "weight": 40,
+      "cost_gp": 60,
+      "description": "Saddle for unusual mounts."
+    },
+    {
+      "name": "Carriage",
+      "category": "land_vehicle",
+      "weight": 0,
+      "cost_gp": 100,
+      "description": "Four-wheeled enclosed passenger vehicle."
+    },
+    {
+      "name": "Cart",
+      "category": "land_vehicle",
+      "weight": 200,
+      "cost_gp": 15,
+      "description": "Two-wheeled cargo vehicle."
+    },
+    {
+      "name": "Chariot",
+      "category": "land_vehicle",
+      "weight": 100,
+      "cost_gp": 250,
+      "description": "Light two-wheeled combat vehicle."
+    },
+    {
+      "name": "Wagon",
+      "category": "land_vehicle",
+      "weight": 400,
+      "cost_gp": 35,
+      "description": "Heavy cargo vehicle."
+    },
+    {
+      "name": "Galley",
+      "category": "water_vehicle",
+      "weight": 0,
+      "cost_gp": 30000,
+      "description": "Large oared warship."
+    },
+    {
+      "name": "Keelboat",
+      "category": "water_vehicle",
+      "weight": 0,
+      "cost_gp": 3000,
+      "description": "Medium sailing vessel for rivers and coasts."
+    },
+    {
+      "name": "Longship",
+      "category": "water_vehicle",
+      "weight": 0,
+      "cost_gp": 10000,
+      "description": "Fast oared and sailed ship."
+    },
+    {
+      "name": "Rowboat",
+      "category": "water_vehicle",
+      "weight": 100,
+      "cost_gp": 50,
+      "description": "Small manually propelled boat."
+    },
+    {
+      "name": "Sailing Ship",
+      "category": "water_vehicle",
+      "weight": 0,
+      "cost_gp": 10000,
+      "description": "Large oceangoing sailing vessel."
+    },
+    {
+      "name": "Warship",
+      "category": "water_vehicle",
+      "weight": 0,
+      "cost_gp": 25000,
+      "description": "Large naval combat vessel."
+    }
+  ],
+  "trade_goods": [
+    {
+      "name": "Wheat (1 lb)",
+      "category": "foodstuff",
+      "weight": 1,
+      "cost_gp": 0.01,
+      "description": "Bulk grain commodity."
+    },
+    {
+      "name": "Flour (1 lb)",
+      "category": "foodstuff",
+      "weight": 1,
+      "cost_gp": 0.02,
+      "description": "Milled grain for baking."
+    },
+    {
+      "name": "Salt (1 lb)",
+      "category": "foodstuff",
+      "weight": 1,
+      "cost_gp": 0.05,
+      "description": "Preservative and seasoning."
+    },
+    {
+      "name": "Iron (1 lb)",
+      "category": "metal",
+      "weight": 1,
+      "cost_gp": 0.1,
+      "description": "Raw metal stock."
+    },
+    {
+      "name": "Copper (1 lb)",
+      "category": "metal",
+      "weight": 1,
+      "cost_gp": 0.5,
+      "description": "Common trade metal."
+    },
+    {
+      "name": "Silver (1 lb)",
+      "category": "metal",
+      "weight": 1,
+      "cost_gp": 5,
+      "description": "Precious trade metal."
+    },
+    {
+      "name": "Gold (1 lb)",
+      "category": "metal",
+      "weight": 1,
+      "cost_gp": 50,
+      "description": "High-value precious metal."
+    },
+    {
+      "name": "Platinum (1 lb)",
+      "category": "metal",
+      "weight": 1,
+      "cost_gp": 500,
+      "description": "Rare precious metal."
+    },
+    {
+      "name": "Cotton Cloth (1 sq yd)",
+      "category": "textile",
+      "weight": 0,
+      "cost_gp": 0.5,
+      "description": "Common woven cloth."
+    },
+    {
+      "name": "Linen Cloth (1 sq yd)",
+      "category": "textile",
+      "weight": 0,
+      "cost_gp": 0.5,
+      "description": "Fine flax cloth."
+    },
+    {
+      "name": "Silk Cloth (1 sq yd)",
+      "category": "textile",
+      "weight": 0,
+      "cost_gp": 10,
+      "description": "Luxury textile."
+    },
+    {
+      "name": "Canvas (1 sq yd)",
+      "category": "textile",
+      "weight": 0,
+      "cost_gp": 0.1,
+      "description": "Heavy cloth used in tents and sails."
+    },
+    {
+      "name": "Chicken",
+      "category": "livestock",
+      "weight": 0,
+      "cost_gp": 0.02,
+      "description": "Common small livestock."
+    },
+    {
+      "name": "Goat",
+      "category": "livestock",
+      "weight": 0,
+      "cost_gp": 1,
+      "description": "Hardy livestock animal."
+    },
+    {
+      "name": "Sheep",
+      "category": "livestock",
+      "weight": 0,
+      "cost_gp": 2,
+      "description": "Wool-bearing livestock."
+    },
+    {
+      "name": "Pig",
+      "category": "livestock",
+      "weight": 0,
+      "cost_gp": 3,
+      "description": "Common farm livestock."
+    },
+    {
+      "name": "Cow",
+      "category": "livestock",
+      "weight": 0,
+      "cost_gp": 10,
+      "description": "Large farm livestock."
+    }
+  ],
+  "packs": [
+    {
+      "name": "Burglar's Pack",
+      "summary": "Mobility and infiltration staples for rogues and scouts.",
+      "contents": [
+        {
+          "item": "Backpack",
+          "qty": 1
+        },
+        {
+          "item": "Ball Bearings (bag)",
+          "qty": 1
+        },
+        {
+          "item": "String (10 ft)",
+          "qty": 1
+        },
+        {
+          "item": "Bell",
+          "qty": 1
+        },
+        {
+          "item": "Candle",
+          "qty": 5
+        },
+        {
+          "item": "Crowbar",
+          "qty": 1
+        },
+        {
+          "item": "Hammer",
+          "qty": 1
+        },
+        {
+          "item": "Piton",
+          "qty": 10
+        },
+        {
+          "item": "Hooded Lantern",
+          "qty": 1
+        },
+        {
+          "item": "Oil Flask",
+          "qty": 2
+        },
+        {
+          "item": "Rations (1 day)",
+          "qty": 5
+        },
+        {
+          "item": "Tinderbox",
+          "qty": 1
+        },
+        {
+          "item": "Waterskin",
+          "qty": 1
+        },
+        {
+          "item": "Rope, Hempen (50 ft)",
+          "qty": 1
+        }
+      ],
+      "description": "Backpack, ball bearings, string, bell, candles, crowbar, hammer, pitons, hooded lantern, oil, rations, tinderbox, waterskin, hempen rope."
+    },
+    {
+      "name": "Diplomat's Pack",
+      "summary": "Writing and social gear for formal travel and negotiation.",
+      "contents": [
+        {
+          "item": "Chest",
+          "qty": 1
+        },
+        {
+          "item": "Map/Scroll Case",
+          "qty": 2
+        },
+        {
+          "item": "Fine Clothes",
+          "qty": 1
+        },
+        {
+          "item": "Ink (1 oz)",
+          "qty": 1
+        },
+        {
+          "item": "Ink Pen",
+          "qty": 1
+        },
+        {
+          "item": "Lamp",
+          "qty": 1
+        },
+        {
+          "item": "Oil Flask",
+          "qty": 2
+        },
+        {
+          "item": "Paper (sheet)",
+          "qty": 5
+        },
+        {
+          "item": "Perfume Vial",
+          "qty": 1
+        },
+        {
+          "item": "Sealing Wax",
+          "qty": 1
+        },
+        {
+          "item": "Soap",
+          "qty": 1
+        }
+      ],
+      "description": "Chest, map cases, fine clothes, ink, pen, lamp, oil, paper, perfume, sealing wax, soap."
+    },
+    {
+      "name": "Dungeoneer's Pack",
+      "summary": "Crawling essentials with light and climbing support.",
+      "contents": [
+        {
+          "item": "Backpack",
+          "qty": 1
+        },
+        {
+          "item": "Crowbar",
+          "qty": 1
+        },
+        {
+          "item": "Hammer",
+          "qty": 1
+        },
+        {
+          "item": "Piton",
+          "qty": 10
+        },
+        {
+          "item": "Torch",
+          "qty": 10
+        },
+        {
+          "item": "Tinderbox",
+          "qty": 1
+        },
+        {
+          "item": "Rations (1 day)",
+          "qty": 10
+        },
+        {
+          "item": "Waterskin",
+          "qty": 1
+        },
+        {
+          "item": "Rope, Hempen (50 ft)",
+          "qty": 1
+        }
+      ],
+      "description": "Backpack, crowbar, hammer, pitons, torches, tinderbox, rations, waterskin, hempen rope."
+    },
+    {
+      "name": "Entertainer's Pack",
+      "summary": "Travel set for performers and social specialists.",
+      "contents": [
+        {
+          "item": "Backpack",
+          "qty": 1
+        },
+        {
+          "item": "Bedroll",
+          "qty": 1
+        },
+        {
+          "item": "Costume",
+          "qty": 2
+        },
+        {
+          "item": "Candle",
+          "qty": 5
+        },
+        {
+          "item": "Rations (1 day)",
+          "qty": 5
+        },
+        {
+          "item": "Waterskin",
+          "qty": 1
+        },
+        {
+          "item": "Disguise Kit",
+          "qty": 1
+        }
+      ],
+      "description": "Backpack, bedroll, costumes, candles, rations, waterskin, disguise kit."
+    },
+    {
+      "name": "Explorer's Pack",
+      "summary": "General overland adventuring bundle.",
+      "contents": [
+        {
+          "item": "Backpack",
+          "qty": 1
+        },
+        {
+          "item": "Bedroll",
+          "qty": 1
+        },
+        {
+          "item": "Mess Kit",
+          "qty": 1
+        },
+        {
+          "item": "Tinderbox",
+          "qty": 1
+        },
+        {
+          "item": "Torch",
+          "qty": 10
+        },
+        {
+          "item": "Rations (1 day)",
+          "qty": 10
+        },
+        {
+          "item": "Waterskin",
+          "qty": 1
+        },
+        {
+          "item": "Rope, Hempen (50 ft)",
+          "qty": 1
+        }
+      ],
+      "description": "Backpack, bedroll, mess kit, tinderbox, torches, rations, waterskin, hempen rope."
+    },
+    {
+      "name": "Priest's Pack",
+      "summary": "Devotional and travel supplies for divine casters.",
+      "contents": [
+        {
+          "item": "Backpack",
+          "qty": 1
+        },
+        {
+          "item": "Blanket",
+          "qty": 1
+        },
+        {
+          "item": "Candle",
+          "qty": 10
+        },
+        {
+          "item": "Tinderbox",
+          "qty": 1
+        },
+        {
+          "item": "Alms Box",
+          "qty": 1
+        },
+        {
+          "item": "Incense Block",
+          "qty": 2
+        },
+        {
+          "item": "Censer",
+          "qty": 1
+        },
+        {
+          "item": "Vestments",
+          "qty": 1
+        },
+        {
+          "item": "Rations (1 day)",
+          "qty": 2
+        },
+        {
+          "item": "Waterskin",
+          "qty": 1
+        }
+      ],
+      "description": "Backpack, blanket, candles, tinderbox, alms box, incense, censer, vestments, rations, waterskin."
+    },
+    {
+      "name": "Scholar's Pack",
+      "summary": "Reference and writing tools for academics and arcane study.",
+      "contents": [
+        {
+          "item": "Backpack",
+          "qty": 1
+        },
+        {
+          "item": "Book of Lore",
+          "qty": 1
+        },
+        {
+          "item": "Ink (1 oz)",
+          "qty": 1
+        },
+        {
+          "item": "Ink Pen",
+          "qty": 1
+        },
+        {
+          "item": "Parchment (sheet)",
+          "qty": 10
+        },
+        {
+          "item": "Sand (small bag)",
+          "qty": 1
+        },
+        {
+          "item": "Small Knife",
+          "qty": 1
+        }
+      ],
+      "description": "Backpack, book of lore, ink, ink pen, parchment, little bag of sand, small knife."
+    }
+  ],
+  "adventuring_gear": [
+    {
+      "name": "Abacus",
+      "category": "utility",
+      "weight": 2,
+      "cost_gp": 2,
+      "description": "Counting frame used for bookkeeping."
+    },
+    {
+      "name": "Acid (vial)",
+      "category": "consumable",
+      "weight": 1,
+      "cost_gp": 25,
+      "description": "Corrosive liquid in a glass vial."
+    },
+    {
+      "name": "Arcane Focus",
+      "category": "spellcasting",
+      "weight": 1,
+      "cost_gp": 10,
+      "description": "Special item used as spellcasting focus for arcane casters."
+    },
+    {
+      "name": "Backpack",
+      "category": "container",
+      "weight": 5,
+      "cost_gp": 2,
+      "description": "Standard adventuring pack for carrying gear."
+    },
+    {
+      "name": "Ball Bearings (bag)",
+      "category": "utility",
+      "weight": 2,
+      "cost_gp": 1,
+      "description": "1,000 tiny steel balls in a pouch."
+    },
+    {
+      "name": "Bedroll",
+      "category": "travel",
+      "weight": 7,
+      "cost_gp": 1,
+      "description": "Simple sleeping roll for camp use."
+    },
+    {
+      "name": "Bell",
+      "category": "utility",
+      "weight": 0,
+      "cost_gp": 1,
+      "description": "Small hand bell."
+    },
+    {
+      "name": "Blanket",
+      "category": "travel",
+      "weight": 3,
+      "cost_gp": 0.5,
+      "description": "Wool blanket."
+    },
+    {
+      "name": "Block and Tackle",
+      "category": "utility",
+      "weight": 5,
+      "cost_gp": 1,
+      "description": "Pulley system for lifting heavy loads."
+    },
+    {
+      "name": "Book",
+      "category": "utility",
+      "weight": 5,
+      "cost_gp": 25,
+      "description": "Bound text on a chosen topic."
+    },
+    {
+      "name": "Bottle, Glass",
+      "category": "container",
+      "weight": 2,
+      "cost_gp": 2,
+      "description": "Glass bottle for storing liquids."
+    },
+    {
+      "name": "Bucket",
+      "category": "utility",
+      "weight": 2,
+      "cost_gp": 0.05,
+      "description": "Wooden bucket."
+    },
+    {
+      "name": "Caltrops (bag)",
+      "category": "utility",
+      "weight": 2,
+      "cost_gp": 1,
+      "description": "Spikes scattered to hinder movement."
+    },
+    {
+      "name": "Candle",
+      "category": "consumable",
+      "weight": 0,
+      "cost_gp": 0.01,
+      "description": "Small wax candle."
+    },
+    {
+      "name": "Chain (10 ft)",
+      "category": "utility",
+      "weight": 10,
+      "cost_gp": 5,
+      "description": "Heavy iron chain section."
+    },
+    {
+      "name": "Chalk (1 piece)",
+      "category": "utility",
+      "weight": 0,
+      "cost_gp": 0.01,
+      "description": "Marking chalk."
+    },
+    {
+      "name": "Chest",
+      "category": "container",
+      "weight": 25,
+      "cost_gp": 5,
+      "description": "Sturdy lockable storage chest."
+    },
+    {
+      "name": "Climber's Kit",
+      "category": "travel",
+      "weight": 12,
+      "cost_gp": 25,
+      "description": "Harnesses and pitons for climbing."
+    },
+    {
+      "name": "Component Pouch",
+      "category": "spellcasting",
+      "weight": 2,
+      "cost_gp": 25,
+      "description": "Pouch containing common spell components."
+    },
+    {
+      "name": "Crowbar",
+      "category": "utility",
+      "weight": 5,
+      "cost_gp": 2,
+      "description": "Levering bar for forcing objects open."
+    },
+    {
+      "name": "Druidic Focus",
+      "category": "spellcasting",
+      "weight": 1,
+      "cost_gp": 1,
+      "description": "Natural focus for druid spellcasting."
+    },
+    {
+      "name": "Grappling Hook",
+      "category": "travel",
+      "weight": 4,
+      "cost_gp": 2,
+      "description": "Hook used with rope for climbing."
+    },
+    {
+      "name": "Hammer",
+      "category": "utility",
+      "weight": 3,
+      "cost_gp": 1,
+      "description": "General-purpose hammer."
+    },
+    {
+      "name": "Healer's Kit",
+      "category": "medical",
+      "weight": 3,
+      "cost_gp": 5,
+      "description": "Bandages and salves for stabilization."
+    },
+    {
+      "name": "Holy Symbol",
+      "category": "spellcasting",
+      "weight": 1,
+      "cost_gp": 5,
+      "description": "Divine focus for clerics and paladins."
+    },
+    {
+      "name": "Hooded Lantern",
+      "category": "light",
+      "weight": 2,
+      "cost_gp": 5,
+      "description": "Lantern with shuttered hood."
+    },
+    {
+      "name": "Ink (1 oz)",
+      "category": "utility",
+      "weight": 0,
+      "cost_gp": 10,
+      "description": "Bottle of writing ink."
+    },
+    {
+      "name": "Ink Pen",
+      "category": "utility",
+      "weight": 0,
+      "cost_gp": 0.02,
+      "description": "Pen for writing."
+    },
+    {
+      "name": "Lamp",
+      "category": "light",
+      "weight": 1,
+      "cost_gp": 0.5,
+      "description": "Oil lamp."
+    },
+    {
+      "name": "Lock",
+      "category": "utility",
+      "weight": 1,
+      "cost_gp": 10,
+      "description": "Portable metal lock with key."
+    },
+    {
+      "name": "Manacles",
+      "category": "utility",
+      "weight": 6,
+      "cost_gp": 2,
+      "description": "Restraints with lock and key."
+    },
+    {
+      "name": "Mess Kit",
+      "category": "travel",
+      "weight": 1,
+      "cost_gp": 0.2,
+      "description": "Bowl and utensils for trail meals."
+    },
+    {
+      "name": "Oil Flask",
+      "category": "consumable",
+      "weight": 1,
+      "cost_gp": 0.1,
+      "description": "Fuel for lamps and lanterns."
+    },
+    {
+      "name": "Paper (sheet)",
+      "category": "utility",
+      "weight": 0,
+      "cost_gp": 0.2,
+      "description": "One sheet of paper."
+    },
+    {
+      "name": "Parchment (sheet)",
+      "category": "utility",
+      "weight": 0,
+      "cost_gp": 0.1,
+      "description": "One sheet of parchment."
+    },
+    {
+      "name": "Perfume Vial",
+      "category": "utility",
+      "weight": 0,
+      "cost_gp": 5,
+      "description": "Fragrant oil in a small vial."
+    },
+    {
+      "name": "Piton",
+      "category": "travel",
+      "weight": 0.25,
+      "cost_gp": 0.05,
+      "description": "Iron spike used in climbing."
+    },
+    {
+      "name": "Potion of Healing",
+      "category": "consumable",
+      "weight": 0.5,
+      "cost_gp": 50,
+      "description": "Standard healing potion."
+    },
+    {
+      "name": "Pouch",
+      "category": "container",
+      "weight": 1,
+      "cost_gp": 0.5,
+      "description": "Small belt pouch."
+    },
+    {
+      "name": "Quiver",
+      "category": "container",
+      "weight": 1,
+      "cost_gp": 1,
+      "description": "Case for arrows or bolts."
+    },
+    {
+      "name": "Rations (1 day)",
+      "category": "consumable",
+      "weight": 2,
+      "cost_gp": 0.5,
+      "description": "Dry preserved food for one day."
+    },
+    {
+      "name": "Rope, Hempen (50 ft)",
+      "category": "travel",
+      "weight": 10,
+      "cost_gp": 1,
+      "description": "Durable natural-fiber rope."
+    },
+    {
+      "name": "Rope, Silk (50 ft)",
+      "category": "travel",
+      "weight": 5,
+      "cost_gp": 10,
+      "description": "Lightweight strong rope."
+    },
+    {
+      "name": "Sack",
+      "category": "container",
+      "weight": 0.5,
+      "cost_gp": 0.01,
+      "description": "Simple cloth sack."
+    },
+    {
+      "name": "Sealing Wax",
+      "category": "utility",
+      "weight": 0,
+      "cost_gp": 0.5,
+      "description": "Wax for document seals."
+    },
+    {
+      "name": "Shovel",
+      "category": "utility",
+      "weight": 5,
+      "cost_gp": 2,
+      "description": "Digging tool."
+    },
+    {
+      "name": "Signal Whistle",
+      "category": "utility",
+      "weight": 0,
+      "cost_gp": 0.05,
+      "description": "Whistle for signaling."
+    },
+    {
+      "name": "Soap",
+      "category": "utility",
+      "weight": 0,
+      "cost_gp": 0.02,
+      "description": "Bar of soap."
+    },
+    {
+      "name": "Spellbook",
+      "category": "spellcasting",
+      "weight": 3,
+      "cost_gp": 50,
+      "description": "Wizard's spellbook for recording and preparing spells."
+    },
+    {
+      "name": "Tent, Two-Person",
+      "category": "travel",
+      "weight": 20,
+      "cost_gp": 2,
+      "description": "Canvas tent for two creatures."
+    },
+    {
+      "name": "Thieves' Tools",
+      "category": "tool",
+      "weight": 1,
+      "cost_gp": 25,
+      "description": "Tool set for lockpicking and trap interaction."
+    },
+    {
+      "name": "Tinderbox",
+      "category": "utility",
+      "weight": 1,
+      "cost_gp": 0.5,
+      "description": "Flint, fire steel, and tinder."
+    },
+    {
+      "name": "Torch",
+      "category": "light",
+      "weight": 1,
+      "cost_gp": 0.01,
+      "description": "Burning torch for bright light."
+    },
+    {
+      "name": "Vial",
+      "category": "container",
+      "weight": 0,
+      "cost_gp": 1,
+      "description": "Small glass vial."
+    },
+    {
+      "name": "Waterskin",
+      "category": "container",
+      "weight": 5,
+      "cost_gp": 0.2,
+      "description": "Water container made from treated hide."
+    },
+    {
+      "name": "Whetstone",
+      "category": "utility",
+      "weight": 1,
+      "cost_gp": 0.01,
+      "description": "Stone for honing blades."
+    }
+  ],
+  "magic_items": [
+    {
+      "name": "+1 Club",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d4",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "light"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d4 bludgeoning",
+      "properties_text": "Light",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Club",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d4",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "light"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d4 bludgeoning",
+      "properties_text": "Light",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Club",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d4",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "light"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d4 bludgeoning",
+      "properties_text": "Light",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Dagger",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d4",
+      "damage_type": "piercing",
+      "properties": [
+        "finesse",
+        "light",
+        "thrown"
+      ],
+      "range_normal": 20,
+      "range_long": 60,
+      "weight": 1,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d4 piercing",
+      "properties_text": "Finesse, light, thrown (20/60)",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Dagger",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d4",
+      "damage_type": "piercing",
+      "properties": [
+        "finesse",
+        "light",
+        "thrown"
+      ],
+      "range_normal": 20,
+      "range_long": 60,
+      "weight": 1,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d4 piercing",
+      "properties_text": "Finesse, light, thrown (20/60)",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Dagger",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d4",
+      "damage_type": "piercing",
+      "properties": [
+        "finesse",
+        "light",
+        "thrown"
+      ],
+      "range_normal": 20,
+      "range_long": 60,
+      "weight": 1,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d4 piercing",
+      "properties_text": "Finesse, light, thrown (20/60)",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Greatclub",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 10,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 bludgeoning",
+      "properties_text": "Two-handed",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Greatclub",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 10,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 bludgeoning",
+      "properties_text": "Two-handed",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Greatclub",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 10,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 bludgeoning",
+      "properties_text": "Two-handed",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Handaxe",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "slashing",
+      "properties": [
+        "light",
+        "thrown"
+      ],
+      "range_normal": 20,
+      "range_long": 60,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 slashing",
+      "properties_text": "Light, thrown (20/60)",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Handaxe",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "slashing",
+      "properties": [
+        "light",
+        "thrown"
+      ],
+      "range_normal": 20,
+      "range_long": 60,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 slashing",
+      "properties_text": "Light, thrown (20/60)",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Handaxe",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "slashing",
+      "properties": [
+        "light",
+        "thrown"
+      ],
+      "range_normal": 20,
+      "range_long": 60,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 slashing",
+      "properties_text": "Light, thrown (20/60)",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Javelin",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "piercing",
+      "properties": [
+        "thrown"
+      ],
+      "range_normal": 30,
+      "range_long": 120,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 piercing",
+      "properties_text": "Thrown (30/120)",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Javelin",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "piercing",
+      "properties": [
+        "thrown"
+      ],
+      "range_normal": 30,
+      "range_long": 120,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 piercing",
+      "properties_text": "Thrown (30/120)",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Javelin",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "piercing",
+      "properties": [
+        "thrown"
+      ],
+      "range_normal": 30,
+      "range_long": 120,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 piercing",
+      "properties_text": "Thrown (30/120)",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Light Hammer",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d4",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "light",
+        "thrown"
+      ],
+      "range_normal": 20,
+      "range_long": 60,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d4 bludgeoning",
+      "properties_text": "Light, thrown (20/60)",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Light Hammer",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d4",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "light",
+        "thrown"
+      ],
+      "range_normal": 20,
+      "range_long": 60,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d4 bludgeoning",
+      "properties_text": "Light, thrown (20/60)",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Light Hammer",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d4",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "light",
+        "thrown"
+      ],
+      "range_normal": 20,
+      "range_long": 60,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d4 bludgeoning",
+      "properties_text": "Light, thrown (20/60)",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Mace",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "bludgeoning",
+      "properties": [],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 4,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 bludgeoning",
+      "properties_text": "-",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Mace",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "bludgeoning",
+      "properties": [],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 4,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 bludgeoning",
+      "properties_text": "-",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Mace",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "bludgeoning",
+      "properties": [],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 4,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 bludgeoning",
+      "properties_text": "-",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Quarterstaff",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "versatile"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 4,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 bludgeoning",
+      "properties_text": "Versatile (1d8)",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Quarterstaff",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "versatile"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 4,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 bludgeoning",
+      "properties_text": "Versatile (1d8)",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Quarterstaff",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "versatile"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 4,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 bludgeoning",
+      "properties_text": "Versatile (1d8)",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Sickle",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d4",
+      "damage_type": "slashing",
+      "properties": [
+        "light"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d4 slashing",
+      "properties_text": "Light",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Sickle",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d4",
+      "damage_type": "slashing",
+      "properties": [
+        "light"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d4 slashing",
+      "properties_text": "Light",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Sickle",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d4",
+      "damage_type": "slashing",
+      "properties": [
+        "light"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d4 slashing",
+      "properties_text": "Light",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Spear",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "piercing",
+      "properties": [
+        "thrown",
+        "versatile"
+      ],
+      "range_normal": 20,
+      "range_long": 60,
+      "weight": 3,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 piercing",
+      "properties_text": "Thrown (20/60), versatile (1d8)",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Spear",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "piercing",
+      "properties": [
+        "thrown",
+        "versatile"
+      ],
+      "range_normal": 20,
+      "range_long": 60,
+      "weight": 3,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 piercing",
+      "properties_text": "Thrown (20/60), versatile (1d8)",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Spear",
+      "category": "simple",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "piercing",
+      "properties": [
+        "thrown",
+        "versatile"
+      ],
+      "range_normal": 20,
+      "range_long": 60,
+      "weight": 3,
+      "cost_gp": null,
+      "description": "Simple melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 piercing",
+      "properties_text": "Thrown (20/60), versatile (1d8)",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Light Crossbow",
+      "category": "simple",
+      "weapon_type": "ranged",
+      "damage_dice": "1d8",
+      "damage_type": "piercing",
+      "properties": [
+        "ammunition",
+        "loading",
+        "two-handed"
+      ],
+      "range_normal": 80,
+      "range_long": 320,
+      "weight": 5,
+      "cost_gp": null,
+      "description": "Simple ranged weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 piercing",
+      "properties_text": "Ammunition (80/320), loading, two-handed",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Light Crossbow",
+      "category": "simple",
+      "weapon_type": "ranged",
+      "damage_dice": "1d8",
+      "damage_type": "piercing",
+      "properties": [
+        "ammunition",
+        "loading",
+        "two-handed"
+      ],
+      "range_normal": 80,
+      "range_long": 320,
+      "weight": 5,
+      "cost_gp": null,
+      "description": "Simple ranged weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 piercing",
+      "properties_text": "Ammunition (80/320), loading, two-handed",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Light Crossbow",
+      "category": "simple",
+      "weapon_type": "ranged",
+      "damage_dice": "1d8",
+      "damage_type": "piercing",
+      "properties": [
+        "ammunition",
+        "loading",
+        "two-handed"
+      ],
+      "range_normal": 80,
+      "range_long": 320,
+      "weight": 5,
+      "cost_gp": null,
+      "description": "Simple ranged weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 piercing",
+      "properties_text": "Ammunition (80/320), loading, two-handed",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Dart",
+      "category": "simple",
+      "weapon_type": "ranged",
+      "damage_dice": "1d4",
+      "damage_type": "piercing",
+      "properties": [
+        "finesse",
+        "thrown"
+      ],
+      "range_normal": 20,
+      "range_long": 60,
+      "weight": 0.25,
+      "cost_gp": null,
+      "description": "Simple ranged weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d4 piercing",
+      "properties_text": "Finesse, thrown (20/60)",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Dart",
+      "category": "simple",
+      "weapon_type": "ranged",
+      "damage_dice": "1d4",
+      "damage_type": "piercing",
+      "properties": [
+        "finesse",
+        "thrown"
+      ],
+      "range_normal": 20,
+      "range_long": 60,
+      "weight": 0.25,
+      "cost_gp": null,
+      "description": "Simple ranged weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d4 piercing",
+      "properties_text": "Finesse, thrown (20/60)",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Dart",
+      "category": "simple",
+      "weapon_type": "ranged",
+      "damage_dice": "1d4",
+      "damage_type": "piercing",
+      "properties": [
+        "finesse",
+        "thrown"
+      ],
+      "range_normal": 20,
+      "range_long": 60,
+      "weight": 0.25,
+      "cost_gp": null,
+      "description": "Simple ranged weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d4 piercing",
+      "properties_text": "Finesse, thrown (20/60)",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Shortbow",
+      "category": "simple",
+      "weapon_type": "ranged",
+      "damage_dice": "1d6",
+      "damage_type": "piercing",
+      "properties": [
+        "ammunition",
+        "two-handed"
+      ],
+      "range_normal": 80,
+      "range_long": 320,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Simple ranged weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 piercing",
+      "properties_text": "Ammunition (80/320), two-handed",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Shortbow",
+      "category": "simple",
+      "weapon_type": "ranged",
+      "damage_dice": "1d6",
+      "damage_type": "piercing",
+      "properties": [
+        "ammunition",
+        "two-handed"
+      ],
+      "range_normal": 80,
+      "range_long": 320,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Simple ranged weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 piercing",
+      "properties_text": "Ammunition (80/320), two-handed",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Shortbow",
+      "category": "simple",
+      "weapon_type": "ranged",
+      "damage_dice": "1d6",
+      "damage_type": "piercing",
+      "properties": [
+        "ammunition",
+        "two-handed"
+      ],
+      "range_normal": 80,
+      "range_long": 320,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Simple ranged weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 piercing",
+      "properties_text": "Ammunition (80/320), two-handed",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Sling",
+      "category": "simple",
+      "weapon_type": "ranged",
+      "damage_dice": "1d4",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "ammunition"
+      ],
+      "range_normal": 30,
+      "range_long": 120,
+      "weight": 0,
+      "cost_gp": null,
+      "description": "Simple ranged weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d4 bludgeoning",
+      "properties_text": "Ammunition (30/120)",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Sling",
+      "category": "simple",
+      "weapon_type": "ranged",
+      "damage_dice": "1d4",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "ammunition"
+      ],
+      "range_normal": 30,
+      "range_long": 120,
+      "weight": 0,
+      "cost_gp": null,
+      "description": "Simple ranged weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d4 bludgeoning",
+      "properties_text": "Ammunition (30/120)",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Sling",
+      "category": "simple",
+      "weapon_type": "ranged",
+      "damage_dice": "1d4",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "ammunition"
+      ],
+      "range_normal": 30,
+      "range_long": 120,
+      "weight": 0,
+      "cost_gp": null,
+      "description": "Simple ranged weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d4 bludgeoning",
+      "properties_text": "Ammunition (30/120)",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Battleaxe",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "slashing",
+      "properties": [
+        "versatile"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 4,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 slashing",
+      "properties_text": "Versatile (1d10)",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Battleaxe",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "slashing",
+      "properties": [
+        "versatile"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 4,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 slashing",
+      "properties_text": "Versatile (1d10)",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Battleaxe",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "slashing",
+      "properties": [
+        "versatile"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 4,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 slashing",
+      "properties_text": "Versatile (1d10)",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Flail",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "bludgeoning",
+      "properties": [],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 bludgeoning",
+      "properties_text": "-",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Flail",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "bludgeoning",
+      "properties": [],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 bludgeoning",
+      "properties_text": "-",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Flail",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "bludgeoning",
+      "properties": [],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 bludgeoning",
+      "properties_text": "-",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Glaive",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d10",
+      "damage_type": "slashing",
+      "properties": [
+        "heavy",
+        "reach",
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 6,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d10 slashing",
+      "properties_text": "Heavy, reach, two-handed",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Glaive",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d10",
+      "damage_type": "slashing",
+      "properties": [
+        "heavy",
+        "reach",
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 6,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d10 slashing",
+      "properties_text": "Heavy, reach, two-handed",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Glaive",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d10",
+      "damage_type": "slashing",
+      "properties": [
+        "heavy",
+        "reach",
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 6,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d10 slashing",
+      "properties_text": "Heavy, reach, two-handed",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Greataxe",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d12",
+      "damage_type": "slashing",
+      "properties": [
+        "heavy",
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 7,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d12 slashing",
+      "properties_text": "Heavy, two-handed",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Greataxe",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d12",
+      "damage_type": "slashing",
+      "properties": [
+        "heavy",
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 7,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d12 slashing",
+      "properties_text": "Heavy, two-handed",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Greataxe",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d12",
+      "damage_type": "slashing",
+      "properties": [
+        "heavy",
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 7,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d12 slashing",
+      "properties_text": "Heavy, two-handed",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Greatsword",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "2d6",
+      "damage_type": "slashing",
+      "properties": [
+        "heavy",
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 6,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "2d6 slashing",
+      "properties_text": "Heavy, two-handed",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Greatsword",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "2d6",
+      "damage_type": "slashing",
+      "properties": [
+        "heavy",
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 6,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "2d6 slashing",
+      "properties_text": "Heavy, two-handed",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Greatsword",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "2d6",
+      "damage_type": "slashing",
+      "properties": [
+        "heavy",
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 6,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "2d6 slashing",
+      "properties_text": "Heavy, two-handed",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Halberd",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d10",
+      "damage_type": "slashing",
+      "properties": [
+        "heavy",
+        "reach",
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 6,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d10 slashing",
+      "properties_text": "Heavy, reach, two-handed",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Halberd",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d10",
+      "damage_type": "slashing",
+      "properties": [
+        "heavy",
+        "reach",
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 6,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d10 slashing",
+      "properties_text": "Heavy, reach, two-handed",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Halberd",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d10",
+      "damage_type": "slashing",
+      "properties": [
+        "heavy",
+        "reach",
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 6,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d10 slashing",
+      "properties_text": "Heavy, reach, two-handed",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Lance",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d12",
+      "damage_type": "piercing",
+      "properties": [
+        "reach",
+        "special"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 6,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d12 piercing",
+      "properties_text": "Reach, special",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Lance",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d12",
+      "damage_type": "piercing",
+      "properties": [
+        "reach",
+        "special"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 6,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d12 piercing",
+      "properties_text": "Reach, special",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Lance",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d12",
+      "damage_type": "piercing",
+      "properties": [
+        "reach",
+        "special"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 6,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d12 piercing",
+      "properties_text": "Reach, special",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Longsword",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "slashing",
+      "properties": [
+        "versatile"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 3,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 slashing",
+      "properties_text": "Versatile (1d10)",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Longsword",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "slashing",
+      "properties": [
+        "versatile"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 3,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 slashing",
+      "properties_text": "Versatile (1d10)",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Longsword",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "slashing",
+      "properties": [
+        "versatile"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 3,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 slashing",
+      "properties_text": "Versatile (1d10)",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Maul",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "2d6",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "heavy",
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 10,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "2d6 bludgeoning",
+      "properties_text": "Heavy, two-handed",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Maul",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "2d6",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "heavy",
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 10,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "2d6 bludgeoning",
+      "properties_text": "Heavy, two-handed",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Maul",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "2d6",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "heavy",
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 10,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "2d6 bludgeoning",
+      "properties_text": "Heavy, two-handed",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Morningstar",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "piercing",
+      "properties": [],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 4,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 piercing",
+      "properties_text": "-",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Morningstar",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "piercing",
+      "properties": [],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 4,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 piercing",
+      "properties_text": "-",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Morningstar",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "piercing",
+      "properties": [],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 4,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 piercing",
+      "properties_text": "-",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Pike",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d10",
+      "damage_type": "piercing",
+      "properties": [
+        "heavy",
+        "reach",
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 18,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d10 piercing",
+      "properties_text": "Heavy, reach, two-handed",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Pike",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d10",
+      "damage_type": "piercing",
+      "properties": [
+        "heavy",
+        "reach",
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 18,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d10 piercing",
+      "properties_text": "Heavy, reach, two-handed",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Pike",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d10",
+      "damage_type": "piercing",
+      "properties": [
+        "heavy",
+        "reach",
+        "two-handed"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 18,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d10 piercing",
+      "properties_text": "Heavy, reach, two-handed",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Rapier",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "piercing",
+      "properties": [
+        "finesse"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 piercing",
+      "properties_text": "Finesse",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Rapier",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "piercing",
+      "properties": [
+        "finesse"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 piercing",
+      "properties_text": "Finesse",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Rapier",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "piercing",
+      "properties": [
+        "finesse"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 piercing",
+      "properties_text": "Finesse",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Scimitar",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "slashing",
+      "properties": [
+        "finesse",
+        "light"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 3,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 slashing",
+      "properties_text": "Finesse, light",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Scimitar",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "slashing",
+      "properties": [
+        "finesse",
+        "light"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 3,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 slashing",
+      "properties_text": "Finesse, light",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Scimitar",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "slashing",
+      "properties": [
+        "finesse",
+        "light"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 3,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 slashing",
+      "properties_text": "Finesse, light",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Shortsword",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "piercing",
+      "properties": [
+        "finesse",
+        "light"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 piercing",
+      "properties_text": "Finesse, light",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Shortsword",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "piercing",
+      "properties": [
+        "finesse",
+        "light"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 piercing",
+      "properties_text": "Finesse, light",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Shortsword",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "piercing",
+      "properties": [
+        "finesse",
+        "light"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 piercing",
+      "properties_text": "Finesse, light",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Trident",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "piercing",
+      "properties": [
+        "thrown",
+        "versatile"
+      ],
+      "range_normal": 20,
+      "range_long": 60,
+      "weight": 4,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 piercing",
+      "properties_text": "Thrown (20/60), versatile (1d8)",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Trident",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "piercing",
+      "properties": [
+        "thrown",
+        "versatile"
+      ],
+      "range_normal": 20,
+      "range_long": 60,
+      "weight": 4,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 piercing",
+      "properties_text": "Thrown (20/60), versatile (1d8)",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Trident",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d6",
+      "damage_type": "piercing",
+      "properties": [
+        "thrown",
+        "versatile"
+      ],
+      "range_normal": 20,
+      "range_long": 60,
+      "weight": 4,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 piercing",
+      "properties_text": "Thrown (20/60), versatile (1d8)",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 War Pick",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "piercing",
+      "properties": [],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 piercing",
+      "properties_text": "-",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 War Pick",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "piercing",
+      "properties": [],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 piercing",
+      "properties_text": "-",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 War Pick",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "piercing",
+      "properties": [],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 piercing",
+      "properties_text": "-",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Warhammer",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "versatile"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 bludgeoning",
+      "properties_text": "Versatile (1d10)",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Warhammer",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "versatile"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 bludgeoning",
+      "properties_text": "Versatile (1d10)",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Warhammer",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d8",
+      "damage_type": "bludgeoning",
+      "properties": [
+        "versatile"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 bludgeoning",
+      "properties_text": "Versatile (1d10)",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Whip",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d4",
+      "damage_type": "slashing",
+      "properties": [
+        "finesse",
+        "reach"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 3,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d4 slashing",
+      "properties_text": "Finesse, reach",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Whip",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d4",
+      "damage_type": "slashing",
+      "properties": [
+        "finesse",
+        "reach"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 3,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d4 slashing",
+      "properties_text": "Finesse, reach",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Whip",
+      "category": "martial",
+      "weapon_type": "melee",
+      "damage_dice": "1d4",
+      "damage_type": "slashing",
+      "properties": [
+        "finesse",
+        "reach"
+      ],
+      "range_normal": null,
+      "range_long": null,
+      "weight": 3,
+      "cost_gp": null,
+      "description": "Martial melee weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d4 slashing",
+      "properties_text": "Finesse, reach",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Blowgun",
+      "category": "martial",
+      "weapon_type": "ranged",
+      "damage_dice": "1",
+      "damage_type": "piercing",
+      "properties": [
+        "ammunition",
+        "loading"
+      ],
+      "range_normal": 25,
+      "range_long": 100,
+      "weight": 1,
+      "cost_gp": null,
+      "description": "Martial ranged weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1 piercing",
+      "properties_text": "Ammunition (25/100), loading",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Blowgun",
+      "category": "martial",
+      "weapon_type": "ranged",
+      "damage_dice": "1",
+      "damage_type": "piercing",
+      "properties": [
+        "ammunition",
+        "loading"
+      ],
+      "range_normal": 25,
+      "range_long": 100,
+      "weight": 1,
+      "cost_gp": null,
+      "description": "Martial ranged weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1 piercing",
+      "properties_text": "Ammunition (25/100), loading",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Blowgun",
+      "category": "martial",
+      "weapon_type": "ranged",
+      "damage_dice": "1",
+      "damage_type": "piercing",
+      "properties": [
+        "ammunition",
+        "loading"
+      ],
+      "range_normal": 25,
+      "range_long": 100,
+      "weight": 1,
+      "cost_gp": null,
+      "description": "Martial ranged weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1 piercing",
+      "properties_text": "Ammunition (25/100), loading",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Hand Crossbow",
+      "category": "martial",
+      "weapon_type": "ranged",
+      "damage_dice": "1d6",
+      "damage_type": "piercing",
+      "properties": [
+        "ammunition",
+        "light",
+        "loading"
+      ],
+      "range_normal": 30,
+      "range_long": 120,
+      "weight": 3,
+      "cost_gp": null,
+      "description": "Martial ranged weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 piercing",
+      "properties_text": "Ammunition (30/120), light, loading",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Hand Crossbow",
+      "category": "martial",
+      "weapon_type": "ranged",
+      "damage_dice": "1d6",
+      "damage_type": "piercing",
+      "properties": [
+        "ammunition",
+        "light",
+        "loading"
+      ],
+      "range_normal": 30,
+      "range_long": 120,
+      "weight": 3,
+      "cost_gp": null,
+      "description": "Martial ranged weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 piercing",
+      "properties_text": "Ammunition (30/120), light, loading",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Hand Crossbow",
+      "category": "martial",
+      "weapon_type": "ranged",
+      "damage_dice": "1d6",
+      "damage_type": "piercing",
+      "properties": [
+        "ammunition",
+        "light",
+        "loading"
+      ],
+      "range_normal": 30,
+      "range_long": 120,
+      "weight": 3,
+      "cost_gp": null,
+      "description": "Martial ranged weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d6 piercing",
+      "properties_text": "Ammunition (30/120), light, loading",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Heavy Crossbow",
+      "category": "martial",
+      "weapon_type": "ranged",
+      "damage_dice": "1d10",
+      "damage_type": "piercing",
+      "properties": [
+        "ammunition",
+        "heavy",
+        "loading",
+        "two-handed"
+      ],
+      "range_normal": 100,
+      "range_long": 400,
+      "weight": 18,
+      "cost_gp": null,
+      "description": "Martial ranged weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d10 piercing",
+      "properties_text": "Ammunition (100/400), heavy, loading, two-handed",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Heavy Crossbow",
+      "category": "martial",
+      "weapon_type": "ranged",
+      "damage_dice": "1d10",
+      "damage_type": "piercing",
+      "properties": [
+        "ammunition",
+        "heavy",
+        "loading",
+        "two-handed"
+      ],
+      "range_normal": 100,
+      "range_long": 400,
+      "weight": 18,
+      "cost_gp": null,
+      "description": "Martial ranged weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d10 piercing",
+      "properties_text": "Ammunition (100/400), heavy, loading, two-handed",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Heavy Crossbow",
+      "category": "martial",
+      "weapon_type": "ranged",
+      "damage_dice": "1d10",
+      "damage_type": "piercing",
+      "properties": [
+        "ammunition",
+        "heavy",
+        "loading",
+        "two-handed"
+      ],
+      "range_normal": 100,
+      "range_long": 400,
+      "weight": 18,
+      "cost_gp": null,
+      "description": "Martial ranged weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d10 piercing",
+      "properties_text": "Ammunition (100/400), heavy, loading, two-handed",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Longbow",
+      "category": "martial",
+      "weapon_type": "ranged",
+      "damage_dice": "1d8",
+      "damage_type": "piercing",
+      "properties": [
+        "ammunition",
+        "heavy",
+        "two-handed"
+      ],
+      "range_normal": 150,
+      "range_long": 600,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Martial ranged weapon. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 piercing",
+      "properties_text": "Ammunition (150/600), heavy, two-handed",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Longbow",
+      "category": "martial",
+      "weapon_type": "ranged",
+      "damage_dice": "1d8",
+      "damage_type": "piercing",
+      "properties": [
+        "ammunition",
+        "heavy",
+        "two-handed"
+      ],
+      "range_normal": 150,
+      "range_long": 600,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Martial ranged weapon. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 piercing",
+      "properties_text": "Ammunition (150/600), heavy, two-handed",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Longbow",
+      "category": "martial",
+      "weapon_type": "ranged",
+      "damage_dice": "1d8",
+      "damage_type": "piercing",
+      "properties": [
+        "ammunition",
+        "heavy",
+        "two-handed"
+      ],
+      "range_normal": 150,
+      "range_long": 600,
+      "weight": 2,
+      "cost_gp": null,
+      "description": "Martial ranged weapon. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "1d8 piercing",
+      "properties_text": "Ammunition (150/600), heavy, two-handed",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Net",
+      "category": "martial",
+      "weapon_type": "ranged",
+      "damage_dice": "0",
+      "damage_type": "none",
+      "properties": [
+        "special",
+        "thrown"
+      ],
+      "range_normal": 5,
+      "range_long": 15,
+      "weight": 3,
+      "cost_gp": null,
+      "description": "Martial ranged weapon for restraining targets. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "0 none",
+      "properties_text": "Special, thrown (5/15)",
+      "magic": true,
+      "rarity": "Uncommon",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Net",
+      "category": "martial",
+      "weapon_type": "ranged",
+      "damage_dice": "0",
+      "damage_type": "none",
+      "properties": [
+        "special",
+        "thrown"
+      ],
+      "range_normal": 5,
+      "range_long": 15,
+      "weight": 3,
+      "cost_gp": null,
+      "description": "Martial ranged weapon for restraining targets. You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "0 none",
+      "properties_text": "Special, thrown (5/15)",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Net",
+      "category": "martial",
+      "weapon_type": "ranged",
+      "damage_dice": "0",
+      "damage_type": "none",
+      "properties": [
+        "special",
+        "thrown"
+      ],
+      "range_normal": 5,
+      "range_long": 15,
+      "weight": 3,
+      "cost_gp": null,
+      "description": "Martial ranged weapon for restraining targets. You have a +3 bonus to attack and damage rolls made with this magic weapon.",
+      "damage": "0 none",
+      "properties_text": "Special, thrown (5/15)",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Padded Armor",
+      "category": "armor",
+      "armor_type": "light",
+      "base_ac": 12,
+      "dex_cap": null,
+      "str_requirement": 0,
+      "stealth_disadvantage": true,
+      "weight": 8,
+      "cost_gp": null,
+      "description": "Light armor. AC 11 + DEX; stealth disadvantage. You have a +1 bonus to AC while wearing this magic armor.",
+      "ac": 12,
+      "type": "light",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Padded Armor",
+      "category": "armor",
+      "armor_type": "light",
+      "base_ac": 13,
+      "dex_cap": null,
+      "str_requirement": 0,
+      "stealth_disadvantage": true,
+      "weight": 8,
+      "cost_gp": null,
+      "description": "Light armor. AC 11 + DEX; stealth disadvantage. You have a +2 bonus to AC while wearing this magic armor.",
+      "ac": 13,
+      "type": "light",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Padded Armor",
+      "category": "armor",
+      "armor_type": "light",
+      "base_ac": 14,
+      "dex_cap": null,
+      "str_requirement": 0,
+      "stealth_disadvantage": true,
+      "weight": 8,
+      "cost_gp": null,
+      "description": "Light armor. AC 11 + DEX; stealth disadvantage. You have a +3 bonus to AC while wearing this magic armor.",
+      "ac": 14,
+      "type": "light",
+      "magic": true,
+      "rarity": "Legendary",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Leather Armor",
+      "category": "armor",
+      "armor_type": "light",
+      "base_ac": 12,
+      "dex_cap": null,
+      "str_requirement": 0,
+      "stealth_disadvantage": false,
+      "weight": 10,
+      "cost_gp": null,
+      "description": "Light armor. AC 11 + DEX. You have a +1 bonus to AC while wearing this magic armor.",
+      "ac": 12,
+      "type": "light",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Leather Armor",
+      "category": "armor",
+      "armor_type": "light",
+      "base_ac": 13,
+      "dex_cap": null,
+      "str_requirement": 0,
+      "stealth_disadvantage": false,
+      "weight": 10,
+      "cost_gp": null,
+      "description": "Light armor. AC 11 + DEX. You have a +2 bonus to AC while wearing this magic armor.",
+      "ac": 13,
+      "type": "light",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Leather Armor",
+      "category": "armor",
+      "armor_type": "light",
+      "base_ac": 14,
+      "dex_cap": null,
+      "str_requirement": 0,
+      "stealth_disadvantage": false,
+      "weight": 10,
+      "cost_gp": null,
+      "description": "Light armor. AC 11 + DEX. You have a +3 bonus to AC while wearing this magic armor.",
+      "ac": 14,
+      "type": "light",
+      "magic": true,
+      "rarity": "Legendary",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Studded Leather",
+      "category": "armor",
+      "armor_type": "light",
+      "base_ac": 13,
+      "dex_cap": null,
+      "str_requirement": 0,
+      "stealth_disadvantage": false,
+      "weight": 13,
+      "cost_gp": null,
+      "description": "Light armor. AC 12 + DEX. You have a +1 bonus to AC while wearing this magic armor.",
+      "ac": 13,
+      "type": "light",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Studded Leather",
+      "category": "armor",
+      "armor_type": "light",
+      "base_ac": 14,
+      "dex_cap": null,
+      "str_requirement": 0,
+      "stealth_disadvantage": false,
+      "weight": 13,
+      "cost_gp": null,
+      "description": "Light armor. AC 12 + DEX. You have a +2 bonus to AC while wearing this magic armor.",
+      "ac": 14,
+      "type": "light",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Studded Leather",
+      "category": "armor",
+      "armor_type": "light",
+      "base_ac": 15,
+      "dex_cap": null,
+      "str_requirement": 0,
+      "stealth_disadvantage": false,
+      "weight": 13,
+      "cost_gp": null,
+      "description": "Light armor. AC 12 + DEX. You have a +3 bonus to AC while wearing this magic armor.",
+      "ac": 15,
+      "type": "light",
+      "magic": true,
+      "rarity": "Legendary",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Hide Armor",
+      "category": "armor",
+      "armor_type": "medium",
+      "base_ac": 13,
+      "dex_cap": 2,
+      "str_requirement": 0,
+      "stealth_disadvantage": false,
+      "weight": 12,
+      "cost_gp": null,
+      "description": "Medium armor. AC 12 + DEX (max +2). You have a +1 bonus to AC while wearing this magic armor.",
+      "ac": 13,
+      "type": "medium",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Hide Armor",
+      "category": "armor",
+      "armor_type": "medium",
+      "base_ac": 14,
+      "dex_cap": 2,
+      "str_requirement": 0,
+      "stealth_disadvantage": false,
+      "weight": 12,
+      "cost_gp": null,
+      "description": "Medium armor. AC 12 + DEX (max +2). You have a +2 bonus to AC while wearing this magic armor.",
+      "ac": 14,
+      "type": "medium",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Hide Armor",
+      "category": "armor",
+      "armor_type": "medium",
+      "base_ac": 15,
+      "dex_cap": 2,
+      "str_requirement": 0,
+      "stealth_disadvantage": false,
+      "weight": 12,
+      "cost_gp": null,
+      "description": "Medium armor. AC 12 + DEX (max +2). You have a +3 bonus to AC while wearing this magic armor.",
+      "ac": 15,
+      "type": "medium",
+      "magic": true,
+      "rarity": "Legendary",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Chain Shirt",
+      "category": "armor",
+      "armor_type": "medium",
+      "base_ac": 14,
+      "dex_cap": 2,
+      "str_requirement": 0,
+      "stealth_disadvantage": false,
+      "weight": 20,
+      "cost_gp": null,
+      "description": "Medium armor. AC 13 + DEX (max +2). You have a +1 bonus to AC while wearing this magic armor.",
+      "ac": 14,
+      "type": "medium",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Chain Shirt",
+      "category": "armor",
+      "armor_type": "medium",
+      "base_ac": 15,
+      "dex_cap": 2,
+      "str_requirement": 0,
+      "stealth_disadvantage": false,
+      "weight": 20,
+      "cost_gp": null,
+      "description": "Medium armor. AC 13 + DEX (max +2). You have a +2 bonus to AC while wearing this magic armor.",
+      "ac": 15,
+      "type": "medium",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Chain Shirt",
+      "category": "armor",
+      "armor_type": "medium",
+      "base_ac": 16,
+      "dex_cap": 2,
+      "str_requirement": 0,
+      "stealth_disadvantage": false,
+      "weight": 20,
+      "cost_gp": null,
+      "description": "Medium armor. AC 13 + DEX (max +2). You have a +3 bonus to AC while wearing this magic armor.",
+      "ac": 16,
+      "type": "medium",
+      "magic": true,
+      "rarity": "Legendary",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Scale Mail",
+      "category": "armor",
+      "armor_type": "medium",
+      "base_ac": 15,
+      "dex_cap": 2,
+      "str_requirement": 0,
+      "stealth_disadvantage": true,
+      "weight": 45,
+      "cost_gp": null,
+      "description": "Medium armor. AC 14 + DEX (max +2); stealth disadvantage. You have a +1 bonus to AC while wearing this magic armor.",
+      "ac": 15,
+      "type": "medium",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Scale Mail",
+      "category": "armor",
+      "armor_type": "medium",
+      "base_ac": 16,
+      "dex_cap": 2,
+      "str_requirement": 0,
+      "stealth_disadvantage": true,
+      "weight": 45,
+      "cost_gp": null,
+      "description": "Medium armor. AC 14 + DEX (max +2); stealth disadvantage. You have a +2 bonus to AC while wearing this magic armor.",
+      "ac": 16,
+      "type": "medium",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Scale Mail",
+      "category": "armor",
+      "armor_type": "medium",
+      "base_ac": 17,
+      "dex_cap": 2,
+      "str_requirement": 0,
+      "stealth_disadvantage": true,
+      "weight": 45,
+      "cost_gp": null,
+      "description": "Medium armor. AC 14 + DEX (max +2); stealth disadvantage. You have a +3 bonus to AC while wearing this magic armor.",
+      "ac": 17,
+      "type": "medium",
+      "magic": true,
+      "rarity": "Legendary",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Breastplate",
+      "category": "armor",
+      "armor_type": "medium",
+      "base_ac": 15,
+      "dex_cap": 2,
+      "str_requirement": 0,
+      "stealth_disadvantage": false,
+      "weight": 20,
+      "cost_gp": null,
+      "description": "Medium armor. AC 14 + DEX (max +2). You have a +1 bonus to AC while wearing this magic armor.",
+      "ac": 15,
+      "type": "medium",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Breastplate",
+      "category": "armor",
+      "armor_type": "medium",
+      "base_ac": 16,
+      "dex_cap": 2,
+      "str_requirement": 0,
+      "stealth_disadvantage": false,
+      "weight": 20,
+      "cost_gp": null,
+      "description": "Medium armor. AC 14 + DEX (max +2). You have a +2 bonus to AC while wearing this magic armor.",
+      "ac": 16,
+      "type": "medium",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Breastplate",
+      "category": "armor",
+      "armor_type": "medium",
+      "base_ac": 17,
+      "dex_cap": 2,
+      "str_requirement": 0,
+      "stealth_disadvantage": false,
+      "weight": 20,
+      "cost_gp": null,
+      "description": "Medium armor. AC 14 + DEX (max +2). You have a +3 bonus to AC while wearing this magic armor.",
+      "ac": 17,
+      "type": "medium",
+      "magic": true,
+      "rarity": "Legendary",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Half Plate",
+      "category": "armor",
+      "armor_type": "medium",
+      "base_ac": 16,
+      "dex_cap": 2,
+      "str_requirement": 0,
+      "stealth_disadvantage": true,
+      "weight": 40,
+      "cost_gp": null,
+      "description": "Medium armor. AC 15 + DEX (max +2); stealth disadvantage. You have a +1 bonus to AC while wearing this magic armor.",
+      "ac": 16,
+      "type": "medium",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Half Plate",
+      "category": "armor",
+      "armor_type": "medium",
+      "base_ac": 17,
+      "dex_cap": 2,
+      "str_requirement": 0,
+      "stealth_disadvantage": true,
+      "weight": 40,
+      "cost_gp": null,
+      "description": "Medium armor. AC 15 + DEX (max +2); stealth disadvantage. You have a +2 bonus to AC while wearing this magic armor.",
+      "ac": 17,
+      "type": "medium",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Half Plate",
+      "category": "armor",
+      "armor_type": "medium",
+      "base_ac": 18,
+      "dex_cap": 2,
+      "str_requirement": 0,
+      "stealth_disadvantage": true,
+      "weight": 40,
+      "cost_gp": null,
+      "description": "Medium armor. AC 15 + DEX (max +2); stealth disadvantage. You have a +3 bonus to AC while wearing this magic armor.",
+      "ac": 18,
+      "type": "medium",
+      "magic": true,
+      "rarity": "Legendary",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Ring Mail",
+      "category": "armor",
+      "armor_type": "heavy",
+      "base_ac": 15,
+      "dex_cap": 0,
+      "str_requirement": 0,
+      "stealth_disadvantage": true,
+      "weight": 40,
+      "cost_gp": null,
+      "description": "Heavy armor. AC 14; stealth disadvantage. You have a +1 bonus to AC while wearing this magic armor.",
+      "ac": 15,
+      "type": "heavy",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Ring Mail",
+      "category": "armor",
+      "armor_type": "heavy",
+      "base_ac": 16,
+      "dex_cap": 0,
+      "str_requirement": 0,
+      "stealth_disadvantage": true,
+      "weight": 40,
+      "cost_gp": null,
+      "description": "Heavy armor. AC 14; stealth disadvantage. You have a +2 bonus to AC while wearing this magic armor.",
+      "ac": 16,
+      "type": "heavy",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Ring Mail",
+      "category": "armor",
+      "armor_type": "heavy",
+      "base_ac": 17,
+      "dex_cap": 0,
+      "str_requirement": 0,
+      "stealth_disadvantage": true,
+      "weight": 40,
+      "cost_gp": null,
+      "description": "Heavy armor. AC 14; stealth disadvantage. You have a +3 bonus to AC while wearing this magic armor.",
+      "ac": 17,
+      "type": "heavy",
+      "magic": true,
+      "rarity": "Legendary",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Chain Mail",
+      "category": "armor",
+      "armor_type": "heavy",
+      "base_ac": 17,
+      "dex_cap": 0,
+      "str_requirement": 13,
+      "stealth_disadvantage": true,
+      "weight": 55,
+      "cost_gp": null,
+      "description": "Heavy armor. AC 16; STR 13; stealth disadvantage. You have a +1 bonus to AC while wearing this magic armor.",
+      "ac": 17,
+      "type": "heavy",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Chain Mail",
+      "category": "armor",
+      "armor_type": "heavy",
+      "base_ac": 18,
+      "dex_cap": 0,
+      "str_requirement": 13,
+      "stealth_disadvantage": true,
+      "weight": 55,
+      "cost_gp": null,
+      "description": "Heavy armor. AC 16; STR 13; stealth disadvantage. You have a +2 bonus to AC while wearing this magic armor.",
+      "ac": 18,
+      "type": "heavy",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Chain Mail",
+      "category": "armor",
+      "armor_type": "heavy",
+      "base_ac": 19,
+      "dex_cap": 0,
+      "str_requirement": 13,
+      "stealth_disadvantage": true,
+      "weight": 55,
+      "cost_gp": null,
+      "description": "Heavy armor. AC 16; STR 13; stealth disadvantage. You have a +3 bonus to AC while wearing this magic armor.",
+      "ac": 19,
+      "type": "heavy",
+      "magic": true,
+      "rarity": "Legendary",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Splint",
+      "category": "armor",
+      "armor_type": "heavy",
+      "base_ac": 18,
+      "dex_cap": 0,
+      "str_requirement": 15,
+      "stealth_disadvantage": true,
+      "weight": 60,
+      "cost_gp": null,
+      "description": "Heavy armor. AC 17; STR 15; stealth disadvantage. You have a +1 bonus to AC while wearing this magic armor.",
+      "ac": 18,
+      "type": "heavy",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Splint",
+      "category": "armor",
+      "armor_type": "heavy",
+      "base_ac": 19,
+      "dex_cap": 0,
+      "str_requirement": 15,
+      "stealth_disadvantage": true,
+      "weight": 60,
+      "cost_gp": null,
+      "description": "Heavy armor. AC 17; STR 15; stealth disadvantage. You have a +2 bonus to AC while wearing this magic armor.",
+      "ac": 19,
+      "type": "heavy",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Splint",
+      "category": "armor",
+      "armor_type": "heavy",
+      "base_ac": 20,
+      "dex_cap": 0,
+      "str_requirement": 15,
+      "stealth_disadvantage": true,
+      "weight": 60,
+      "cost_gp": null,
+      "description": "Heavy armor. AC 17; STR 15; stealth disadvantage. You have a +3 bonus to AC while wearing this magic armor.",
+      "ac": 20,
+      "type": "heavy",
+      "magic": true,
+      "rarity": "Legendary",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Plate",
+      "category": "armor",
+      "armor_type": "heavy",
+      "base_ac": 19,
+      "dex_cap": 0,
+      "str_requirement": 15,
+      "stealth_disadvantage": true,
+      "weight": 65,
+      "cost_gp": null,
+      "description": "Heavy armor. AC 18; STR 15; stealth disadvantage. You have a +1 bonus to AC while wearing this magic armor.",
+      "ac": 19,
+      "type": "heavy",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Plate",
+      "category": "armor",
+      "armor_type": "heavy",
+      "base_ac": 20,
+      "dex_cap": 0,
+      "str_requirement": 15,
+      "stealth_disadvantage": true,
+      "weight": 65,
+      "cost_gp": null,
+      "description": "Heavy armor. AC 18; STR 15; stealth disadvantage. You have a +2 bonus to AC while wearing this magic armor.",
+      "ac": 20,
+      "type": "heavy",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Plate",
+      "category": "armor",
+      "armor_type": "heavy",
+      "base_ac": 21,
+      "dex_cap": 0,
+      "str_requirement": 15,
+      "stealth_disadvantage": true,
+      "weight": 65,
+      "cost_gp": null,
+      "description": "Heavy armor. AC 18; STR 15; stealth disadvantage. You have a +3 bonus to AC while wearing this magic armor.",
+      "ac": 21,
+      "type": "heavy",
+      "magic": true,
+      "rarity": "Legendary",
+      "bonus": 3
+    },
+    {
+      "name": "+1 Shield",
+      "category": "armor",
+      "armor_type": "shield",
+      "base_ac": 3,
+      "dex_cap": null,
+      "str_requirement": 0,
+      "stealth_disadvantage": false,
+      "weight": 6,
+      "cost_gp": null,
+      "description": "A shield provides +2 AC while wielded. You have a +1 bonus to AC while wearing this magic armor.",
+      "ac": 3,
+      "type": "shield",
+      "magic": true,
+      "rarity": "Rare",
+      "bonus": 1
+    },
+    {
+      "name": "+2 Shield",
+      "category": "armor",
+      "armor_type": "shield",
+      "base_ac": 4,
+      "dex_cap": null,
+      "str_requirement": 0,
+      "stealth_disadvantage": false,
+      "weight": 6,
+      "cost_gp": null,
+      "description": "A shield provides +2 AC while wielded. You have a +2 bonus to AC while wearing this magic armor.",
+      "ac": 4,
+      "type": "shield",
+      "magic": true,
+      "rarity": "Very Rare",
+      "bonus": 2
+    },
+    {
+      "name": "+3 Shield",
+      "category": "armor",
+      "armor_type": "shield",
+      "base_ac": 5,
+      "dex_cap": null,
+      "str_requirement": 0,
+      "stealth_disadvantage": false,
+      "weight": 6,
+      "cost_gp": null,
+      "description": "A shield provides +2 AC while wielded. You have a +3 bonus to AC while wearing this magic armor.",
+      "ac": 5,
+      "type": "shield",
+      "magic": true,
+      "rarity": "Legendary",
+      "bonus": 3
+    },
+    {
+      "name": "Bag of Holding",
+      "category": "wondrous",
+      "rarity": "Uncommon",
+      "description": "This bag has an interior space considerably larger than its outside dimensions.",
+      "attunement": false,
+      "weight": 15
+    },
+    {
+      "name": "Cloak of Protection",
+      "category": "wondrous",
+      "rarity": "Uncommon",
+      "description": "You gain a +1 bonus to AC and saving throws while you wear this cloak.",
+      "attunement": true,
+      "weight": 1
+    },
+    {
+      "name": "Ring of Protection",
+      "category": "ring",
+      "rarity": "Rare",
+      "description": "You gain a +1 bonus to AC and saving throws while wearing this ring.",
+      "attunement": true,
+      "weight": 0
+    },
+    {
+      "name": "Boots of Elvenkind",
+      "category": "wondrous",
+      "rarity": "Uncommon",
+      "description": "While you wear these boots, your steps make no sound.",
+      "attunement": false,
+      "weight": 1
+    },
+    {
+      "name": "Wand of Magic Missiles",
+      "category": "wand",
+      "rarity": "Uncommon",
+      "description": "This wand has 7 charges. While holding it, you can use an action to expend 1 to 3 of its charges to cast the magic missile spell.",
+      "attunement": false,
+      "weight": 1
+    },
+    {
+      "name": "Amulet of Health",
+      "category": "wondrous",
+      "rarity": "Rare",
+      "description": "Your Constitution score is 19 while you wear this amulet.",
+      "attunement": true,
+      "weight": 1
+    },
+    {
+      "name": "Staff of the Magi",
+      "category": "staff",
+      "rarity": "Legendary",
+      "description": "This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls.",
+      "attunement": true,
+      "weight": 4
+    }
+  ]
+}

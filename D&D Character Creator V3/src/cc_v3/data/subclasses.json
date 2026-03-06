@@ -1,0 +1,170 @@
+{
+  "Barbarian": [
+    {
+      "name": "Path of the Berserker",
+      "unlock_level": 3,
+      "description": "A primal path centered on unstoppable fury and punishing melee pressure.",
+      "feature_summary": "Frenzy at 3rd level for an extra melee attack while raging."
+    },
+    {
+      "name": "Path of the Totem Warrior",
+      "unlock_level": 3,
+      "description": "A spiritual path that bonds you to totem spirits for situational resilience.",
+      "feature_summary": "Spirit Seeker and Totem Spirit choices begin at 3rd level."
+    }
+  ],
+  "Bard": [
+    {
+      "name": "College of Lore",
+      "unlock_level": 3,
+      "description": "A scholar-performer tradition focused on knowledge and cutting words.",
+      "feature_summary": "Bonus proficiencies and Cutting Words at 3rd level."
+    },
+    {
+      "name": "College of Valor",
+      "unlock_level": 3,
+      "description": "A martial bardic college blending inspiration with frontline combat.",
+      "feature_summary": "Medium armor, shields, martial weapons, and Combat Inspiration."
+    }
+  ],
+  "Cleric": [
+    {
+      "name": "Life Domain",
+      "unlock_level": 1,
+      "description": "Divine service focused on healing and sustaining allies.",
+      "feature_summary": "Bonus healing and heavy armor proficiency at early levels."
+    },
+    {
+      "name": "Light Domain",
+      "unlock_level": 1,
+      "description": "A radiant domain emphasizing fire, light, and protective brilliance.",
+      "feature_summary": "Warding Flare provides defensive reaction utility."
+    }
+  ],
+  "Druid": [
+    {
+      "name": "Circle of the Land",
+      "unlock_level": 2,
+      "description": "A circle of versatile spellcasters aligned to natural terrains.",
+      "feature_summary": "Natural Recovery improves spell slot endurance."
+    },
+    {
+      "name": "Circle of the Moon",
+      "unlock_level": 2,
+      "description": "A shapechanging-focused circle that empowers Wild Shape combat use.",
+      "feature_summary": "Combat Wild Shape and stronger beast forms early."
+    }
+  ],
+  "Fighter": [
+    {
+      "name": "Champion",
+      "unlock_level": 3,
+      "description": "A straightforward archetype emphasizing physical excellence and critical hits.",
+      "feature_summary": "Improved Critical increases crit range to 19-20."
+    },
+    {
+      "name": "Battle Master",
+      "unlock_level": 3,
+      "description": "A tactical fighter using maneuvers and superiority dice.",
+      "feature_summary": "Combat Superiority and Student of War at 3rd level."
+    }
+  ],
+  "Monk": [
+    {
+      "name": "Way of the Open Hand",
+      "unlock_level": 3,
+      "description": "A disciplined style focused on precision strikes and battlefield control.",
+      "feature_summary": "Open Hand Technique augments Flurry of Blows."
+    },
+    {
+      "name": "Way of Shadow",
+      "unlock_level": 3,
+      "description": "A stealth-focused monastic path with darkness and infiltration themes.",
+      "feature_summary": "Shadow Arts expands utility through ki-powered spells."
+    }
+  ],
+  "Paladin": [
+    {
+      "name": "Oath of Devotion",
+      "unlock_level": 3,
+      "description": "A sacred oath of virtue, honesty, and courage.",
+      "feature_summary": "Holy themes and defensive aura progression."
+    },
+    {
+      "name": "Oath of the Ancients",
+      "unlock_level": 3,
+      "description": "A nature-infused oath defending light and life.",
+      "feature_summary": "Nature-themed spells and anti-magic defenses over time."
+    }
+  ],
+  "Ranger": [
+    {
+      "name": "Hunter",
+      "unlock_level": 3,
+      "description": "A pragmatic archetype for relentless pursuit and target elimination.",
+      "feature_summary": "Choose offensive or defensive hunter tactics at 3rd level."
+    },
+    {
+      "name": "Beast Master",
+      "unlock_level": 3,
+      "description": "A bonded ranger who fights alongside an animal companion.",
+      "feature_summary": "Ranger's Companion establishes a combat partner."
+    }
+  ],
+  "Rogue": [
+    {
+      "name": "Thief",
+      "unlock_level": 3,
+      "description": "An agile rogue focused on mobility, infiltration, and object use.",
+      "feature_summary": "Fast Hands and Second-Story Work at 3rd level."
+    },
+    {
+      "name": "Assassin",
+      "unlock_level": 3,
+      "description": "A lethal rogue archetype built around surprise and precision kills.",
+      "feature_summary": "Assassinate improves first-strike combat impact."
+    }
+  ],
+  "Sorcerer": [
+    {
+      "name": "Draconic Bloodline",
+      "unlock_level": 1,
+      "description": "Innate magic tied to draconic ancestry and resilience.",
+      "feature_summary": "Extra HP and enhanced AC scaling through draconic heritage."
+    },
+    {
+      "name": "Wild Magic",
+      "unlock_level": 1,
+      "description": "Unstable arcane talent with chaotic magical surges.",
+      "feature_summary": "Wild Magic Surge and Tides of Chaos at early levels."
+    }
+  ],
+  "Warlock": [
+    {
+      "name": "The Fiend",
+      "unlock_level": 1,
+      "description": "A pact with infernal power granting survivability and destructive spells.",
+      "feature_summary": "Dark One's Blessing grants temporary hit points on takedowns."
+    },
+    {
+      "name": "The Archfey",
+      "unlock_level": 1,
+      "description": "A pact with fey entities emphasizing charm and trickery.",
+      "feature_summary": "Fey Presence offers short-range control effects."
+    }
+  ],
+  "Wizard": [
+    {
+      "name": "School of Evocation",
+      "unlock_level": 2,
+      "description": "Specialization in explosive elemental and force-based spellcraft.",
+      "feature_summary": "Sculpt Spells protects allies from your area effects."
+    },
+    {
+      "name": "School of Abjuration",
+      "unlock_level": 2,
+      "description": "Specialization in wards, barriers, and anti-magic techniques.",
+      "feature_summary": "Arcane Ward provides scalable protective buffering."
+    }
+  ]
+}

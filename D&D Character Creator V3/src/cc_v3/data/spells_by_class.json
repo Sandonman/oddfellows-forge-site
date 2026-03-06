@@ -1,0 +1,493 @@
+{
+  "Barbarian": {
+    "0": [],
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": []
+  },
+  "Bard": {
+    "0": [
+      "Blade Ward",
+      "Dancing Lights",
+      "Light",
+      "Mage Hand",
+      "Mending",
+      "Minor Illusion",
+      "Prestidigitation",
+      "True Strike",
+      "Vicious Mockery"
+    ],
+    "1": [
+      "Charm Person",
+      "Cure Wounds",
+      "Detect Magic",
+      "Faerie Fire",
+      "Healing Word",
+      "Sleep"
+    ],
+    "2": [
+      "Hold Person",
+      "Invisibility",
+      "Lesser Restoration"
+    ],
+    "3": [
+      "Dispel Magic"
+    ],
+    "4": [
+      "Dimension Door",
+      "Freedom of Movement",
+      "Greater Invisibility",
+      "Polymorph"
+    ],
+    "5": [
+      "Greater Restoration",
+      "Hold Monster",
+      "Mass Cure Wounds",
+      "Raise Dead",
+      "Scrying"
+    ],
+    "6": [
+      "Mass Suggestion",
+      "True Seeing"
+    ],
+    "7": [
+      "Regenerate",
+      "Resurrection",
+      "Symbol",
+      "Teleport"
+    ],
+    "8": [
+      "Dominate Monster",
+      "Feeblemind",
+      "Glibness",
+      "Power Word Stun"
+    ],
+    "9": [
+      "Foresight",
+      "Power Word Kill"
+    ]
+  },
+  "Cleric": {
+    "0": [
+      "Guidance",
+      "Light",
+      "Mending",
+      "Resistance",
+      "Sacred Flame",
+      "Thaumaturgy"
+    ],
+    "1": [
+      "Bless",
+      "Cure Wounds",
+      "Detect Magic",
+      "Guiding Bolt",
+      "Healing Word"
+    ],
+    "2": [
+      "Aid",
+      "Hold Person",
+      "Lesser Restoration",
+      "Spiritual Weapon"
+    ],
+    "3": [
+      "Dispel Magic",
+      "Revivify",
+      "Spirit Guardians"
+    ],
+    "4": [
+      "Banishment",
+      "Freedom of Movement"
+    ],
+    "5": [
+      "Flame Strike",
+      "Greater Restoration",
+      "Mass Cure Wounds",
+      "Raise Dead",
+      "Scrying"
+    ],
+    "6": [
+      "Blade Barrier",
+      "Heal",
+      "Heroes' Feast",
+      "True Seeing"
+    ],
+    "7": [
+      "Fire Storm",
+      "Plane Shift",
+      "Regenerate",
+      "Resurrection",
+      "Symbol"
+    ],
+    "8": [
+      "Earthquake",
+      "Holy Aura"
+    ],
+    "9": [
+      "Gate",
+      "Mass Heal",
+      "True Resurrection"
+    ]
+  },
+  "Druid": {
+    "0": [
+      "Guidance",
+      "Mending",
+      "Poison Spray",
+      "Produce Flame",
+      "Resistance",
+      "Shillelagh"
+    ],
+    "1": [
+      "Charm Person",
+      "Cure Wounds",
+      "Detect Magic",
+      "Faerie Fire",
+      "Healing Word"
+    ],
+    "2": [
+      "Hold Person",
+      "Lesser Restoration"
+    ],
+    "3": [
+      "Dispel Magic"
+    ],
+    "4": [
+      "Freedom of Movement",
+      "Ice Storm",
+      "Polymorph",
+      "Stoneskin",
+      "Wall of Fire"
+    ],
+    "5": [
+      "Greater Restoration",
+      "Mass Cure Wounds",
+      "Scrying"
+    ],
+    "6": [
+      "Heal",
+      "Heroes' Feast",
+      "Sunbeam",
+      "True Seeing"
+    ],
+    "7": [
+      "Fire Storm",
+      "Plane Shift",
+      "Regenerate",
+      "Reverse Gravity"
+    ],
+    "8": [
+      "Earthquake",
+      "Feeblemind",
+      "Sunburst"
+    ],
+    "9": [
+      "Foresight",
+      "True Resurrection"
+    ]
+  },
+  "Fighter": {
+    "0": [],
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": []
+  },
+  "Monk": {
+    "0": [],
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": []
+  },
+  "Paladin": {
+    "0": [],
+    "1": [
+      "Bless",
+      "Cure Wounds",
+      "Detect Magic"
+    ],
+    "2": [
+      "Aid",
+      "Lesser Restoration"
+    ],
+    "3": [
+      "Dispel Magic",
+      "Revivify"
+    ],
+    "4": [
+      "Banishment"
+    ],
+    "5": [
+      "Raise Dead"
+    ],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": []
+  },
+  "Ranger": {
+    "0": [],
+    "1": [
+      "Cure Wounds",
+      "Detect Magic",
+      "Hunter's Mark"
+    ],
+    "2": [
+      "Lesser Restoration"
+    ],
+    "3": [],
+    "4": [
+      "Freedom of Movement",
+      "Stoneskin"
+    ],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": []
+  },
+  "Rogue": {
+    "0": [],
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": []
+  },
+  "Sorcerer": {
+    "0": [
+      "Acid Splash",
+      "Blade Ward",
+      "Chill Touch",
+      "Dancing Lights",
+      "Fire Bolt",
+      "Light",
+      "Mage Hand",
+      "Mending",
+      "Minor Illusion",
+      "Poison Spray",
+      "Prestidigitation",
+      "Ray of Frost",
+      "Shocking Grasp",
+      "True Strike"
+    ],
+    "1": [
+      "Burning Hands",
+      "Charm Person",
+      "Detect Magic",
+      "Mage Armor",
+      "Magic Missile",
+      "Shield",
+      "Sleep"
+    ],
+    "2": [
+      "Darkness",
+      "Hold Person",
+      "Invisibility",
+      "Misty Step",
+      "Scorching Ray"
+    ],
+    "3": [
+      "Counterspell",
+      "Dispel Magic",
+      "Fireball",
+      "Fly",
+      "Haste",
+      "Lightning Bolt"
+    ],
+    "4": [
+      "Banishment",
+      "Dimension Door",
+      "Greater Invisibility",
+      "Ice Storm",
+      "Polymorph",
+      "Stoneskin",
+      "Wall of Fire"
+    ],
+    "5": [
+      "Cone of Cold",
+      "Hold Monster"
+    ],
+    "6": [
+      "Chain Lightning",
+      "Disintegrate",
+      "Mass Suggestion",
+      "Sunbeam",
+      "True Seeing"
+    ],
+    "7": [
+      "Fire Storm",
+      "Plane Shift",
+      "Reverse Gravity",
+      "Teleport"
+    ],
+    "8": [
+      "Dominate Monster",
+      "Earthquake",
+      "Power Word Stun",
+      "Sunburst"
+    ],
+    "9": [
+      "Gate",
+      "Meteor Swarm",
+      "Power Word Kill",
+      "Wish"
+    ]
+  },
+  "Warlock": {
+    "0": [
+      "Blade Ward",
+      "Chill Touch",
+      "Eldritch Blast",
+      "Mage Hand",
+      "Minor Illusion",
+      "Poison Spray",
+      "Prestidigitation",
+      "True Strike"
+    ],
+    "1": [
+      "Charm Person",
+      "Hex"
+    ],
+    "2": [
+      "Darkness",
+      "Hold Person",
+      "Invisibility",
+      "Misty Step"
+    ],
+    "3": [
+      "Counterspell",
+      "Dispel Magic",
+      "Fly"
+    ],
+    "4": [
+      "Banishment",
+      "Dimension Door"
+    ],
+    "5": [
+      "Hold Monster",
+      "Scrying"
+    ],
+    "6": [
+      "Mass Suggestion",
+      "True Seeing"
+    ],
+    "7": [
+      "Plane Shift"
+    ],
+    "8": [
+      "Dominate Monster",
+      "Feeblemind",
+      "Glibness",
+      "Power Word Stun"
+    ],
+    "9": [
+      "Foresight",
+      "Gate",
+      "Power Word Kill"
+    ]
+  },
+  "Wizard": {
+    "0": [
+      "Acid Splash",
+      "Blade Ward",
+      "Chill Touch",
+      "Dancing Lights",
+      "Fire Bolt",
+      "Light",
+      "Mage Hand",
+      "Mending",
+      "Minor Illusion",
+      "Poison Spray",
+      "Prestidigitation",
+      "Ray of Frost",
+      "Shocking Grasp",
+      "True Strike"
+    ],
+    "1": [
+      "Burning Hands",
+      "Charm Person",
+      "Detect Magic",
+      "Mage Armor",
+      "Magic Missile",
+      "Shield",
+      "Sleep"
+    ],
+    "2": [
+      "Darkness",
+      "Hold Person",
+      "Invisibility",
+      "Misty Step",
+      "Scorching Ray"
+    ],
+    "3": [
+      "Counterspell",
+      "Dispel Magic",
+      "Fireball",
+      "Fly",
+      "Haste",
+      "Lightning Bolt"
+    ],
+    "4": [
+      "Banishment",
+      "Dimension Door",
+      "Greater Invisibility",
+      "Ice Storm",
+      "Polymorph",
+      "Stoneskin",
+      "Wall of Fire"
+    ],
+    "5": [
+      "Cone of Cold",
+      "Hold Monster",
+      "Scrying",
+      "Wall of Force"
+    ],
+    "6": [
+      "Chain Lightning",
+      "Disintegrate",
+      "Mass Suggestion",
+      "Sunbeam",
+      "True Seeing"
+    ],
+    "7": [
+      "Plane Shift",
+      "Reverse Gravity",
+      "Symbol",
+      "Teleport"
+    ],
+    "8": [
+      "Dominate Monster",
+      "Feeblemind",
+      "Power Word Stun",
+      "Sunburst"
+    ],
+    "9": [
+      "Foresight",
+      "Gate",
+      "Meteor Swarm",
+      "Power Word Kill",
+      "Wish"
+    ]
+  }
+}
