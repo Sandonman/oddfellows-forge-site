@@ -3,6 +3,7 @@ from __future__ import annotations
 from typing import Any
 
 from .leveling import MAX_LEVEL, LevelSnapshot, build_level_snapshot, load_classes
+from .persistence import BuilderState, deserialize_builder_state, serialize_builder_state
 
 try:
     import tkinter as tk
@@ -98,6 +99,25 @@ if TK_AVAILABLE:
             self.level_spin.bind("<Return>", self._refresh_summary)
 
             self._refresh_summary()
+
+        def get_persisted_state(self) -> dict[str, Any]:
+            state = BuilderState(
+                class_name=self._class_name.get(),
+                level=self._safe_level(),
+                look_ahead=bool(self._look_ahead.get()),
+            )
+            return serialize_builder_state(state)
+
+        def apply_persisted_state(self, payload: dict[str, Any]) -> BuilderState:
+            state = deserialize_builder_state(
+                payload,
+                available_classes=self._classes_index.keys(),
+            )
+            self._class_name.set(state.class_name)
+            self._level.set(state.level)
+            self._look_ahead.set(state.look_ahead)
+            self._refresh_summary()
+            return state
 
         def _safe_level(self) -> int:
             try:
