@@ -42,9 +42,55 @@ def format_builder_summary(snapshot: LevelSnapshot, *, look_ahead: bool) -> str:
     return "\n".join(lines)
 
 
+def format_stats_summary(snapshot: LevelSnapshot) -> str:
+    return "\n".join(
+        [
+            "Stats (Scaffold)",
+            "- Ability score editor will land in a later slice.",
+            f"- Current class: {snapshot.class_name}",
+            f"- Current level: {snapshot.level}",
+            f"- Proficiency bonus: +{snapshot.proficiency_bonus}",
+        ]
+    )
+
+
+def format_skills_languages_summary(snapshot: LevelSnapshot) -> str:
+    return "\n".join(
+        [
+            "Skills & Languages (Scaffold)",
+            "- Skill proficiency picks will be wired in a later slice.",
+            "- Language selections are not editable yet.",
+            f"- Build context: {snapshot.class_name} level {snapshot.level}",
+        ]
+    )
+
+
+def format_equipment_summary(snapshot: LevelSnapshot) -> str:
+    return "\n".join(
+        [
+            "Equipment (Scaffold)",
+            "- Starting gear/loadout UI comes next.",
+            "- Inventory editing is not available in this slice.",
+            f"- Build context: {snapshot.class_name} level {snapshot.level}",
+        ]
+    )
+
+
+def format_spells_summary(snapshot: LevelSnapshot) -> str:
+    spellcasting = snapshot.spellcasting or "No spellcasting progression for this class/level"
+    return "\n".join(
+        [
+            "Spells (Scaffold)",
+            "- Spell selection/preparation editor will be added in a later slice.",
+            f"- Spellcasting status: {spellcasting}",
+            f"- Build context: {snapshot.class_name} level {snapshot.level}",
+        ]
+    )
+
+
 if TK_AVAILABLE:
     class BuilderTab(ttk.Frame):
-        """Character builder summary panel wired to leveling controls."""
+        """Character builder panel with scaffolds for planned V3 builder sections."""
 
         def __init__(self, parent: tk.Misc):
             super().__init__(parent, padding=8)
@@ -56,7 +102,22 @@ if TK_AVAILABLE:
             self._level = tk.IntVar(value=1)
             self._look_ahead = tk.BooleanVar(value=False)
 
-            controls = ttk.Frame(self)
+            self.builder_notebook = ttk.Notebook(self)
+            self.builder_notebook.pack(fill=tk.BOTH, expand=True)
+
+            self.overview_tab = ttk.Frame(self.builder_notebook, padding=8)
+            self.stats_tab = ttk.Frame(self.builder_notebook, padding=8)
+            self.skills_languages_tab = ttk.Frame(self.builder_notebook, padding=8)
+            self.equipment_tab = ttk.Frame(self.builder_notebook, padding=8)
+            self.spells_tab = ttk.Frame(self.builder_notebook, padding=8)
+
+            self.builder_notebook.add(self.overview_tab, text="Overview")
+            self.builder_notebook.add(self.stats_tab, text="Stats")
+            self.builder_notebook.add(self.skills_languages_tab, text="Skills & Languages")
+            self.builder_notebook.add(self.equipment_tab, text="Equipment")
+            self.builder_notebook.add(self.spells_tab, text="Spells")
+
+            controls = ttk.Frame(self.overview_tab)
             controls.pack(fill=tk.X, pady=(0, 8))
 
             ttk.Label(controls, text="Class:").grid(row=0, column=0, sticky=tk.W)
@@ -88,11 +149,35 @@ if TK_AVAILABLE:
             )
             self.look_ahead_check.grid(row=0, column=4, sticky=tk.W)
 
-            self.summary = tk.Text(self, wrap=tk.WORD, state=tk.DISABLED, height=18)
-            scroll = ttk.Scrollbar(self, orient=tk.VERTICAL, command=self.summary.yview)
-            self.summary.configure(yscrollcommand=scroll.set)
+            self.summary = tk.Text(self.overview_tab, wrap=tk.WORD, state=tk.DISABLED, height=16)
+            summary_scroll = ttk.Scrollbar(self.overview_tab, orient=tk.VERTICAL, command=self.summary.yview)
+            self.summary.configure(yscrollcommand=summary_scroll.set)
             self.summary.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
-            scroll.pack(side=tk.RIGHT, fill=tk.Y)
+            summary_scroll.pack(side=tk.RIGHT, fill=tk.Y)
+
+            self.stats_summary = tk.StringVar(value="")
+            self.skills_languages_summary = tk.StringVar(value="")
+            self.equipment_summary = tk.StringVar(value="")
+            self.spells_summary = tk.StringVar(value="")
+
+            ttk.Label(self.stats_tab, textvariable=self.stats_summary, justify=tk.LEFT, anchor=tk.NW).pack(
+                fill=tk.BOTH,
+                expand=True,
+            )
+            ttk.Label(
+                self.skills_languages_tab,
+                textvariable=self.skills_languages_summary,
+                justify=tk.LEFT,
+                anchor=tk.NW,
+            ).pack(fill=tk.BOTH, expand=True)
+            ttk.Label(self.equipment_tab, textvariable=self.equipment_summary, justify=tk.LEFT, anchor=tk.NW).pack(
+                fill=tk.BOTH,
+                expand=True,
+            )
+            ttk.Label(self.spells_tab, textvariable=self.spells_summary, justify=tk.LEFT, anchor=tk.NW).pack(
+                fill=tk.BOTH,
+                expand=True,
+            )
 
             self.class_box.bind("<<ComboboxSelected>>", self._refresh_summary)
             self.level_spin.bind("<FocusOut>", self._refresh_summary)
@@ -140,12 +225,16 @@ if TK_AVAILABLE:
                 look_ahead=look_ahead,
                 classes_index=self._classes_index,
             )
-            text = format_builder_summary(snapshot, look_ahead=look_ahead)
 
             self.summary.configure(state=tk.NORMAL)
             self.summary.delete("1.0", tk.END)
-            self.summary.insert("1.0", text)
+            self.summary.insert("1.0", format_builder_summary(snapshot, look_ahead=look_ahead))
             self.summary.configure(state=tk.DISABLED)
+
+            self.stats_summary.set(format_stats_summary(snapshot))
+            self.skills_languages_summary.set(format_skills_languages_summary(snapshot))
+            self.equipment_summary.set(format_equipment_summary(snapshot))
+            self.spells_summary.set(format_spells_summary(snapshot))
 
 
     def attach_builder_tab(notebook: ttk.Notebook) -> BuilderTab:
