@@ -5,6 +5,13 @@ from typing import Any
 
 from .builder_tab import BuilderTab, attach_builder_tab
 from .library_tab import LibraryTab, attach_library_tab
+from .persistence import (
+    AppShellState,
+    AppState,
+    deserialize_app_state,
+    deserialize_builder_state,
+    serialize_app_state,
+)
 
 try:
     import tkinter as tk
@@ -41,6 +48,41 @@ if TK_AVAILABLE:
 
             self.builder_tab: BuilderTab = attach_builder_tab(self.notebook)
             self.library_tab: LibraryTab = attach_library_tab(self.notebook, data_dir=data_dir)
+
+        def get_persisted_state(self) -> dict[str, Any]:
+            selected = self.notebook.select()
+            active_tab = self.notebook.tab(selected, "text") if selected else "Builder"
+            state = AppState(
+                shell=AppShellState(
+                    title_text=self.title_label.cget("text"),
+                    status_text=self.status_label.cget("text"),
+                    active_tab=active_tab,
+                ),
+                builder=deserialize_builder_state(
+                    self.builder_tab.get_persisted_state(),
+                    available_classes=self.builder_tab._classes_index.keys(),
+                ),
+            )
+            return serialize_app_state(state)
+
+        def apply_persisted_state(self, payload: dict[str, Any]) -> AppState:
+            available_tabs = [self.notebook.tab(tab_id, "text") for tab_id in self.notebook.tabs()]
+            state = deserialize_app_state(
+                payload,
+                available_classes=self.builder_tab._classes_index.keys(),
+                available_tabs=available_tabs,
+            )
+
+            self.title_label.configure(text=state.shell.title_text)
+            self.status_label.configure(text=state.shell.status_text)
+            self.builder_tab.apply_persisted_state(payload)
+
+            for tab_id in self.notebook.tabs():
+                if self.notebook.tab(tab_id, "text") == state.shell.active_tab:
+                    self.notebook.select(tab_id)
+                    break
+
+            return state
 
 
     def create_main_window(*, data_dir: Path | None = None) -> tuple[tk.Tk, CharacterCreatorApp]:
