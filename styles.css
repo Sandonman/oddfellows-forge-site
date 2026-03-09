@@ -45,12 +45,6 @@ body {
   margin-bottom: 18px;
 }
 
-.brand-logo-proof {
-  width: clamp(220px, 34vw, 320px);
-  height: auto;
-  display: block;
-}
-
 .eyebrow {
   color: var(--brand);
   font-weight: 700;
@@ -199,7 +193,7 @@ textarea {
 }
 
 @media (max-width: 640px) {
-  .brand-logo-proof {
-    width: min(78vw, 320px);
+  .brand-name {
+    font-size: 1.05rem;
   }
 }
