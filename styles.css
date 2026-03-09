@@ -1,12 +1,12 @@
 :root {
-  --bg: #05120e;
-  --surface: #0b1c17;
-  --surface-2: #102621;
-  --text: #e8fff5;
-  --muted: #a7d3c3;
-  --brand: #4ade80;
-  --brand-dark: #22c55e;
-  --border: #1f3a32;
+  --bg: #dff0e8;
+  --surface: #edf8f3;
+  --surface-2: #d2e9df;
+  --text: #0f2e24;
+  --muted: #3f6b5c;
+  --brand: #16a34a;
+  --brand-dark: #15803d;
+  --border: #98c7b4;
   --max: 1080px;
 }
 
@@ -34,7 +34,7 @@ body {
 
 .hero {
   padding: 96px 0 72px;
-  background: linear-gradient(180deg, #0d241d 0%, #071711 100%);
+  background: linear-gradient(180deg, #f1fbf6 0%, #d9eee4 100%);
   border-bottom: 1px solid var(--border);
 }
 
@@ -47,16 +47,16 @@ body {
 }
 
 .brand-icon {
-  width: 112px;
-  height: 112px;
+  width: 224px;
+  height: 224px;
   border-radius: 12px;
   display: block;
 }
 
 .brand-name {
-  color: #d4ffe9;
+  color: #0d3528;
   font-weight: 800;
-  font-size: clamp(2.2rem, 4vw, 2.7rem);
+  font-size: clamp(4.4rem, 8vw, 5.4rem);
   letter-spacing: 0.01em;
 }
 
@@ -81,7 +81,7 @@ h1 {
 }
 
 .subheadline {
-  color: #c3f5df;
+  color: #274d3f;
   font-size: 1.1rem;
   max-width: 820px;
 }
@@ -209,11 +209,11 @@ textarea {
 
 @media (max-width: 640px) {
   .brand-icon {
-    width: 88px;
-    height: 88px;
+    width: 176px;
+    height: 176px;
   }
 
   .brand-name {
-    font-size: clamp(1.8rem, 8vw, 2.2rem);
+    font-size: clamp(3.6rem, 12vw, 4.4rem);
   }
 }
