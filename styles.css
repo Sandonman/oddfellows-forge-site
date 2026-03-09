@@ -1,12 +1,12 @@
 :root {
-  --bg: #f8fafc;
-  --surface: #ffffff;
-  --surface-2: #f1f5f9;
-  --text: #0f172a;
-  --muted: #475569;
-  --brand: #22c55e;
-  --brand-dark: #16a34a;
-  --border: #cbd5e1;
+  --bg: #05120e;
+  --surface: #0b1c17;
+  --surface-2: #102621;
+  --text: #e8fff5;
+  --muted: #a7d3c3;
+  --brand: #4ade80;
+  --brand-dark: #22c55e;
+  --border: #1f3a32;
   --max: 1080px;
 }
 
@@ -34,13 +34,14 @@ body {
 
 .hero {
   padding: 96px 0 72px;
-  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  background: linear-gradient(180deg, #0d241d 0%, #071711 100%);
   border-bottom: 1px solid var(--border);
 }
 
 .brand-lockup {
   display: inline-flex;
   align-items: center;
+  gap: 12px;
   text-decoration: none;
   margin-bottom: 18px;
 }
@@ -50,6 +51,13 @@ body {
   height: 56px;
   border-radius: 12px;
   display: block;
+}
+
+.brand-name {
+  color: #d4ffe9;
+  font-weight: 800;
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  letter-spacing: 0.01em;
 }
 
 .eyebrow {
@@ -73,7 +81,7 @@ h1 {
 }
 
 .subheadline {
-  color: #334155;
+  color: #c3f5df;
   font-size: 1.1rem;
   max-width: 820px;
 }
@@ -105,8 +113,8 @@ h1 {
 }
 
 .btn-secondary {
-  background: #ffffff;
-  border-color: #94a3b8;
+  background: #163228;
+  border-color: #2f5c4e;
   color: var(--text);
 }
 
@@ -134,13 +142,13 @@ h1 {
 }
 
 .card-lead {
-  color: #334155;
+  color: #c3f5df;
   font-weight: 700;
   margin: 0.25rem 0 0.6rem;
 }
 
 .card a {
-  color: #15803d;
+  color: #4ade80;
   text-decoration: none;
   font-weight: 700;
 }
@@ -174,16 +182,16 @@ label {
   display: grid;
   gap: 8px;
   font-weight: 600;
-  color: #1e293b;
+  color: #d2fbe8;
 }
 
 input,
 select,
 textarea {
   width: 100%;
-  background: #ffffff;
+  background: #0e221c;
   color: var(--text);
-  border: 1px solid #94a3b8;
+  border: 1px solid #2f5c4e;
   border-radius: 10px;
   padding: 10px 12px;
   font: inherit;
