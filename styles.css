@@ -38,6 +38,26 @@ body {
   border-bottom: 1px solid var(--border);
 }
 
+.brand-lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  margin-bottom: 18px;
+}
+
+.brand-logo {
+  height: 44px;
+  width: auto;
+  display: block;
+}
+
+.brand-name {
+  color: var(--text);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
 .eyebrow {
   color: var(--brand);
   font-weight: 700;
@@ -183,4 +203,14 @@ textarea {
   color: var(--muted);
   font-size: 0.9rem;
   margin-top: 6px;
+}
+
+@media (max-width: 640px) {
+  .brand-logo {
+    height: 36px;
+  }
+
+  .brand-name {
+    font-size: 0.95rem;
+  }
 }
