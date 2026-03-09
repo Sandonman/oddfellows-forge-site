@@ -61,8 +61,8 @@ body {
 }
 
 .eyebrow {
-  color: var(--brand);
-  font-weight: 700;
+  color: #0f5132;
+  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-size: 0.8rem;
@@ -103,19 +103,19 @@ h1 {
 }
 
 .btn-primary {
-  background: var(--brand);
-  color: #052e16;
+  background: #166534;
+  color: #ffffff;
 }
 
 .btn-primary:hover {
-  background: var(--brand-dark);
-  color: #ecfdf5;
+  background: #14532d;
+  color: #ffffff;
 }
 
 .btn-secondary {
-  background: #163228;
+  background: #ffffff;
   border-color: #2f5c4e;
-  color: var(--text);
+  color: #163228;
 }
 
 .section {
@@ -142,13 +142,13 @@ h1 {
 }
 
 .card-lead {
-  color: #c3f5df;
+  color: #1f4d3d;
   font-weight: 700;
   margin: 0.25rem 0 0.6rem;
 }
 
 .card a {
-  color: #4ade80;
+  color: #166534;
   text-decoration: none;
   font-weight: 700;
 }
@@ -182,16 +182,16 @@ label {
   display: grid;
   gap: 8px;
   font-weight: 600;
-  color: #d2fbe8;
+  color: #163228;
 }
 
 input,
 select,
 textarea {
   width: 100%;
-  background: #0e221c;
-  color: var(--text);
-  border: 1px solid #2f5c4e;
+  background: #ffffff;
+  color: #163228;
+  border: 1px solid #6aa88f;
   border-radius: 10px;
   padding: 10px 12px;
   font: inherit;
