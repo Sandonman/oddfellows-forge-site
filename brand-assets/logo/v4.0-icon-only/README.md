@@ -1,6 +1,17 @@
-# Oddfellows Logo v4.0 — Icon Only Rebuild
+# Oddfellows Icon-Only Pack v4.0
 
-Scope reset on 2026-03-09:
-- Build ONLY the standalone icon mark (no wordmark/title lockup).
-- Source of truth: `source-sheet.jpg`.
-- Deliverables will be icon-only SVG + PNG sizes.
+Approved scope: icon-only (no wordmark/title).
+
+## Files
+- logo-icon.svg
+- logo-icon-32.png
+- logo-icon-180.png
+- logo-icon-512.png
+- favicon.ico
+- favicon-16.png
+- favicon-32.png
+- favicon-48.png
+- favicon-64.png
+
+## Note
+These are the cleanest available icon-only assets from the approved sheet export pipeline.

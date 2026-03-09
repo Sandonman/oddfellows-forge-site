@@ -45,6 +45,13 @@ body {
   margin-bottom: 18px;
 }
 
+.brand-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  display: block;
+}
+
 .eyebrow {
   color: var(--brand);
   font-weight: 700;
@@ -193,7 +200,8 @@ textarea {
 }
 
 @media (max-width: 640px) {
-  .brand-name {
-    font-size: 1.05rem;
+  .brand-icon {
+    width: 44px;
+    height: 44px;
   }
 }
