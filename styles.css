@@ -46,7 +46,7 @@ body {
 }
 
 .brand-logo-proof {
-  width: clamp(240px, 44vw, 420px);
+  width: clamp(220px, 34vw, 320px);
   height: auto;
   display: block;
 }
