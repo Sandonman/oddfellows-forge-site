@@ -1,0 +1,4 @@
++ PROJECTS_FILE=memory/PROJECTS.md
++ echo 'Generating projects overview...'
+++ date
++ echo 'Overview generated on: Tue Apr  7 10:10:39 PM UTC 2026'
